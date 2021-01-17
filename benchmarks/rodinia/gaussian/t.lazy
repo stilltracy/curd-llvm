@@ -1,0 +1,3021 @@
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5884674048
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 2046
+[CURD] Counter glmemWr = 1023
+[CURD] Counter barriers = 1024
+[CURD] Counter interGWWChecks = 523264
+[CURD] Counter interGRWChecks = 524287
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5808652288
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 3147771
+[CURD] Counter glmemWr = 1049598
+[CURD] Counter barriers = 1049600
+[CURD] Counter interGWWChecks = 529264
+[CURD] Counter interGRWChecks = 537412
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5741543424
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 3149815
+[CURD] Counter glmemWr = 1050620
+[CURD] Counter barriers = 1050624
+[CURD] Counter interGWWChecks = 1051504
+[CURD] Counter interGRWChecks = 1060674
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5674434560
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 6289399
+[CURD] Counter glmemWr = 2097148
+[CURD] Counter barriers = 2099200
+[CURD] Counter interGWWChecks = 1057504
+[CURD] Counter interGRWChecks = 1073799
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5607325696
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 6291441
+[CURD] Counter glmemWr = 2098169
+[CURD] Counter barriers = 2100224
+[CURD] Counter interGWWChecks = 1578720
+[CURD] Counter interGRWChecks = 1596036
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5538643968
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 9424890
+[CURD] Counter glmemWr = 3142652
+[CURD] Counter barriers = 3148800
+[CURD] Counter interGWWChecks = 1584720
+[CURD] Counter interGRWChecks = 1609161
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5471535104
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 9426930
+[CURD] Counter glmemWr = 3143672
+[CURD] Counter barriers = 3149824
+[CURD] Counter interGWWChecks = 2104912
+[CURD] Counter interGRWChecks = 2130373
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5401280512
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 12554250
+[CURD] Counter glmemWr = 4186112
+[CURD] Counter barriers = 4198400
+[CURD] Counter interGWWChecks = 2110912
+[CURD] Counter interGRWChecks = 2143498
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5188419584
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 12556288
+[CURD] Counter glmemWr = 4187131
+[CURD] Counter barriers = 4199424
+[CURD] Counter interGWWChecks = 2630080
+[CURD] Counter interGRWChecks = 2663685
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5119737856
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 15677485
+[CURD] Counter glmemWr = 5227530
+[CURD] Counter barriers = 5248000
+[CURD] Counter interGWWChecks = 2636080
+[CURD] Counter interGRWChecks = 2676810
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5071634432
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 15679521
+[CURD] Counter glmemWr = 5228548
+[CURD] Counter barriers = 5249024
+[CURD] Counter interGWWChecks = 3154224
+[CURD] Counter interGRWChecks = 3195972
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5137563648
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 18794601
+[CURD] Counter glmemWr = 6266908
+[CURD] Counter barriers = 6297600
+[CURD] Counter interGWWChecks = 3160224
+[CURD] Counter interGRWChecks = 3209097
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5070454784
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 18796635
+[CURD] Counter glmemWr = 6267925
+[CURD] Counter barriers = 6298624
+[CURD] Counter interGWWChecks = 3677344
+[CURD] Counter interGRWChecks = 3727234
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5003345920
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 21905604
+[CURD] Counter glmemWr = 7304248
+[CURD] Counter barriers = 7347200
+[CURD] Counter interGWWChecks = 3683344
+[CURD] Counter interGRWChecks = 3740359
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4936237056
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 21907636
+[CURD] Counter glmemWr = 7305264
+[CURD] Counter barriers = 7348224
+[CURD] Counter interGWWChecks = 4199440
+[CURD] Counter interGRWChecks = 4257471
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4869128192
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 25010500
+[CURD] Counter glmemWr = 8339552
+[CURD] Counter barriers = 8396800
+[CURD] Counter interGWWChecks = 4205440
+[CURD] Counter interGRWChecks = 4270596
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4802019328
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 25012530
+[CURD] Counter glmemWr = 8340567
+[CURD] Counter barriers = 8397824
+[CURD] Counter interGWWChecks = 4720512
+[CURD] Counter interGRWChecks = 4786683
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4734910464
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 28109295
+[CURD] Counter glmemWr = 9372822
+[CURD] Counter barriers = 9446400
+[CURD] Counter interGWWChecks = 4726512
+[CURD] Counter interGRWChecks = 4799808
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4667801600
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 28111323
+[CURD] Counter glmemWr = 9373836
+[CURD] Counter barriers = 9447424
+[CURD] Counter interGWWChecks = 5240560
+[CURD] Counter interGRWChecks = 5314870
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4600692736
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 31201995
+[CURD] Counter glmemWr = 10404060
+[CURD] Counter barriers = 10496000
+[CURD] Counter interGWWChecks = 5246560
+[CURD] Counter interGRWChecks = 5327995
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4533583872
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 31204021
+[CURD] Counter glmemWr = 10405073
+[CURD] Counter barriers = 10497024
+[CURD] Counter interGWWChecks = 5759584
+[CURD] Counter interGRWChecks = 5842032
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4466475008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 34288606
+[CURD] Counter glmemWr = 11433268
+[CURD] Counter barriers = 11545600
+[CURD] Counter interGWWChecks = 5765584
+[CURD] Counter interGRWChecks = 5855157
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4399366144
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 34290630
+[CURD] Counter glmemWr = 11434280
+[CURD] Counter barriers = 11546624
+[CURD] Counter interGWWChecks = 6277584
+[CURD] Counter interGRWChecks = 6368169
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4332257280
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 37369134
+[CURD] Counter glmemWr = 12460448
+[CURD] Counter barriers = 12595200
+[CURD] Counter interGWWChecks = 6283584
+[CURD] Counter interGRWChecks = 6381294
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4265148416
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 37371156
+[CURD] Counter glmemWr = 12461459
+[CURD] Counter barriers = 12596224
+[CURD] Counter interGWWChecks = 6794560
+[CURD] Counter interGRWChecks = 6893281
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4198039552
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 40443585
+[CURD] Counter glmemWr = 13485602
+[CURD] Counter barriers = 13644800
+[CURD] Counter interGWWChecks = 6800560
+[CURD] Counter interGRWChecks = 6906406
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4130930688
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 40445605
+[CURD] Counter glmemWr = 13486612
+[CURD] Counter barriers = 13645824
+[CURD] Counter interGWWChecks = 7310512
+[CURD] Counter interGRWChecks = 7417368
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 4063821824
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 43511965
+[CURD] Counter glmemWr = 14508732
+[CURD] Counter barriers = 14694400
+[CURD] Counter interGWWChecks = 7316512
+[CURD] Counter interGRWChecks = 7430493
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3996712960
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 43513983
+[CURD] Counter glmemWr = 14509741
+[CURD] Counter barriers = 14695424
+[CURD] Counter interGWWChecks = 7825440
+[CURD] Counter interGRWChecks = 7940430
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3929604096
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 46574280
+[CURD] Counter glmemWr = 15529840
+[CURD] Counter barriers = 15744000
+[CURD] Counter interGWWChecks = 7831440
+[CURD] Counter interGRWChecks = 7953555
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3862495232
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 46576296
+[CURD] Counter glmemWr = 15530848
+[CURD] Counter barriers = 15745024
+[CURD] Counter interGWWChecks = 8339344
+[CURD] Counter interGRWChecks = 8462467
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3795386368
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 49630536
+[CURD] Counter glmemWr = 16548928
+[CURD] Counter barriers = 16793600
+[CURD] Counter interGWWChecks = 8345344
+[CURD] Counter interGRWChecks = 8475592
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3728277504
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 49632550
+[CURD] Counter glmemWr = 16549935
+[CURD] Counter barriers = 16794624
+[CURD] Counter interGWWChecks = 8852224
+[CURD] Counter interGRWChecks = 8983479
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3661168640
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 52680739
+[CURD] Counter glmemWr = 17565998
+[CURD] Counter barriers = 17843200
+[CURD] Counter interGWWChecks = 8858224
+[CURD] Counter interGRWChecks = 8996604
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3594059776
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 52682751
+[CURD] Counter glmemWr = 17567004
+[CURD] Counter barriers = 17844224
+[CURD] Counter interGWWChecks = 9364080
+[CURD] Counter interGRWChecks = 9503466
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3526950912
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 55724895
+[CURD] Counter glmemWr = 18581052
+[CURD] Counter barriers = 18892800
+[CURD] Counter interGWWChecks = 9370080
+[CURD] Counter interGRWChecks = 9516591
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3459842048
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 55726905
+[CURD] Counter glmemWr = 18582057
+[CURD] Counter barriers = 18893824
+[CURD] Counter interGWWChecks = 9874912
+[CURD] Counter interGRWChecks = 10022428
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3392733184
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 58763010
+[CURD] Counter glmemWr = 19594092
+[CURD] Counter barriers = 19942400
+[CURD] Counter interGWWChecks = 9880912
+[CURD] Counter interGRWChecks = 10035553
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3325624320
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 58765018
+[CURD] Counter glmemWr = 19595096
+[CURD] Counter barriers = 19943424
+[CURD] Counter interGWWChecks = 10384720
+[CURD] Counter interGRWChecks = 10540365
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3258515456
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 61795090
+[CURD] Counter glmemWr = 20605120
+[CURD] Counter barriers = 20992000
+[CURD] Counter interGWWChecks = 10390720
+[CURD] Counter interGRWChecks = 10553490
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3191406592
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 61797096
+[CURD] Counter glmemWr = 20606123
+[CURD] Counter barriers = 20993024
+[CURD] Counter interGWWChecks = 10893504
+[CURD] Counter interGRWChecks = 11057277
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3124297728
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 64821141
+[CURD] Counter glmemWr = 21614138
+[CURD] Counter barriers = 22041600
+[CURD] Counter interGWWChecks = 10899504
+[CURD] Counter interGRWChecks = 11070402
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 3057188864
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 64823145
+[CURD] Counter glmemWr = 21615140
+[CURD] Counter barriers = 22042624
+[CURD] Counter interGWWChecks = 11401264
+[CURD] Counter interGRWChecks = 11573164
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2990080000
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 67841169
+[CURD] Counter glmemWr = 22621148
+[CURD] Counter barriers = 23091200
+[CURD] Counter interGWWChecks = 11407264
+[CURD] Counter interGRWChecks = 11586289
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2922971136
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 67843171
+[CURD] Counter glmemWr = 22622149
+[CURD] Counter barriers = 23092224
+[CURD] Counter interGWWChecks = 11908000
+[CURD] Counter interGRWChecks = 12088026
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2855862272
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 70855180
+[CURD] Counter glmemWr = 23626152
+[CURD] Counter barriers = 24140800
+[CURD] Counter interGWWChecks = 11914000
+[CURD] Counter interGRWChecks = 12101151
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2788753408
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 70857180
+[CURD] Counter glmemWr = 23627152
+[CURD] Counter barriers = 24141824
+[CURD] Counter interGWWChecks = 12413712
+[CURD] Counter interGRWChecks = 12601863
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2720071680
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 73863180
+[CURD] Counter glmemWr = 24629152
+[CURD] Counter barriers = 25190400
+[CURD] Counter interGWWChecks = 12419712
+[CURD] Counter interGRWChecks = 12614988
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2651914240
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 73865178
+[CURD] Counter glmemWr = 24630151
+[CURD] Counter barriers = 25191424
+[CURD] Counter interGWWChecks = 12918400
+[CURD] Counter interGRWChecks = 13114675
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2519793664
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 76865175
+[CURD] Counter glmemWr = 25630150
+[CURD] Counter barriers = 26240000
+[CURD] Counter interGWWChecks = 12924400
+[CURD] Counter interGRWChecks = 13127800
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2240610304
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 76867171
+[CURD] Counter glmemWr = 25631148
+[CURD] Counter barriers = 26241024
+[CURD] Counter interGWWChecks = 13422064
+[CURD] Counter interGRWChecks = 13626462
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2104295424
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 79861171
+[CURD] Counter glmemWr = 26629148
+[CURD] Counter barriers = 27289600
+[CURD] Counter interGWWChecks = 13428064
+[CURD] Counter interGRWChecks = 13639587
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1959067648
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 79863165
+[CURD] Counter glmemWr = 26630145
+[CURD] Counter barriers = 27290624
+[CURD] Counter interGWWChecks = 13924704
+[CURD] Counter interGRWChecks = 14137224
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1891958784
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 82851174
+[CURD] Counter glmemWr = 27626148
+[CURD] Counter barriers = 28339200
+[CURD] Counter interGWWChecks = 13930704
+[CURD] Counter interGRWChecks = 14150349
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1833238528
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 82853166
+[CURD] Counter glmemWr = 27627144
+[CURD] Counter barriers = 28340224
+[CURD] Counter interGWWChecks = 14426320
+[CURD] Counter interGRWChecks = 14646961
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2184773632
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 85835190
+[CURD] Counter glmemWr = 28621152
+[CURD] Counter barriers = 29388800
+[CURD] Counter interGWWChecks = 14432320
+[CURD] Counter interGRWChecks = 14660086
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2117664768
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 85837180
+[CURD] Counter glmemWr = 28622147
+[CURD] Counter barriers = 29389824
+[CURD] Counter interGWWChecks = 14926912
+[CURD] Counter interGRWChecks = 15155673
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 2050555904
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 88813225
+[CURD] Counter glmemWr = 29614162
+[CURD] Counter barriers = 30438400
+[CURD] Counter interGWWChecks = 14932912
+[CURD] Counter interGRWChecks = 15168798
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1983447040
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 88815213
+[CURD] Counter glmemWr = 29615156
+[CURD] Counter barriers = 30439424
+[CURD] Counter interGWWChecks = 15426480
+[CURD] Counter interGRWChecks = 15663360
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1916338176
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 91785285
+[CURD] Counter glmemWr = 30605180
+[CURD] Counter barriers = 31488000
+[CURD] Counter interGWWChecks = 15432480
+[CURD] Counter interGRWChecks = 15676485
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1849229312
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 91787271
+[CURD] Counter glmemWr = 30606173
+[CURD] Counter barriers = 31489024
+[CURD] Counter interGWWChecks = 15925024
+[CURD] Counter interGRWChecks = 16170022
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1782120448
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 94751376
+[CURD] Counter glmemWr = 31594208
+[CURD] Counter barriers = 32537600
+[CURD] Counter interGWWChecks = 15931024
+[CURD] Counter interGRWChecks = 16183147
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1715011584
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 94753360
+[CURD] Counter glmemWr = 31595200
+[CURD] Counter barriers = 32538624
+[CURD] Counter interGWWChecks = 16422544
+[CURD] Counter interGRWChecks = 16675659
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1647902720
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 97711504
+[CURD] Counter glmemWr = 32581248
+[CURD] Counter barriers = 33587200
+[CURD] Counter interGWWChecks = 16428544
+[CURD] Counter interGRWChecks = 16688784
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1580793856
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 97713486
+[CURD] Counter glmemWr = 32582239
+[CURD] Counter barriers = 33588224
+[CURD] Counter interGWWChecks = 16919040
+[CURD] Counter interGRWChecks = 17180271
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1513684992
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 100665675
+[CURD] Counter glmemWr = 33566302
+[CURD] Counter barriers = 34636800
+[CURD] Counter interGWWChecks = 16925040
+[CURD] Counter interGRWChecks = 17193396
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1446576128
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 100667655
+[CURD] Counter glmemWr = 33567292
+[CURD] Counter barriers = 34637824
+[CURD] Counter interGWWChecks = 17414512
+[CURD] Counter interGRWChecks = 17683858
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1379467264
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 103613895
+[CURD] Counter glmemWr = 34549372
+[CURD] Counter barriers = 35686400
+[CURD] Counter interGWWChecks = 17420512
+[CURD] Counter interGRWChecks = 17696983
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1312358400
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 103615873
+[CURD] Counter glmemWr = 34550361
+[CURD] Counter barriers = 35687424
+[CURD] Counter interGWWChecks = 17908960
+[CURD] Counter interGRWChecks = 18186420
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1240530944
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 106556170
+[CURD] Counter glmemWr = 35530460
+[CURD] Counter barriers = 36736000
+[CURD] Counter interGWWChecks = 17914960
+[CURD] Counter interGRWChecks = 18199545
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 1073545216
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 106558146
+[CURD] Counter glmemWr = 35531448
+[CURD] Counter barriers = 36737024
+[CURD] Counter interGWWChecks = 18402384
+[CURD] Counter interGRWChecks = 18687957
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 927268864
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 109492506
+[CURD] Counter glmemWr = 36509568
+[CURD] Counter barriers = 37785600
+[CURD] Counter interGWWChecks = 18408384
+[CURD] Counter interGRWChecks = 18701082
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 723845120
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 109494480
+[CURD] Counter glmemWr = 36510555
+[CURD] Counter barriers = 37786624
+[CURD] Counter interGWWChecks = 18894784
+[CURD] Counter interGRWChecks = 19188469
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 588578816
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 112422909
+[CURD] Counter glmemWr = 37486698
+[CURD] Counter barriers = 38835200
+[CURD] Counter interGWWChecks = 18900784
+[CURD] Counter interGRWChecks = 19201594
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 454361088
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 112424881
+[CURD] Counter glmemWr = 37487684
+[CURD] Counter barriers = 38836224
+[CURD] Counter interGWWChecks = 19386160
+[CURD] Counter interGRWChecks = 19687956
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 320143360
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 115347385
+[CURD] Counter glmemWr = 38461852
+[CURD] Counter barriers = 39884800
+[CURD] Counter interGWWChecks = 19392160
+[CURD] Counter interGRWChecks = 19701081
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x906100000
+0x906200000
+0x906100200
+0x906300000
+0x906100400
+0x906440000
+0x906100800
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 184877056
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:2
+[CURD] THREADS:512
+[CURD] TRACKING 2 blocks (SHMEM) 
+[CURD] TRACKING 2 blocks (GLMEM) 
+Allocating sets for SHMEM: 512 threads * 2 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 115349355
+[CURD] Counter glmemWr = 38462837
+[CURD] Counter barriers = 39885824
+[CURD] Counter interGWWChecks = 19876512
+[CURD] Counter interGRWChecks = 20186418
+#races: 0
+[CURD] Copying 0 out of 1048576 elements...
+ distinct races: 0
+0x906000000
+0x905f01000
+0x9063c0000
+0x905f01800
+0x906780000
+0x905f02000
+0x906c80000
+0x905f03000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 50659328
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:65536
+[CURD] THREADS:16
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 16 threads * 16 blocks * 160
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] alloced 983040
+[CURD] alloced 512
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 1310720
+[CURD] alloced 1024
+[CURD] alloced 1310720
+[CURD] alloced 1024

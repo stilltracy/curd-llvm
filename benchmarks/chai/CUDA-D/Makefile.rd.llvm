@@ -1,0 +1,10 @@
+COFFEE_MOCHA_DIR := ../../..
+LIBNVCC_DIR ?= /home/acg/nvcc-llvm-ir
+SUBDIRS=BFS  BS  CEDD  CEDT  HSTI  HSTO PAD  RSCD  RSCT  SC  SSSP  TQ  TQH  TRNS
+.PHONY: all $(SUBDIRS)
+
+all: $(SUBDIRS)
+
+$(SUBDIRS):
+	make -C $@ -f Makefile.rd.llvm clean
+	make -C $@ -f Makefile.rd.llvm 

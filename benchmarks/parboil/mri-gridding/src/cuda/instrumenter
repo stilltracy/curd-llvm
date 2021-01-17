@@ -1,0 +1,1 @@
+/home/acg/llvm-3.4/build_debug/bin/opt -load /home/acg/llvm-3.4/build_debug/lib/LLVMCoolInstrument.so -Cool $1  -o $1.instr

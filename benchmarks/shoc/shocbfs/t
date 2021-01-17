@@ -1,0 +1,48 @@
+Chose device: name='Tesla K20Xm' index=0
+Vertices: 1000
+Edges: 999
+Running Benchmark
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5890965504
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1
+[CURD] THREADS:1024
+[CURD] TRACKING 1 blocks (SHMEM) 
+[CURD] TRACKING 1 blocks (GLMEM) 
+Allocating sets for SHMEM: 1024 threads * 1 blocks * 1600
+[CURD] alloced 39321600
+[CURD] alloced 2048
+[CURD] alloced 39321600
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 209715200
+[CURD] alloced 4096
+[CURD] alloced 209715200
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 32068
+[CURD] Counter glmemWr = 4
+[CURD] Counter barriers = 0
+[CURD] Counter interGWWChecks = 0
+[CURD] Counter interGRWChecks = 0
+[CURD] Counter interGWRChecks = 0
+#races: 0
+_host__racesDetected:0x18db4f0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x909a00000
+0x905702000
+0x90bf80000
+0x905702800
+0x90e500000
+0x905703000
+0x91ad00000
+0x905704000
+[CURD] exiting.
+error=7 name=too many resources requested for launch at ln: 235
+  

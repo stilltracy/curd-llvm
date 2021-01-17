@@ -1,0 +1,38 @@
+./scalarProd_eager Starting...
+
+GPU Device 0: "Tesla K20Xm" with compute capability 3.5
+
+Initializing data...
+...allocating CPU memory.
+...allocating GPU memory.
+...generating input data in CPU mem.
+...copying input data to GPU mem.
+Data init done.
+Executing GPU kernel...
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TRSSIZE_SM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_SM = 6400
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5884674048
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Eager
+[CURD] BLOCKS:128
+[CURD] THREADS:256
+Allocating sets for SHMEM: 256 threads * 16 blocks * 6400(R), 6400(W)
+[CURD] alloced 629145600
+[CURD] alloced 8192
+[CURD] alloced 629145600
+[CURD] alloced 8192
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 838860800
+[CURD] alloced 16384
+[CURD] alloced 838860800
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for GLMEM

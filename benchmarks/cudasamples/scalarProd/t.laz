@@ -1,0 +1,81 @@
+./scalarProd_lazy Starting...
+
+GPU Device 0: "Tesla K20Xm" with compute capability 3.5
+
+Initializing data...
+...allocating CPU memory.
+...allocating GPU memory.
+...generating input data in CPU mem.
+...copying input data to GPU mem.
+Data init done.
+Executing GPU kernel...
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TRSSIZE_SM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_SM = 6400
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5885722624
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:128
+[CURD] THREADS:256
+Allocating sets for SHMEM: 256 threads * 16 blocks * 6400(R), 6400(W)
+[CURD] alloced 629145600
+[CURD] alloced 8192
+[CURD] alloced 629145600
+[CURD] alloced 8192
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 838860800
+[CURD] alloced 16384
+[CURD] alloced 838860800
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 524032
+[CURD] Counter shmemWr = 524032
+[CURD] Counter glmemRd = 2097152
+[CURD] Counter glmemWr = 256
+[CURD] Counter barriers = 688128
+[CURD] Counter interGWWChecks = 480
+[CURD] Counter interGRWChecks = 7680
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 130928
+[CURD] Counter gmTSMerges = 262176
+[CURD] Counter brsWorstCount = 262144
+[CURD] Counter bwsWorstCount = 32
+[CURD] Counter brsActualCount = 262144
+[CURD] Counter bwsActualCount = 32
+[CURD] Counter maxSMTRSSize = 4
+[CURD] Counter maxGMTRSSize = 32
+[CURD] Counter maxBRSSize = 16
+[CURD] Counter maxSMTWSSize = 4
+[CURD] Counter maxGMTWSSize = 1
+[CURD] Counter maxBWSSize = 2
+#races: 16
+_host__racesDetected:0x18d17a0
+[CURD] Moving 16 out of 1048576 elements...
+ distinct races: 1
+intra-block(SMem) (R,W) race by 0 and 1 on < 12, 4>, between file [TODO]:80 and file [TODO]:68 : 16
+0x909f00000
+0x92f700000
+0x92f800000
+0x92f702000
+0x955000000
+0x92f704000
+0x987000000
+0x92f708000
+[CURD] exiting.
+GPU time: 3083.516113 msecs.
+Reading back GPU result...
+Checking GPU results...
+..running CPU scalar product calculation
+...comparing the results
+Shutting down...
+L1 error: 2.745062E-08
+Test passed

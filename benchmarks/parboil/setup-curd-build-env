@@ -1,0 +1,7 @@
+for f in bfs  cutcp lbm  mri-gridding  mri-q sad  sgemm  spmv  stencil  tpacf
+do
+  echo $f
+  cp /home/acg/new-curd/benchmarks/rodinia/bfs/instrumenter $f/src/cuda/
+  cp /home/acg/new-curd/benchmarks/rodinia/bfs/functions.config $f/src/cuda/
+  cp histo/src/cuda/Makefile* $f/src/cuda/
+done

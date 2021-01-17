@@ -1,0 +1,367 @@
+Binary file ./bfs_eager_dlink.sm_52.cubin matches
+Binary file ./bfs_lazy matches
+./build.log:623:Found 0 atomic calls
+./build.log:11467:Found 0 atomic calls
+./Makefile.rd.llvm:72:	rm -f $(EXE)_lazy $(EXE)_eager *.ii *.i *.instr *.atomics *.cudafe*  *.o
+./null0x179eeb0415812.atomics:1:Found 0 atomic calls
+./main.cpp1.ii:3584:# 1 "/usr/include/c++/4.9/bits/atomic_lockfree_defines.h" 1 3
+./main.cpp1.ii:3585:# 33 "/usr/include/c++/4.9/bits/atomic_lockfree_defines.h" 3
+./main.cpp1.ii:3587:# 34 "/usr/include/c++/4.9/bits/atomic_lockfree_defines.h" 3
+./main.cpp1.ii:10092:static __inline__ __attribute__((device)) int atomicAdd(int *address, int val);
+./main.cpp1.ii:10094:static __inline__ __attribute__((device)) unsigned int atomicAdd(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10096:static __inline__ __attribute__((device)) int atomicSub(int *address, int val);
+./main.cpp1.ii:10098:static __inline__ __attribute__((device)) unsigned int atomicSub(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10100:static __inline__ __attribute__((device)) int atomicExch(int *address, int val);
+./main.cpp1.ii:10102:static __inline__ __attribute__((device)) unsigned int atomicExch(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10104:static __inline__ __attribute__((device)) float atomicExch(float *address, float val);
+./main.cpp1.ii:10106:static __inline__ __attribute__((device)) int atomicMin(int *address, int val);
+./main.cpp1.ii:10108:static __inline__ __attribute__((device)) unsigned int atomicMin(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10110:static __inline__ __attribute__((device)) int atomicMax(int *address, int val);
+./main.cpp1.ii:10112:static __inline__ __attribute__((device)) unsigned int atomicMax(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10114:static __inline__ __attribute__((device)) unsigned int atomicInc(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10116:static __inline__ __attribute__((device)) unsigned int atomicDec(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10118:static __inline__ __attribute__((device)) int atomicAnd(int *address, int val);
+./main.cpp1.ii:10120:static __inline__ __attribute__((device)) unsigned int atomicAnd(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10122:static __inline__ __attribute__((device)) int atomicOr(int *address, int val);
+./main.cpp1.ii:10124:static __inline__ __attribute__((device)) unsigned int atomicOr(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10126:static __inline__ __attribute__((device)) int atomicXor(int *address, int val);
+./main.cpp1.ii:10128:static __inline__ __attribute__((device)) unsigned int atomicXor(unsigned int *address, unsigned int val);
+./main.cpp1.ii:10130:static __inline__ __attribute__((device)) int atomicCAS(int *address, int compare, int val);
+./main.cpp1.ii:10132:static __inline__ __attribute__((device)) unsigned int atomicCAS(unsigned int *address, unsigned int compare, unsigned int val);
+./main.cpp1.ii:10150:static __inline__ __attribute__((device)) unsigned long long int atomicAdd(unsigned long long int *address, unsigned long long int val);
+./main.cpp1.ii:10152:static __inline__ __attribute__((device)) unsigned long long int atomicExch(unsigned long long int *address, unsigned long long int val);
+./main.cpp1.ii:10154:static __inline__ __attribute__((device)) unsigned long long int atomicCAS(unsigned long long int *address, unsigned long long int compare, unsigned long long int val);
+./main.cpp1.ii:10165:static __inline__ __attribute__((device)) int atomicAdd(int *address, int val)
+./main.cpp1.ii:10170:static __inline__ __attribute__((device)) unsigned int atomicAdd(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10175:static __inline__ __attribute__((device)) int atomicSub(int *address, int val)
+./main.cpp1.ii:10180:static __inline__ __attribute__((device)) unsigned int atomicSub(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10185:static __inline__ __attribute__((device)) int atomicExch(int *address, int val)
+./main.cpp1.ii:10190:static __inline__ __attribute__((device)) unsigned int atomicExch(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10195:static __inline__ __attribute__((device)) float atomicExch(float *address, float val)
+./main.cpp1.ii:10200:static __inline__ __attribute__((device)) int atomicMin(int *address, int val)
+./main.cpp1.ii:10205:static __inline__ __attribute__((device)) unsigned int atomicMin(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10210:static __inline__ __attribute__((device)) int atomicMax(int *address, int val)
+./main.cpp1.ii:10215:static __inline__ __attribute__((device)) unsigned int atomicMax(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10220:static __inline__ __attribute__((device)) unsigned int atomicInc(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10225:static __inline__ __attribute__((device)) unsigned int atomicDec(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10230:static __inline__ __attribute__((device)) int atomicAnd(int *address, int val)
+./main.cpp1.ii:10235:static __inline__ __attribute__((device)) unsigned int atomicAnd(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10240:static __inline__ __attribute__((device)) int atomicOr(int *address, int val)
+./main.cpp1.ii:10245:static __inline__ __attribute__((device)) unsigned int atomicOr(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10250:static __inline__ __attribute__((device)) int atomicXor(int *address, int val)
+./main.cpp1.ii:10255:static __inline__ __attribute__((device)) unsigned int atomicXor(unsigned int *address, unsigned int val)
+./main.cpp1.ii:10260:static __inline__ __attribute__((device)) int atomicCAS(int *address, int compare, int val)
+./main.cpp1.ii:10265:static __inline__ __attribute__((device)) unsigned int atomicCAS(unsigned int *address, unsigned int compare, unsigned int val)
+./main.cpp1.ii:10273:static __inline__ __attribute__((device)) unsigned long long int atomicAdd(unsigned long long int *address, unsigned long long int val)
+./main.cpp1.ii:10278:static __inline__ __attribute__((device)) unsigned long long int atomicExch(unsigned long long int *address, unsigned long long int val)
+./main.cpp1.ii:10283:static __inline__ __attribute__((device)) unsigned long long int atomicCAS(unsigned long long int *address, unsigned long long int compare, unsigned long long int val)
+./main.cpp1.ii:10559:static __inline__ __attribute__((device)) float atomicAdd(float *address, float val);
+./main.cpp1.ii:10571:static __inline__ __attribute__((device)) float atomicAdd(float *address, float val)
+./main.cpp1.ii:10597:static __inline__ __attribute__((device)) long long atomicMin(long long *address, long long val);
+./main.cpp1.ii:10599:static __inline__ __attribute__((device)) long long atomicMax(long long *address, long long val);
+./main.cpp1.ii:10601:static __inline__ __attribute__((device)) unsigned long long atomicMin(unsigned long long *address, unsigned long long val);
+./main.cpp1.ii:10603:static __inline__ __attribute__((device)) unsigned long long atomicMax(unsigned long long *address, unsigned long long val);
+./main.cpp1.ii:10605:static __inline__ __attribute__((device)) unsigned long long atomicAnd(unsigned long long *address, unsigned long long val);
+./main.cpp1.ii:10607:static __inline__ __attribute__((device)) unsigned long long atomicOr(unsigned long long *address, unsigned long long val);
+./main.cpp1.ii:10609:static __inline__ __attribute__((device)) unsigned long long atomicXor(unsigned long long *address, unsigned long long val);
+./main.cpp1.ii:10616:static __inline__ __attribute__((device)) long long atomicMin(long long *address, long long val)
+./main.cpp1.ii:10621:static __inline__ __attribute__((device)) long long atomicMax(long long *address, long long val)
+./main.cpp1.ii:10626:static __inline__ __attribute__((device)) unsigned long long atomicMin(unsigned long long *address, unsigned long long val)
+./main.cpp1.ii:10631:static __inline__ __attribute__((device)) unsigned long long atomicMax(unsigned long long *address, unsigned long long val)
+./main.cpp1.ii:10636:static __inline__ __attribute__((device)) unsigned long long atomicAnd(unsigned long long *address, unsigned long long val)
+./main.cpp1.ii:10641:static __inline__ __attribute__((device)) unsigned long long atomicOr(unsigned long long *address, unsigned long long val)
+./main.cpp1.ii:10646:static __inline__ __attribute__((device)) unsigned long long atomicXor(unsigned long long *address, unsigned long long val)
+./main.cpp1.ii:51144:# 1 "/usr/include/c++/4.9/ext/atomicity.h" 1 3
+./main.cpp1.ii:51145:# 32 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cpp1.ii:51147:# 33 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cpp1.ii:52317:# 36 "/usr/include/c++/4.9/ext/atomicity.h" 2 3
+./main.cpp1.ii:52318:# 1 "/usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h" 1 3
+./main.cpp1.ii:52319:# 32 "/usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h" 3
+./main.cpp1.ii:52321:# 37 "/usr/include/c++/4.9/ext/atomicity.h" 2 3
+./main.cpp1.ii:52339:# 64 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cpp1.ii:63338:    int tail_index = atomicAdd(&tail[index], 1);
+./main.cpp1.ii:63382:    atomicAdd((int*)&count, 1);
+./main.cpp1.ii:63410:    int orig_cost = atomicMin(&g_cost[id],cost);
+./main.cpp1.ii:63415:      int old_color = atomicExch(&g_color[id],gray_shade);
+./main.cpp1.ii:63520:  int kt = atomicOr(global_kt,0);
+./main.cpp1.ii:63534:      int pid = atomicOr((int *)&input_queue[tid], 0);
+./main.cpp1.ii:63546:      shift = atomicAdd(tail, tot_sum);
+./main.cpp1.ii:63627:    shift = atomicAdd(tail,tot_sum);
+./kernel.cu.inst.nb:76:    // use an atomic operation to reserve a queue index.
+./kernel.cu.inst.nb:77:    int tail_index = atomicAdd(&tail[index], 1);
+./kernel.cu.inst.nb:131:    atomicAdd((int*)&count, 1);
+./kernel.cu.inst.nb:166:    int orig_cost = atomicMin(&g_cost[id],cost);
+./kernel.cu.inst.nb:171:      int old_color = atomicExch(&g_color[id],gray_shade);
+./kernel.cu.inst.nb:300:  int kt = atomicOr(global_kt,0);// the total count of GPU global synchronization 
+./kernel.cu.inst.nb:314:      int pid = atomicOr((int *)&input_queue[tid], 0);
+./kernel.cu.inst.nb:326:      shift = atomicAdd(tail, tot_sum);
+./kernel.cu.inst.nb:419:    //grid-level queue is determined by atomic operation
+./kernel.cu.inst.nb:420:    shift = atomicAdd(tail,tot_sum);
+Binary file ./bfs_lazy_dlink.o matches
+./main.cudafe1.cpp:8388:__attribute__((unused)) static inline int atomicAdd(int * address, int val); 
+./main.cudafe1.cpp:8390:__attribute__((unused)) static inline unsigned atomicAdd(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8392:__attribute__((unused)) static inline int atomicSub(int * address, int val); 
+./main.cudafe1.cpp:8394:__attribute__((unused)) static inline unsigned atomicSub(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8396:__attribute__((unused)) static inline int atomicExch(int * address, int val); 
+./main.cudafe1.cpp:8398:__attribute__((unused)) static inline unsigned atomicExch(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8400:__attribute__((unused)) static inline float atomicExch(float * address, float val); 
+./main.cudafe1.cpp:8402:__attribute__((unused)) static inline int atomicMin(int * address, int val); 
+./main.cudafe1.cpp:8404:__attribute__((unused)) static inline unsigned atomicMin(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8406:__attribute__((unused)) static inline int atomicMax(int * address, int val); 
+./main.cudafe1.cpp:8408:__attribute__((unused)) static inline unsigned atomicMax(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8410:__attribute__((unused)) static inline unsigned atomicInc(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8412:__attribute__((unused)) static inline unsigned atomicDec(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8414:__attribute__((unused)) static inline int atomicAnd(int * address, int val); 
+./main.cudafe1.cpp:8416:__attribute__((unused)) static inline unsigned atomicAnd(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8418:__attribute__((unused)) static inline int atomicOr(int * address, int val); 
+./main.cudafe1.cpp:8420:__attribute__((unused)) static inline unsigned atomicOr(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8422:__attribute__((unused)) static inline int atomicXor(int * address, int val); 
+./main.cudafe1.cpp:8424:__attribute__((unused)) static inline unsigned atomicXor(unsigned * address, unsigned val); 
+./main.cudafe1.cpp:8426:__attribute__((unused)) static inline int atomicCAS(int * address, int compare, int val); 
+./main.cudafe1.cpp:8428:__attribute__((unused)) static inline unsigned atomicCAS(unsigned * address, unsigned compare, unsigned val); 
+./main.cudafe1.cpp:8430:__attribute__((unused)) static inline unsigned long long atomicAdd(unsigned long long * address, unsigned long long val); 
+./main.cudafe1.cpp:8432:__attribute__((unused)) static inline unsigned long long atomicExch(unsigned long long * address, unsigned long long val); 
+./main.cudafe1.cpp:8434:__attribute__((unused)) static inline unsigned long long atomicCAS(unsigned long long * address, unsigned long long compare, unsigned long long val); 
+./main.cudafe1.cpp:8440:__attribute__((unused)) static inline int atomicAdd(int *address, int val) 
+./main.cudafe1.cpp:8454:__attribute__((unused)) static inline unsigned atomicAdd(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8468:__attribute__((unused)) static inline int atomicSub(int *address, int val) 
+./main.cudafe1.cpp:8482:__attribute__((unused)) static inline unsigned atomicSub(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8496:__attribute__((unused)) static inline int atomicExch(int *address, int val) 
+./main.cudafe1.cpp:8510:__attribute__((unused)) static inline unsigned atomicExch(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8524:__attribute__((unused)) static inline float atomicExch(float *address, float val) 
+./main.cudafe1.cpp:8538:__attribute__((unused)) static inline int atomicMin(int *address, int val) 
+./main.cudafe1.cpp:8552:__attribute__((unused)) static inline unsigned atomicMin(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8566:__attribute__((unused)) static inline int atomicMax(int *address, int val) 
+./main.cudafe1.cpp:8580:__attribute__((unused)) static inline unsigned atomicMax(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8594:__attribute__((unused)) static inline unsigned atomicInc(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8608:__attribute__((unused)) static inline unsigned atomicDec(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8622:__attribute__((unused)) static inline int atomicAnd(int *address, int val) 
+./main.cudafe1.cpp:8636:__attribute__((unused)) static inline unsigned atomicAnd(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8650:__attribute__((unused)) static inline int atomicOr(int *address, int val) 
+./main.cudafe1.cpp:8664:__attribute__((unused)) static inline unsigned atomicOr(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8678:__attribute__((unused)) static inline int atomicXor(int *address, int val) 
+./main.cudafe1.cpp:8692:__attribute__((unused)) static inline unsigned atomicXor(unsigned *address, unsigned val) 
+./main.cudafe1.cpp:8706:__attribute__((unused)) static inline int atomicCAS(int *address, int compare, int val) 
+./main.cudafe1.cpp:8720:__attribute__((unused)) static inline unsigned atomicCAS(unsigned *address, unsigned compare, unsigned val) 
+./main.cudafe1.cpp:8734:__attribute__((unused)) static inline unsigned long long atomicAdd(unsigned long long *address, unsigned long long val) 
+./main.cudafe1.cpp:8748:__attribute__((unused)) static inline unsigned long long atomicExch(unsigned long long *address, unsigned long long val) 
+./main.cudafe1.cpp:8762:__attribute__((unused)) static inline unsigned long long atomicCAS(unsigned long long *address, unsigned long long compare, unsigned long long val) 
+./main.cudafe1.cpp:9012:__attribute__((unused)) static inline float atomicAdd(float * address, float val); 
+./main.cudafe1.cpp:9014:__attribute__((unused)) static inline float atomicAdd(float *address, float val) 
+./main.cudafe1.cpp:9028:__attribute__((unused)) static inline long long atomicMin(long long * address, long long val); 
+./main.cudafe1.cpp:9030:__attribute__((unused)) static inline long long atomicMax(long long * address, long long val); 
+./main.cudafe1.cpp:9032:__attribute__((unused)) static inline unsigned long long atomicMin(unsigned long long * address, unsigned long long val); 
+./main.cudafe1.cpp:9034:__attribute__((unused)) static inline unsigned long long atomicMax(unsigned long long * address, unsigned long long val); 
+./main.cudafe1.cpp:9036:__attribute__((unused)) static inline unsigned long long atomicAnd(unsigned long long * address, unsigned long long val); 
+./main.cudafe1.cpp:9038:__attribute__((unused)) static inline unsigned long long atomicOr(unsigned long long * address, unsigned long long val); 
+./main.cudafe1.cpp:9040:__attribute__((unused)) static inline unsigned long long atomicXor(unsigned long long * address, unsigned long long val); 
+./main.cudafe1.cpp:9042:__attribute__((unused)) static inline long long atomicMin(long long *address, long long val) 
+./main.cudafe1.cpp:9056:__attribute__((unused)) static inline long long atomicMax(long long *address, long long val) 
+./main.cudafe1.cpp:9070:__attribute__((unused)) static inline unsigned long long atomicMin(unsigned long long *address, unsigned long long val) 
+./main.cudafe1.cpp:9084:__attribute__((unused)) static inline unsigned long long atomicMax(unsigned long long *address, unsigned long long val) 
+./main.cudafe1.cpp:9098:__attribute__((unused)) static inline unsigned long long atomicAnd(unsigned long long *address, unsigned long long val) 
+./main.cudafe1.cpp:9112:__attribute__((unused)) static inline unsigned long long atomicOr(unsigned long long *address, unsigned long long val) 
+./main.cudafe1.cpp:9126:__attribute__((unused)) static inline unsigned long long atomicXor(unsigned long long *address, unsigned long long val) 
+./main.cudafe1.cpp:79977:# 32 "/usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h" 3
+./main.cudafe1.cpp:79979:# 38 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cudafe1.cpp:79989:# 65 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cudafe1.cpp:92153:int tail_index = atomicAdd(&((tail)[index]), 1); 
+./main.cudafe1.cpp:92225:atomicAdd((int *)(&count), 1); 
+./main.cudafe1.cpp:92277:int orig_cost = atomicMin(&(g_cost[id]), cost); 
+./main.cudafe1.cpp:92281:int old_color = atomicExch(&(g_color[id]), gray_shade); 
+./main.cudafe1.cpp:92459:int kt = atomicOr(global_kt, 0); 
+./main.cudafe1.cpp:92483:int pid = atomicOr((int *)(&(input_queue[tid])), 0); 
+./main.cudafe1.cpp:92495:shift = atomicAdd(tail, tot_sum); 
+./main.cudafe1.cpp:92619:shift = atomicAdd(tail, tot_sum); 
+Binary file ./bfs_eager_dlink.fatbin matches
+Binary file ./bfs_eager_dlink.o matches
+./kernel.cu:79:    // use an atomic operation to reserve a queue index.
+./kernel.cu:80:    int tail_index = atomicAdd(&tail[index], 1);
+./kernel.cu:134:    atomicAdd((int*)&count, 1);
+./kernel.cu:169:    int orig_cost = atomicMin(&g_cost[id],cost);
+./kernel.cu:174:      int old_color = atomicExch(&g_color[id],gray_shade);
+./kernel.cu:303:  int kt = atomicOr(global_kt,0);// the total count of GPU global synchronization 
+./kernel.cu:317:      int pid = atomicOr((int *)&input_queue[tid], 0);
+./kernel.cu:329:      shift = atomicAdd(tail, tot_sum);
+./kernel.cu:422:    //grid-level queue is determined by atomic operation
+./kernel.cu:423:    shift = atomicAdd(tail,tot_sum);
+./null0x179eeb019580.atomics:1:Found 0 atomic calls
+Binary file ./bfs_eager matches
+./main.cpp4.ii:9078:static __inline__ __attribute__((device)) int atomicAdd(int *address, int val);
+./main.cpp4.ii:9080:static __inline__ __attribute__((device)) unsigned int atomicAdd(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9082:static __inline__ __attribute__((device)) int atomicSub(int *address, int val);
+./main.cpp4.ii:9084:static __inline__ __attribute__((device)) unsigned int atomicSub(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9086:static __inline__ __attribute__((device)) int atomicExch(int *address, int val);
+./main.cpp4.ii:9088:static __inline__ __attribute__((device)) unsigned int atomicExch(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9090:static __inline__ __attribute__((device)) float atomicExch(float *address, float val);
+./main.cpp4.ii:9092:static __inline__ __attribute__((device)) int atomicMin(int *address, int val);
+./main.cpp4.ii:9094:static __inline__ __attribute__((device)) unsigned int atomicMin(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9096:static __inline__ __attribute__((device)) int atomicMax(int *address, int val);
+./main.cpp4.ii:9098:static __inline__ __attribute__((device)) unsigned int atomicMax(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9100:static __inline__ __attribute__((device)) unsigned int atomicInc(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9102:static __inline__ __attribute__((device)) unsigned int atomicDec(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9104:static __inline__ __attribute__((device)) int atomicAnd(int *address, int val);
+./main.cpp4.ii:9106:static __inline__ __attribute__((device)) unsigned int atomicAnd(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9108:static __inline__ __attribute__((device)) int atomicOr(int *address, int val);
+./main.cpp4.ii:9110:static __inline__ __attribute__((device)) unsigned int atomicOr(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9112:static __inline__ __attribute__((device)) int atomicXor(int *address, int val);
+./main.cpp4.ii:9114:static __inline__ __attribute__((device)) unsigned int atomicXor(unsigned int *address, unsigned int val);
+./main.cpp4.ii:9116:static __inline__ __attribute__((device)) int atomicCAS(int *address, int compare, int val);
+./main.cpp4.ii:9118:static __inline__ __attribute__((device)) unsigned int atomicCAS(unsigned int *address, unsigned int compare, unsigned int val);
+./main.cpp4.ii:9136:static __inline__ __attribute__((device)) unsigned long long int atomicAdd(unsigned long long int *address, unsigned long long int val);
+./main.cpp4.ii:9138:static __inline__ __attribute__((device)) unsigned long long int atomicExch(unsigned long long int *address, unsigned long long int val);
+./main.cpp4.ii:9140:static __inline__ __attribute__((device)) unsigned long long int atomicCAS(unsigned long long int *address, unsigned long long int compare, unsigned long long int val);
+./main.cpp4.ii:9151:static __inline__ __attribute__((device)) int atomicAdd(int *address, int val)
+./main.cpp4.ii:9156:static __inline__ __attribute__((device)) unsigned int atomicAdd(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9161:static __inline__ __attribute__((device)) int atomicSub(int *address, int val)
+./main.cpp4.ii:9166:static __inline__ __attribute__((device)) unsigned int atomicSub(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9171:static __inline__ __attribute__((device)) int atomicExch(int *address, int val)
+./main.cpp4.ii:9176:static __inline__ __attribute__((device)) unsigned int atomicExch(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9181:static __inline__ __attribute__((device)) float atomicExch(float *address, float val)
+./main.cpp4.ii:9186:static __inline__ __attribute__((device)) int atomicMin(int *address, int val)
+./main.cpp4.ii:9191:static __inline__ __attribute__((device)) unsigned int atomicMin(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9196:static __inline__ __attribute__((device)) int atomicMax(int *address, int val)
+./main.cpp4.ii:9201:static __inline__ __attribute__((device)) unsigned int atomicMax(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9206:static __inline__ __attribute__((device)) unsigned int atomicInc(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9211:static __inline__ __attribute__((device)) unsigned int atomicDec(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9216:static __inline__ __attribute__((device)) int atomicAnd(int *address, int val)
+./main.cpp4.ii:9221:static __inline__ __attribute__((device)) unsigned int atomicAnd(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9226:static __inline__ __attribute__((device)) int atomicOr(int *address, int val)
+./main.cpp4.ii:9231:static __inline__ __attribute__((device)) unsigned int atomicOr(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9236:static __inline__ __attribute__((device)) int atomicXor(int *address, int val)
+./main.cpp4.ii:9241:static __inline__ __attribute__((device)) unsigned int atomicXor(unsigned int *address, unsigned int val)
+./main.cpp4.ii:9246:static __inline__ __attribute__((device)) int atomicCAS(int *address, int compare, int val)
+./main.cpp4.ii:9251:static __inline__ __attribute__((device)) unsigned int atomicCAS(unsigned int *address, unsigned int compare, unsigned int val)
+./main.cpp4.ii:9259:static __inline__ __attribute__((device)) unsigned long long int atomicAdd(unsigned long long int *address, unsigned long long int val)
+./main.cpp4.ii:9264:static __inline__ __attribute__((device)) unsigned long long int atomicExch(unsigned long long int *address, unsigned long long int val)
+./main.cpp4.ii:9269:static __inline__ __attribute__((device)) unsigned long long int atomicCAS(unsigned long long int *address, unsigned long long int compare, unsigned long long int val)
+./main.cpp4.ii:9545:static __inline__ __attribute__((device)) float atomicAdd(float *address, float val);
+./main.cpp4.ii:9557:static __inline__ __attribute__((device)) float atomicAdd(float *address, float val)
+./main.cpp4.ii:9583:static __inline__ __attribute__((device)) long long atomicMin(long long *address, long long val);
+./main.cpp4.ii:9585:static __inline__ __attribute__((device)) long long atomicMax(long long *address, long long val);
+./main.cpp4.ii:9587:static __inline__ __attribute__((device)) unsigned long long atomicMin(unsigned long long *address, unsigned long long val);
+./main.cpp4.ii:9589:static __inline__ __attribute__((device)) unsigned long long atomicMax(unsigned long long *address, unsigned long long val);
+./main.cpp4.ii:9591:static __inline__ __attribute__((device)) unsigned long long atomicAnd(unsigned long long *address, unsigned long long val);
+./main.cpp4.ii:9593:static __inline__ __attribute__((device)) unsigned long long atomicOr(unsigned long long *address, unsigned long long val);
+./main.cpp4.ii:9595:static __inline__ __attribute__((device)) unsigned long long atomicXor(unsigned long long *address, unsigned long long val);
+./main.cpp4.ii:9602:static __inline__ __attribute__((device)) long long atomicMin(long long *address, long long val)
+./main.cpp4.ii:9607:static __inline__ __attribute__((device)) long long atomicMax(long long *address, long long val)
+./main.cpp4.ii:9612:static __inline__ __attribute__((device)) unsigned long long atomicMin(unsigned long long *address, unsigned long long val)
+./main.cpp4.ii:9617:static __inline__ __attribute__((device)) unsigned long long atomicMax(unsigned long long *address, unsigned long long val)
+./main.cpp4.ii:9622:static __inline__ __attribute__((device)) unsigned long long atomicAnd(unsigned long long *address, unsigned long long val)
+./main.cpp4.ii:9627:static __inline__ __attribute__((device)) unsigned long long atomicOr(unsigned long long *address, unsigned long long val)
+./main.cpp4.ii:9632:static __inline__ __attribute__((device)) unsigned long long atomicXor(unsigned long long *address, unsigned long long val)
+./main.cpp4.ii:46298:# 1 "/usr/include/c++/4.9/bits/atomic_lockfree_defines.h" 1 3
+./main.cpp4.ii:46299:# 33 "/usr/include/c++/4.9/bits/atomic_lockfree_defines.h" 3
+./main.cpp4.ii:46301:# 34 "/usr/include/c++/4.9/bits/atomic_lockfree_defines.h" 3
+./main.cpp4.ii:51124:# 1 "/usr/include/c++/4.9/ext/atomicity.h" 1 3
+./main.cpp4.ii:51125:# 32 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cpp4.ii:51127:# 33 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cpp4.ii:52297:# 36 "/usr/include/c++/4.9/ext/atomicity.h" 2 3
+./main.cpp4.ii:52298:# 1 "/usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h" 1 3
+./main.cpp4.ii:52299:# 32 "/usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h" 3
+./main.cpp4.ii:52301:# 37 "/usr/include/c++/4.9/ext/atomicity.h" 2 3
+./main.cpp4.ii:52319:# 64 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cpp4.ii:63318:    int tail_index = atomicAdd(&tail[index], 1);
+./main.cpp4.ii:63362:    atomicAdd((int*)&count, 1);
+./main.cpp4.ii:63390:    int orig_cost = atomicMin(&g_cost[id],cost);
+./main.cpp4.ii:63395:      int old_color = atomicExch(&g_color[id],gray_shade);
+./main.cpp4.ii:63500:  int kt = atomicOr(global_kt,0);
+./main.cpp4.ii:63514:      int pid = atomicOr((int *)&input_queue[tid], 0);
+./main.cpp4.ii:63526:      shift = atomicAdd(tail, tot_sum);
+./main.cpp4.ii:63607:    shift = atomicAdd(tail,tot_sum);
+Binary file ./bfs_lazy_dlink.sm_52.cubin matches
+Binary file ./bfs_lazy_dlink.fatbin matches
+./main.cu.cpp.ii:8002:__attribute__((unused)) static inline int atomicAdd(int * address, int val);
+./main.cu.cpp.ii:8004:__attribute__((unused)) static inline unsigned atomicAdd(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8006:__attribute__((unused)) static inline int atomicSub(int * address, int val);
+./main.cu.cpp.ii:8008:__attribute__((unused)) static inline unsigned atomicSub(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8010:__attribute__((unused)) static inline int atomicExch(int * address, int val);
+./main.cu.cpp.ii:8012:__attribute__((unused)) static inline unsigned atomicExch(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8014:__attribute__((unused)) static inline float atomicExch(float * address, float val);
+./main.cu.cpp.ii:8016:__attribute__((unused)) static inline int atomicMin(int * address, int val);
+./main.cu.cpp.ii:8018:__attribute__((unused)) static inline unsigned atomicMin(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8020:__attribute__((unused)) static inline int atomicMax(int * address, int val);
+./main.cu.cpp.ii:8022:__attribute__((unused)) static inline unsigned atomicMax(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8024:__attribute__((unused)) static inline unsigned atomicInc(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8026:__attribute__((unused)) static inline unsigned atomicDec(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8028:__attribute__((unused)) static inline int atomicAnd(int * address, int val);
+./main.cu.cpp.ii:8030:__attribute__((unused)) static inline unsigned atomicAnd(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8032:__attribute__((unused)) static inline int atomicOr(int * address, int val);
+./main.cu.cpp.ii:8034:__attribute__((unused)) static inline unsigned atomicOr(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8036:__attribute__((unused)) static inline int atomicXor(int * address, int val);
+./main.cu.cpp.ii:8038:__attribute__((unused)) static inline unsigned atomicXor(unsigned * address, unsigned val);
+./main.cu.cpp.ii:8040:__attribute__((unused)) static inline int atomicCAS(int * address, int compare, int val);
+./main.cu.cpp.ii:8042:__attribute__((unused)) static inline unsigned atomicCAS(unsigned * address, unsigned compare, unsigned val);
+./main.cu.cpp.ii:8044:__attribute__((unused)) static inline unsigned long long atomicAdd(unsigned long long * address, unsigned long long val);
+./main.cu.cpp.ii:8046:__attribute__((unused)) static inline unsigned long long atomicExch(unsigned long long * address, unsigned long long val);
+./main.cu.cpp.ii:8048:__attribute__((unused)) static inline unsigned long long atomicCAS(unsigned long long * address, unsigned long long compare, unsigned long long val);
+./main.cu.cpp.ii:8054:__attribute__((unused)) static inline int atomicAdd(int *address, int val)
+./main.cu.cpp.ii:8060:__attribute__((unused)) static inline unsigned atomicAdd(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8066:__attribute__((unused)) static inline int atomicSub(int *address, int val)
+./main.cu.cpp.ii:8072:__attribute__((unused)) static inline unsigned atomicSub(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8078:__attribute__((unused)) static inline int atomicExch(int *address, int val)
+./main.cu.cpp.ii:8084:__attribute__((unused)) static inline unsigned atomicExch(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8090:__attribute__((unused)) static inline float atomicExch(float *address, float val)
+./main.cu.cpp.ii:8096:__attribute__((unused)) static inline int atomicMin(int *address, int val)
+./main.cu.cpp.ii:8102:__attribute__((unused)) static inline unsigned atomicMin(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8108:__attribute__((unused)) static inline int atomicMax(int *address, int val)
+./main.cu.cpp.ii:8114:__attribute__((unused)) static inline unsigned atomicMax(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8120:__attribute__((unused)) static inline unsigned atomicInc(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8126:__attribute__((unused)) static inline unsigned atomicDec(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8132:__attribute__((unused)) static inline int atomicAnd(int *address, int val)
+./main.cu.cpp.ii:8138:__attribute__((unused)) static inline unsigned atomicAnd(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8144:__attribute__((unused)) static inline int atomicOr(int *address, int val)
+./main.cu.cpp.ii:8150:__attribute__((unused)) static inline unsigned atomicOr(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8156:__attribute__((unused)) static inline int atomicXor(int *address, int val)
+./main.cu.cpp.ii:8162:__attribute__((unused)) static inline unsigned atomicXor(unsigned *address, unsigned val)
+./main.cu.cpp.ii:8168:__attribute__((unused)) static inline int atomicCAS(int *address, int compare, int val)
+./main.cu.cpp.ii:8174:__attribute__((unused)) static inline unsigned atomicCAS(unsigned *address, unsigned compare, unsigned val)
+./main.cu.cpp.ii:8180:__attribute__((unused)) static inline unsigned long long atomicAdd(unsigned long long *address, unsigned long long val)
+./main.cu.cpp.ii:8186:__attribute__((unused)) static inline unsigned long long atomicExch(unsigned long long *address, unsigned long long val)
+./main.cu.cpp.ii:8192:__attribute__((unused)) static inline unsigned long long atomicCAS(unsigned long long *address, unsigned long long compare, unsigned long long val)
+./main.cu.cpp.ii:8314:__attribute__((unused)) static inline float atomicAdd(float * address, float val);
+./main.cu.cpp.ii:8316:__attribute__((unused)) static inline float atomicAdd(float *address, float val)
+./main.cu.cpp.ii:8322:__attribute__((unused)) static inline long long atomicMin(long long * address, long long val);
+./main.cu.cpp.ii:8324:__attribute__((unused)) static inline long long atomicMax(long long * address, long long val);
+./main.cu.cpp.ii:8326:__attribute__((unused)) static inline unsigned long long atomicMin(unsigned long long * address, unsigned long long val);
+./main.cu.cpp.ii:8328:__attribute__((unused)) static inline unsigned long long atomicMax(unsigned long long * address, unsigned long long val);
+./main.cu.cpp.ii:8330:__attribute__((unused)) static inline unsigned long long atomicAnd(unsigned long long * address, unsigned long long val);
+./main.cu.cpp.ii:8332:__attribute__((unused)) static inline unsigned long long atomicOr(unsigned long long * address, unsigned long long val);
+./main.cu.cpp.ii:8334:__attribute__((unused)) static inline unsigned long long atomicXor(unsigned long long * address, unsigned long long val);
+./main.cu.cpp.ii:8336:__attribute__((unused)) static inline long long atomicMin(long long *address, long long val)
+./main.cu.cpp.ii:8342:__attribute__((unused)) static inline long long atomicMax(long long *address, long long val)
+./main.cu.cpp.ii:8348:__attribute__((unused)) static inline unsigned long long atomicMin(unsigned long long *address, unsigned long long val)
+./main.cu.cpp.ii:8354:__attribute__((unused)) static inline unsigned long long atomicMax(unsigned long long *address, unsigned long long val)
+./main.cu.cpp.ii:8360:__attribute__((unused)) static inline unsigned long long atomicAnd(unsigned long long *address, unsigned long long val)
+./main.cu.cpp.ii:8366:__attribute__((unused)) static inline unsigned long long atomicOr(unsigned long long *address, unsigned long long val)
+./main.cu.cpp.ii:8372:__attribute__((unused)) static inline unsigned long long atomicXor(unsigned long long *address, unsigned long long val)
+./main.cu.cpp.ii:41945:# 32 "/usr/include/x86_64-linux-gnu/c++/4.9/bits/atomic_word.h" 3
+./main.cu.cpp.ii:41947:# 38 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41949:# 48 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41951:# 49 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41953:# 52 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41955:# 53 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41957:# 65 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41959:# 66 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41961:# 67 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41963:# 68 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41965:# 69 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41967:# 70 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41969:# 73 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41971:# 74 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41973:# 77 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41975:# 78 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41977:# 79 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41979:# 81 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41981:# 82 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41983:# 84 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41985:# 88 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41987:# 91 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41989:# 92 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41991:# 93 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41993:# 95 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41995:# 96 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41997:# 98 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:41999:# 102 "/usr/include/c++/4.9/ext/atomicity.h" 3
+./main.cu.cpp.ii:42001:# 105 "/usr/include/c++/4.9/ext/atomicity.h" 3

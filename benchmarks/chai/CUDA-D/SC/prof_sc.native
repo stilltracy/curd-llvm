@@ -1,0 +1,17 @@
+==6098== NVPROF is profiling process 6098, command: ./sc -w 1 -r 1
+GeForce GTX TITAN X	==6098== Profiling application: ./sc -w 1 -r 1
+==6098== Profiling result:
+   Start  Duration            Grid Size      Block Size     Regs*    SSMem*    DSMem*      Size  Throughput           Device   Context    Stream  Name
+447.27ms  346.78us                    -               -         -         -         -  3.6250MB  10.208GB/s  GeForce GTX TIT         1         7  [CUDA memcpy HtoD]
+447.63ms     928ns                    -               -         -         -         -      516B  530.28MB/s  GeForce GTX TIT         1         7  [CUDA memcpy HtoD]
+448.10ms  344.32us                    -               -         -         -         -  3.6250MB  10.281GB/s  GeForce GTX TIT         1         7  [CUDA memcpy HtoD]
+448.46ms     896ns                    -               -         -         -         -      516B  549.21MB/s  GeForce GTX TIT         1         7  [CUDA memcpy HtoD]
+448.51ms  1.6705ms              (8 1 1)       (256 1 1)        48        0B  1.0039KB         -           -  GeForce GTX TIT         1         7  StreamCompaction_kernel(int, int, int, float, int*, int*, int*) [133]
+469.58ms  346.43us                    -               -         -         -         -  3.6250MB  10.219GB/s  GeForce GTX TIT         1         7  [CUDA memcpy HtoD]
+469.94ms     928ns                    -               -         -         -         -      516B  530.28MB/s  GeForce GTX TIT         1         7  [CUDA memcpy HtoD]
+469.98ms  1.6529ms              (8 1 1)       (256 1 1)        48        0B  1.0039KB         -           -  GeForce GTX TIT         1         7  StreamCompaction_kernel(int, int, int, float, int*, int*, int*) [150]
+473.70ms  518.27us                    -               -         -         -         -  3.6250MB  6.8305GB/s  GeForce GTX TIT         1         7  [CUDA memcpy DtoH]
+
+Regs: Number of registers used per CUDA thread. This number includes registers used internally by the CUDA driver and/or tools and can be more than what the compiler shows.
+SSMem: Static shared memory allocated per CUDA block.
+DSMem: Dynamic shared memory allocated per CUDA block.

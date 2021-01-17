@@ -1,0 +1,901 @@
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5623185408
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 1000017
+[CURD] Counter glmemWr = 7
+[CURD] Counter barriers = 1000448
+[CURD] Counter interGWWChecks = 0
+[CURD] Counter interGRWChecks = 105
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 8208
+[CURD] Counter brsWorstCount = 8201
+[CURD] Counter bwsWorstCount = 7
+[CURD] Counter brsActualCount = 22
+[CURD] Counter bwsActualCount = 7
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 10
+[CURD] Counter maxBRSSize = 7
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 7
+[CURD] Counter maxBWSSize = 7
+#races: 0
+_host__racesDetected:0x14e09a0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x919960000
+0x91b160000
+0x91b260000
+0x91b164000
+0x91ca60000
+0x930a60000
+0x930b60000
+0x930a68000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 2000017
+[CURD] Counter glmemWr = 19
+[CURD] Counter barriers = 2000896
+[CURD] Counter interGWWChecks = 0
+[CURD] Counter interGRWChecks = 165
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 16404
+[CURD] Counter brsWorstCount = 16393
+[CURD] Counter bwsWorstCount = 11
+[CURD] Counter brsActualCount = 38
+[CURD] Counter bwsActualCount = 11
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 10
+[CURD] Counter maxBRSSize = 7
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 7
+[CURD] Counter maxBWSSize = 7
+#races: 0
+_host__racesDetected:0x14e09a0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 3000149
+[CURD] Counter glmemWr = 70
+[CURD] Counter barriers = 3001344
+[CURD] Counter interGWWChecks = 0
+[CURD] Counter interGRWChecks = 390
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 24628
+[CURD] Counter brsWorstCount = 24602
+[CURD] Counter bwsWorstCount = 26
+[CURD] Counter brsActualCount = 65
+[CURD] Counter bwsActualCount = 26
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 18
+[CURD] Counter maxBRSSize = 12
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 15
+[CURD] Counter maxBWSSize = 15
+#races: 0
+_host__racesDetected:0x14e09a0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 4000149
+[CURD] Counter glmemWr = 166
+[CURD] Counter barriers = 4001792
+[CURD] Counter interGWWChecks = 0
+[CURD] Counter interGRWChecks = 450
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 32824
+[CURD] Counter brsWorstCount = 32794
+[CURD] Counter bwsWorstCount = 30
+[CURD] Counter brsActualCount = 81
+[CURD] Counter bwsActualCount = 30
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 18
+[CURD] Counter maxBRSSize = 12
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 15
+[CURD] Counter maxBWSSize = 15
+#races: 0
+_host__racesDetected:0x14e09a0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 5000915
+[CURD] Counter glmemWr = 458
+[CURD] Counter barriers = 5002240
+[CURD] Counter interGWWChecks = 0
+[CURD] Counter interGRWChecks = 615
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 41041
+[CURD] Counter brsWorstCount = 41000
+[CURD] Counter bwsWorstCount = 41
+[CURD] Counter brsActualCount = 106
+[CURD] Counter bwsActualCount = 41
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 18
+[CURD] Counter maxBRSSize = 12
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 15
+[CURD] Counter maxBWSSize = 15
+#races: 0
+_host__racesDetected:0x14e09a0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 6000915
+[CURD] Counter glmemWr = 994
+[CURD] Counter barriers = 6002688
+[CURD] Counter interGWWChecks = 16
+[CURD] Counter interGRWChecks = 735
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 49241
+[CURD] Counter brsWorstCount = 49192
+[CURD] Counter bwsWorstCount = 49
+[CURD] Counter brsActualCount = 122
+[CURD] Counter bwsActualCount = 49
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 18
+[CURD] Counter maxBRSSize = 12
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 15
+[CURD] Counter maxBWSSize = 15
+#races: 1
+_host__racesDetected:0x14e09a0
+[CURD] Moving 1 out of 1048576 elements...
+ distinct races: 1
+inter-block (W,W) race by 0 and 11 on < 39015809024, 1>, between file [TODO]:30 and file [TODO]:30 : 1
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 7005446
+[CURD] Counter glmemWr = 2726
+[CURD] Counter barriers = 7003136
+[CURD] Counter interGWWChecks = 91
+[CURD] Counter interGRWChecks = 1180
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 57478
+[CURD] Counter brsWorstCount = 57409
+[CURD] Counter bwsWorstCount = 69
+[CURD] Counter brsActualCount = 155
+[CURD] Counter bwsActualCount = 69
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 18
+[CURD] Counter maxBRSSize = 12
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 15
+[CURD] Counter maxBWSSize = 15
+#races: 0
+_host__racesDetected:0x14e09a0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 8005446
+[CURD] Counter glmemWr = 5922
+[CURD] Counter barriers = 8003584
+[CURD] Counter interGWWChecks = 119
+[CURD] Counter interGRWChecks = 1345
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 65682
+[CURD] Counter brsWorstCount = 65601
+[CURD] Counter bwsWorstCount = 81
+[CURD] Counter brsActualCount = 171
+[CURD] Counter bwsActualCount = 80
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 18
+[CURD] Counter maxBRSSize = 12
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 15
+[CURD] Counter maxBWSSize = 15
+#races: 1
+_host__racesDetected:0x14e09a0
+[CURD] Moving 1 out of 1048576 elements...
+ distinct races: 1
+inter-block (W,W) race by 0 and 11 on < 39015809024, 1>, between file [TODO]:30 and file [TODO]:30 : 1
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 9031536
+[CURD] Counter glmemWr = 15877
+[CURD] Counter barriers = 9004032
+[CURD] Counter interGWWChecks = 317
+[CURD] Counter interGRWChecks = 2139
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 73943
+[CURD] Counter brsWorstCount = 73831
+[CURD] Counter bwsWorstCount = 112
+[CURD] Counter brsActualCount = 212
+[CURD] Counter bwsActualCount = 111
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 18
+[CURD] Counter maxBRSSize = 18
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 15
+[CURD] Counter maxBWSSize = 22
+#races: 0
+_host__racesDetected:0x14e09a0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 10031536
+[CURD] Counter glmemWr = 34161
+[CURD] Counter barriers = 10004480
+[CURD] Counter interGWWChecks = 5047
+[CURD] Counter interGRWChecks = 3714
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 82255
+[CURD] Counter brsWorstCount = 82023
+[CURD] Counter bwsWorstCount = 232
+[CURD] Counter brsActualCount = 228
+[CURD] Counter bwsActualCount = 216
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 18
+[CURD] Counter maxBRSSize = 18
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 15
+[CURD] Counter maxBWSSize = 22
+#races: 98
+_host__racesDetected:0x14e09a0
+[CURD] Moving 98 out of 1048576 elements...
+ distinct races: 1
+inter-block (W,W) race by 5 and 0 on < 39015809024, 1>, between file [TODO]:30 and file [TODO]:30 : 98
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 11178778
+[CURD] Counter glmemWr = 90212
+[CURD] Counter barriers = 11004928
+[CURD] Counter interGWWChecks = 55815
+[CURD] Counter interGRWChecks = 102401
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 91240
+[CURD] Counter brsWorstCount = 90650
+[CURD] Counter bwsWorstCount = 590
+[CURD] Counter brsActualCount = 528
+[CURD] Counter bwsActualCount = 574
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 27
+[CURD] Counter maxBRSSize = 38
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 23
+[CURD] Counter maxBWSSize = 46
+#races: 0
+_host__racesDetected:0x14e09a0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 12178778
+[CURD] Counter glmemWr = 191920
+[CURD] Counter barriers = 12005376
+[CURD] Counter interGWWChecks = 227148
+[CURD] Counter interGRWChecks = 111461
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 100228
+[CURD] Counter brsWorstCount = 98842
+[CURD] Counter bwsWorstCount = 1386
+[CURD] Counter brsActualCount = 544
+[CURD] Counter bwsActualCount = 1178
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 27
+[CURD] Counter maxBRSSize = 38
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 23
+[CURD] Counter maxBWSSize = 61
+#races: 120
+_host__racesDetected:0x14e09a0
+[CURD] Moving 120 out of 1048576 elements...
+ distinct races: 1
+inter-block (W,W) race by 2 and 0 on < 39015809024, 1>, between file [TODO]:30 and file [TODO]:30 : 120
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 13991376
+[CURD] Counter glmemWr = 498683
+[CURD] Counter barriers = 13005824
+[CURD] Counter interGWWChecks = 2882675
+[CURD] Counter interGRWChecks = 4345201
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 113777
+[CURD] Counter brsWorstCount = 109980
+[CURD] Counter bwsWorstCount = 3797
+[CURD] Counter brsActualCount = 2443
+[CURD] Counter bwsActualCount = 3570
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 28
+[CURD] Counter maxBRSSize = 191
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 25
+[CURD] Counter maxBWSSize = 246
+#races: 0
+_host__racesDetected:0x14e09a0
+[CURD] Moving 0 out of 1048576 elements...
+ distinct races: 0
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 14991376
+[CURD] Counter glmemWr = 1023727
+[CURD] Counter barriers = 14006272
+[CURD] Counter interGWWChecks = 6937121
+[CURD] Counter interGRWChecks = 4388596
+[CURD] Counter interGWRChecks = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 126241
+[CURD] Counter brsWorstCount = 118172
+[CURD] Counter bwsWorstCount = 8069
+[CURD] Counter brsActualCount = 2459
+[CURD] Counter bwsActualCount = 6463
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 28
+[CURD] Counter maxBRSSize = 191
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 25
+[CURD] Counter maxBWSSize = 246
+#races: 120
+_host__racesDetected:0x14e09a0
+[CURD] Moving 120 out of 1048576 elements...
+ distinct races: 1
+inter-block (W,W) race by 0 and 1 on < 39015809024, 1>, between file [TODO]:30 and file [TODO]:30 : 120
+0x902020000
+0x903820000
+0x903920000
+0x903824000
+0x915960000
+0x905120000
+0x929960000
+0x905128000
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1280
+[CURD] CURD_INITIAL_TRSSIZE_SM = 128
+[CURD] CURD_INITIAL_TWSSIZE_SM = 128
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5613355008
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:1954
+[CURD] THREADS:512
+Allocating sets for SHMEM: 512 threads * 16 blocks * 128(R), 128(W)
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] alloced 25165824
+[CURD] alloced 16384
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] alloced 335544320
+[CURD] alloced 32768
+[CURD] ShadowMem allocated for GLMEM

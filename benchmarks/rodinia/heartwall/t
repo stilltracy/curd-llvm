@@ -1,0 +1,2046 @@
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+make[1]: warning: jobserver unavailable: using -j1.  Add '+' to parent make rule.
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ gcc -D__CUDA_ARCH__=500 -E -x c++      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"./AVI" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -include "cuda_runtime.h" -m64 "main.cu" > "/tmp/tmpxft_00007915_00000000-7_main.cpp1.ii" 
+#$ cudafe --allow_managed --m64 --gnu_version=50400 -tused --no_remove_unneeded_entities  --device-c --gen_c_file_name "/tmp/tmpxft_00007915_00000000-4_main.cudafe1.c" --stub_file_name "/tmp/tmpxft_00007915_00000000-4_main.cudafe1.stub.c" --gen_device_file_name "/tmp/tmpxft_00007915_00000000-4_main.cudafe1.gpu" --nv_arch "compute_50" --gen_module_id_file --module_id_file_name "/tmp/tmpxft_00007915_00000000-3_main.module_id" --include_file_name "tmpxft_00007915_00000000-2_main.fatbin.c" "/tmp/tmpxft_00007915_00000000-7_main.cpp1.ii" 
+main.cu(67): warning: variable "c" was declared but never referenced
+
+#$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"./AVI" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -include "cuda_runtime.h" -m64 "main.cu" > "/tmp/tmpxft_00007915_00000000-5_main.cpp4.ii" 
+#$ cudafe++ --allow_managed --m64 --gnu_version=50400 --parse_templates  --device-c --gen_c_file_name "/tmp/tmpxft_00007915_00000000-4_main.cudafe1.cpp" --stub_file_name "tmpxft_00007915_00000000-4_main.cudafe1.stub.c" --module_id_file_name "/tmp/tmpxft_00007915_00000000-3_main.module_id" "/tmp/tmpxft_00007915_00000000-5_main.cpp4.ii" 
+main.cu(67): warning: variable "c" was declared but never referenced
+
+#$ gcc -D__CUDA_ARCH__=500 -E -x c      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__ -D__CUDANVVM__  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"./AVI" "-I/opt/nvidia8/bin/..//include"   -m64 "/tmp/tmpxft_00007915_00000000-4_main.cudafe1.gpu" > "/tmp/tmpxft_00007915_00000000-9_main.cpp2.i" 
+#$ cudafe -w --allow_managed --m64 --gnu_version=50400 --c  --device-c --gen_c_file_name "/tmp/tmpxft_00007915_00000000-10_main.cudafe2.c" --stub_file_name "/tmp/tmpxft_00007915_00000000-10_main.cudafe2.stub.c" --gen_device_file_name "/tmp/tmpxft_00007915_00000000-10_main.cudafe2.gpu" --nv_arch "compute_50" --module_id_file_name "/tmp/tmpxft_00007915_00000000-3_main.module_id" --include_file_name "tmpxft_00007915_00000000-2_main.fatbin.c" "/tmp/tmpxft_00007915_00000000-9_main.cpp2.i" 
+#$ gcc -D__CUDA_ARCH__=500 -E -x c      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDABE__ -D__CUDANVVM__ -D__USE_FAST_MATH__=0  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"./AVI" "-I/opt/nvidia8/bin/..//include"   -m64 "/tmp/tmpxft_00007915_00000000-10_main.cudafe2.gpu" > "/tmp/tmpxft_00007915_00000000-11_main.cpp3.i" 
+#$ cicc  -arch compute_50 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 -generate-line-info -maxreg 38 -nvvmir-library "/opt/nvidia8/bin/../nvvm/libdevice/libdevice.compute_50.10.bc"  --device-c --orig_src_file_name "main.cu"  "/tmp/tmpxft_00007915_00000000-11_main.cpp3.i" -o "/tmp/tmpxft_00007915_00000000-6_main.ptx"
+<premain>: CommandLine Error: Argument 'info-output-file' defined more than once!
+<premain>: CommandLine Error: Argument 'track-memory' defined more than once!
+<premain>: CommandLine Error: Argument 'version' defined more than once!
+<premain>: CommandLine Error: Argument 'print-all-options' defined more than once!
+<premain>: CommandLine Error: Argument 'print-options' defined more than once!
+<premain>: CommandLine Error: Argument 'help-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list' defined more than once!
+<premain>: CommandLine Error: Argument 'time-passes' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before' defined more than once!
+<premain>: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+v:d_common_change, 4
+v:d_common, 4
+v:d_unique, 4
+v:_ZZ6kernelvE14in_partial_sum, 3
+v:_ZZ6kernelvE18in_sqr_partial_sum, 3
+v:_ZZ6kernelvE12in_final_sum, 3
+v:_ZZ6kernelvE16in_sqr_final_sum, 3
+v:_ZZ6kernelvE6denomT, 3
+v:_ZZ6kernelvE11par_max_val, 3
+v:_ZZ6kernelvE11par_max_coo, 3
+v:_ZZ6kernelvE13d_in_mod_temp, 3
+v:llvm.used, 0
+lv:retval, 5
+lv:p.addr, 5
+lv:s.addr, 5
+lv:retval, 5
+lv:p.addr, 5
+lv:c.addr, 5
+lv:retval, 5
+lv:value.addr, 5
+lv:attr.addr, 5
+lv:device.addr, 5
+lv:retval, 5
+lv:device.addr, 5
+lv:retval, 5
+lv:numBlocks.addr, 5
+lv:func.addr, 5
+lv:blockSize.addr, 5
+lv:dynamicSmemSize.addr, 5
+lv:retval, 5
+lv:numBlocks.addr, 5
+lv:func.addr, 5
+lv:blockSize.addr, 5
+lv:dynamicSmemSize.addr, 5
+lv:flags.addr, 5
+lv:retval, 5
+lv:f.addr, 5
+lv:retval, 5
+lv:x.addr, 5
+lv:retval, 5
+lv:a.addr, 5
+lv:b.addr, 5
+lv:__T20, 5
+lv:__cuda_local_var_22606_9_non_const_d_in, 5
+lv:__cuda_local_var_22607_6_non_const_rot_row, 5
+lv:__cuda_local_var_22608_6_non_const_rot_col, 5
+lv:__cuda_local_var_22609_6_non_const_in2_rowlow, 5
+lv:__cuda_local_var_22610_6_non_const_in2_collow, 5
+lv:__cuda_local_var_22611_6_non_const_ic, 5
+lv:__cuda_local_var_22612_6_non_const_jc, 5
+lv:__cuda_local_var_22613_6_non_const_jp1, 5
+lv:__cuda_local_var_22614_6_non_const_ja1, 5
+lv:__cuda_local_var_22614_11_non_const_ja2, 5
+lv:__cuda_local_var_22615_6_non_const_ip1, 5
+lv:__cuda_local_var_22616_6_non_const_ia1, 5
+lv:__cuda_local_var_22616_11_non_const_ia2, 5
+lv:__cuda_local_var_22617_6_non_const_ja, 5
+lv:__cuda_local_var_22617_10_non_const_jb, 5
+lv:__cuda_local_var_22618_6_non_const_ia, 5
+lv:__cuda_local_var_22618_10_non_const_ib, 5
+lv:__cuda_local_var_22619_8_non_const_s, 5
+lv:__cuda_local_var_22620_6_non_const_i, 5
+lv:__cuda_local_var_22621_6_non_const_j, 5
+lv:__cuda_local_var_22622_6_non_const_row, 5
+lv:__cuda_local_var_22623_6_non_const_col, 5
+lv:__cuda_local_var_22624_6_non_const_ori_row, 5
+lv:__cuda_local_var_22625_6_non_const_ori_col, 5
+lv:__cuda_local_var_22626_6_non_const_position, 5
+lv:__cuda_local_var_22627_8_non_const_sum, 5
+lv:__cuda_local_var_22628_6_non_const_pos_ori, 5
+lv:__cuda_local_var_22629_8_non_const_temp, 5
+lv:__cuda_local_var_22630_8_non_const_temp2, 5
+lv:__cuda_local_var_22631_6_non_const_location, 5
+lv:__cuda_local_var_22632_6_non_const_cent, 5
+lv:__cuda_local_var_22633_6_non_const_tMask_row, 5
+lv:__cuda_local_var_22634_6_non_const_tMask_col, 5
+lv:__cuda_local_var_22635_8_non_const_largest_value_current, 5
+lv:__cuda_local_var_22636_8_non_const_largest_value, 5
+lv:__cuda_local_var_22637_6_non_const_largest_coordinate_current, 5
+lv:__cuda_local_var_22638_6_non_const_largest_coordinate, 5
+lv:__cuda_local_var_22639_8_non_const_fin_max_val, 5
+lv:__cuda_local_var_22640_6_non_const_fin_max_coo, 5
+lv:__cuda_local_var_22641_6_non_const_largest_row, 5
+lv:__cuda_local_var_22642_6_non_const_largest_col, 5
+lv:__cuda_local_var_22643_6_non_const_offset_row, 5
+lv:__cuda_local_var_22644_6_non_const_offset_col, 5
+lv:__cuda_local_var_22649_8_non_const_mean, 5
+lv:__cuda_local_var_22650_8_non_const_mean_sqr, 5
+lv:__cuda_local_var_22651_8_non_const_variance, 5
+lv:__cuda_local_var_22652_8_non_const_deviation, 5
+lv:__cuda_local_var_22656_6_non_const_pointer, 5
+lv:__cuda_local_var_22658_6_non_const_ori_pointer, 5
+lv:__cuda_local_var_22659_6_non_const_loc_pointer, 5
+lv:__cuda_local_var_22665_6_non_const_bx, 5
+lv:__cuda_local_var_22666_6_non_const_tx, 5
+lv:__cuda_local_var_22667_6_non_const_ei_new, 5
+lv:predef_tmp_comp, 5
+lv:predef_tmp_comp1, 5
+lv:__T21, 5
+need to add hook after llvm.cuda.syncthreads
+need to add hook after pthread_barrier_wait
+loaded __curd__llvm_cuda_syncthreads_afterHook: void ()
+found a different addrSpace for f.addr:5
+Ignored address space:5
+found a different addrSpace for x.addr:5
+Ignored address space:5
+found a different addrSpace for a.addr:5
+Ignored address space:5
+found a different addrSpace for b.addr:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22635_8_non_const_largest_value_current:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22636_8_non_const_largest_value:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22637_6_non_const_largest_coordinate_current:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22638_6_non_const_largest_coordinate:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22639_8_non_const_fin_max_val:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22640_6_non_const_fin_max_coo:5
+Ignored address space:5
+found a different addrSpace for predef_tmp_comp:5
+Ignored address space:5
+found a different addrSpace for predef_tmp_comp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for predef_tmp_comp1:5
+Ignored address space:5
+found a different addrSpace for predef_tmp_comp1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22606_9_non_const_d_in:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22656_6_non_const_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22656_6_non_const_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22656_6_non_const_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22658_6_non_const_ori_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22658_6_non_const_ori_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22606_9_non_const_d_in:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22609_6_non_const_in2_rowlow:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22610_6_non_const_in2_collow:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22609_6_non_const_in2_rowlow:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22610_6_non_const_in2_collow:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22606_9_non_const_d_in:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22607_6_non_const_rot_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22608_6_non_const_rot_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22606_9_non_const_d_in:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22608_6_non_const_rot_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22607_6_non_const_rot_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22611_6_non_const_ic:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22612_6_non_const_jc:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22611_6_non_const_ic:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22612_6_non_const_jc:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22612_6_non_const_jc:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22612_6_non_const_jc:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22621_6_non_const_j:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22621_6_non_const_j:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22613_6_non_const_jp1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22613_6_non_const_jp1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22613_6_non_const_jp1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_6_non_const_ja1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_6_non_const_ja1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22621_6_non_const_j:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_11_non_const_ja2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22621_6_non_const_j:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_11_non_const_ja2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22611_6_non_const_ic:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22615_6_non_const_ip1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22615_6_non_const_ip1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22615_6_non_const_ip1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_6_non_const_ia1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_6_non_const_ia1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_11_non_const_ia2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_11_non_const_ia2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22619_8_non_const_s:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_6_non_const_ja1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_11_non_const_ja2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22613_6_non_const_jp1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_10_non_const_jb:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_6_non_const_ia1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_11_non_const_ia2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22615_6_non_const_ip1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_10_non_const_ib:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22619_8_non_const_s:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_10_non_const_jb:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_10_non_const_ib:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22619_8_non_const_s:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22619_8_non_const_s:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22629_8_non_const_temp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22629_8_non_const_temp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22629_8_non_const_temp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22628_6_non_const_pos_ori:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22626_6_non_const_position:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22629_8_non_const_temp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22629_8_non_const_temp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22629_8_non_const_temp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22630_8_non_const_temp2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22630_8_non_const_temp2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22630_8_non_const_temp2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22630_8_non_const_temp2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22606_9_non_const_d_in:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22629_8_non_const_temp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22629_8_non_const_temp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22629_8_non_const_temp:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22606_9_non_const_d_in:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22627_8_non_const_sum:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22649_8_non_const_mean:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22649_8_non_const_mean:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22649_8_non_const_mean:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22650_8_non_const_mean_sqr:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22650_8_non_const_mean_sqr:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22651_8_non_const_variance:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22651_8_non_const_variance:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22652_8_non_const_deviation:5
+Ignored address space:5
+found a different addrSpace for __T21:5
+Ignored address space:5
+found a different addrSpace for __T21:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22652_8_non_const_deviation:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22632_6_non_const_cent:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22632_6_non_const_cent:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22633_6_non_const_tMask_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22632_6_non_const_cent:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22634_6_non_const_tMask_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22656_6_non_const_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22632_6_non_const_cent:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22656_6_non_const_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22633_6_non_const_tMask_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22632_6_non_const_cent:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22656_6_non_const_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22634_6_non_const_tMask_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22634_6_non_const_tMask_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22633_6_non_const_tMask_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22631_6_non_const_location:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22631_6_non_const_location:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22611_6_non_const_ic:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22612_6_non_const_jc:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22611_6_non_const_ic:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22612_6_non_const_jc:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22612_6_non_const_jc:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22612_6_non_const_jc:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22621_6_non_const_j:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22621_6_non_const_j:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22613_6_non_const_jp1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22613_6_non_const_jp1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22613_6_non_const_jp1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_6_non_const_ja1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_6_non_const_ja1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22621_6_non_const_j:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_11_non_const_ja2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22621_6_non_const_j:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_11_non_const_ja2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22611_6_non_const_ic:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22615_6_non_const_ip1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22615_6_non_const_ip1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22615_6_non_const_ip1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_6_non_const_ia1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_6_non_const_ia1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_11_non_const_ia2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_11_non_const_ia2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22619_8_non_const_s:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_6_non_const_ja1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22614_11_non_const_ja2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22613_6_non_const_jp1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_10_non_const_jb:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_6_non_const_ia1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22616_11_non_const_ia2:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22615_6_non_const_ip1:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_10_non_const_ib:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22619_8_non_const_s:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22619_8_non_const_s:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22618_6_non_const_ia:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22617_6_non_const_ja:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22619_8_non_const_s:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22637_6_non_const_largest_coordinate_current:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22637_6_non_const_largest_coordinate_current:5
+Ignored address space:5
+found a different addrSpace for __T20:5
+Ignored address space:5
+found a different addrSpace for __T20:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22635_8_non_const_largest_value_current:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22635_8_non_const_largest_value_current:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22636_8_non_const_largest_value:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22637_6_non_const_largest_coordinate_current:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22638_6_non_const_largest_coordinate:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22635_8_non_const_largest_value_current:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22636_8_non_const_largest_value:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22638_6_non_const_largest_coordinate:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22636_8_non_const_largest_value:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22639_8_non_const_fin_max_val:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22639_8_non_const_fin_max_val:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22640_6_non_const_fin_max_coo:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22620_6_non_const_i:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22640_6_non_const_fin_max_coo:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22641_6_non_const_largest_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22640_6_non_const_fin_max_coo:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22642_6_non_const_largest_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22640_6_non_const_fin_max_coo:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22641_6_non_const_largest_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22642_6_non_const_largest_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22642_6_non_const_largest_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22641_6_non_const_largest_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22641_6_non_const_largest_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22642_6_non_const_largest_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22642_6_non_const_largest_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22641_6_non_const_largest_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22643_6_non_const_offset_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22642_6_non_const_largest_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22644_6_non_const_offset_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22656_6_non_const_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22643_6_non_const_offset_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22656_6_non_const_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22644_6_non_const_offset_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22656_6_non_const_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22659_6_non_const_loc_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22659_6_non_const_loc_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22659_6_non_const_loc_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22666_6_non_const_tx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22622_6_non_const_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22665_6_non_const_bx:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22623_6_non_const_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22625_6_non_const_ori_col:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22624_6_non_const_ori_row:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22658_6_non_const_ori_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22606_9_non_const_d_in:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22658_6_non_const_ori_pointer:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22606_9_non_const_d_in:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+found a different addrSpace for __cuda_local_var_22667_6_non_const_ei_new:5
+Ignored address space:5
+__nb__funcStats,	Function,	SMemRdHooks,	SMemWrHooks,	GMemRdHooks,	GMemWrHooks,	GenMemRdHooks,	GenMemWrHooks,	Others
+__nb__funcStats,	_Z6kernelv,	0,	0,	0,	0,	425,	49,	0
+__nb__fileStats,	File,	MemHooksInserted
+__nb__fileStats,	kernel.cu,	474
+Found 0 nvvm atomic calls
+Found 0 llvm atomic calls
+#$ ptxas  -arch=sm_50 -m64 --compile-only  -maxrregcount=38 --generate-line-info "/tmp/tmpxft_00007915_00000000-6_main.ptx"  -o "/tmp/tmpxft_00007915_00000000-12_main.sm_50.cubin" 
+#$ fatbinary --create="/tmp/tmpxft_00007915_00000000-2_main.fatbin" -64 --ident="main.cu" --cmdline="--compile-only  -maxrregcount=38 --generate-line-info " "--image=profile=sm_50,file=/tmp/tmpxft_00007915_00000000-12_main.sm_50.cubin" "--image=profile=compute_50,file=/tmp/tmpxft_00007915_00000000-6_main.ptx" --embedded-fatbin="/tmp/tmpxft_00007915_00000000-2_main.fatbin.c" --cuda --device-c
+#$ rm /tmp/tmpxft_00007915_00000000-2_main.fatbin
+#$ gcc -D__CUDA_ARCH__=500 -E -x c++      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__USE_FAST_MATH__=0  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"./AVI" "-I/opt/nvidia8/bin/..//include"   -m64 "/tmp/tmpxft_00007915_00000000-4_main.cudafe1.cpp" > "/tmp/tmpxft_00007915_00000000-13_main.ii" 
+#$ gcc -c -x c++ -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"./AVI" "-I/opt/nvidia8/bin/..//include"   -fpreprocessed -m64 -o "main.o" "/tmp/tmpxft_00007915_00000000-13_main.ii" 
+main.cu: In function 'void write_data(char*, int, int, int, int*, int*, int, int*, int*)':
+main.cu:90:31: warning: too many arguments for format [-Wformat-extra-args]
+      fprintf(fid, "\n--endo--\n",j);
+                               ^
+main.cu:99:30: warning: too many arguments for format [-Wformat-extra-args]
+      fprintf(fid, "\n--epi--\n",j);
+                              ^
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ nvlink --arch=sm_50 --register-link-binaries="/tmp/tmpxft_0000794d_00000000-2_heartwall_eager_dlink.reg.c" -m64 -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -cpu-arch=X86_64 "/home/acg/new-curd/curd_lib_eager.o" "main.o" "./AVI/avilib.o" "./AVI/avimod.o"  -lcudadevrt  -o "/tmp/tmpxft_0000794d_00000000-4_heartwall_eager_dlink.sm_50.cubin"
+#$ fatbinary --create="/tmp/tmpxft_0000794d_00000000-3_heartwall_eager_dlink.fatbin" -64 --ident="/home/acg/new-curd/curd_lib_eager.o main.o ./AVI/avilib.o ./AVI/avimod.o " --cmdline="--compile-only  -maxrregcount=38 --generate-line-info " -link "--image=profile=sm_50,file=/tmp/tmpxft_0000794d_00000000-4_heartwall_eager_dlink.sm_50.cubin" --embedded-fatbin="/tmp/tmpxft_0000794d_00000000-3_heartwall_eager_dlink.fatbin.c" 
+#$ rm /tmp/tmpxft_0000794d_00000000-3_heartwall_eager_dlink.fatbin
+#$ gcc -c -x c++ -DFATBINFILE="\"/tmp/tmpxft_0000794d_00000000-3_heartwall_eager_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"/tmp/tmpxft_0000794d_00000000-2_heartwall_eager_dlink.reg.c\"" -I. -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"/usr/local/cuda/include" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -m64 -o "/tmp/tmpxft_0000794d_00000000-5_heartwall_eager_dlink.o" "/opt/nvidia8/bin/crt/link.stub" 
+#$ g++ -m64 -o "heartwall_eager" -Wl,--start-group "/tmp/tmpxft_0000794d_00000000-5_heartwall_eager_dlink.o" "/home/acg/new-curd/curd_lib_eager.o" "main.o" "./AVI/avilib.o" "./AVI/avimod.o" -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -lcudadevrt  -lcudart  -Wl,--end-group 
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ nvlink --arch=sm_50 --register-link-binaries="/tmp/tmpxft_0000795f_00000000-2_heartwall_lazy_dlink.reg.c" -m64 -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -cpu-arch=X86_64 "/home/acg/new-curd/curd_lib_lazy.o" "main.o" "./AVI/avilib.o" "./AVI/avimod.o"  -lcudadevrt  -o "/tmp/tmpxft_0000795f_00000000-4_heartwall_lazy_dlink.sm_50.cubin"
+#$ fatbinary --create="/tmp/tmpxft_0000795f_00000000-3_heartwall_lazy_dlink.fatbin" -64 --ident="/home/acg/new-curd/curd_lib_lazy.o main.o ./AVI/avilib.o ./AVI/avimod.o " --cmdline="--compile-only  -maxrregcount=38 --generate-line-info " -link "--image=profile=sm_50,file=/tmp/tmpxft_0000795f_00000000-4_heartwall_lazy_dlink.sm_50.cubin" --embedded-fatbin="/tmp/tmpxft_0000795f_00000000-3_heartwall_lazy_dlink.fatbin.c" 
+#$ rm /tmp/tmpxft_0000795f_00000000-3_heartwall_lazy_dlink.fatbin
+#$ gcc -c -x c++ -DFATBINFILE="\"/tmp/tmpxft_0000795f_00000000-3_heartwall_lazy_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"/tmp/tmpxft_0000795f_00000000-2_heartwall_lazy_dlink.reg.c\"" -I. -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"/usr/local/cuda/include" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -m64 -o "/tmp/tmpxft_0000795f_00000000-5_heartwall_lazy_dlink.o" "/opt/nvidia8/bin/crt/link.stub" 
+#$ g++ -m64 -o "heartwall_lazy" -Wl,--start-group "/tmp/tmpxft_0000795f_00000000-5_heartwall_lazy_dlink.o" "/home/acg/new-curd/curd_lib_lazy.o" "main.o" "./AVI/avilib.o" "./AVI/avimod.o" -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -lcudadevrt  -lcudart  -Wl,--end-group 
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ nvlink --arch=sm_50 --register-link-binaries="/tmp/tmpxft_00007971_00000000-2_heartwall_eager_debug_dlink.reg.c" -m64 -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -cpu-arch=X86_64 "/home/acg/new-curd/curd_lib_eager_debug.o" "main.o" "./AVI/avilib.o" "./AVI/avimod.o"  -lcudadevrt  -o "/tmp/tmpxft_00007971_00000000-4_heartwall_eager_debug_dlink.sm_50.cubin"
+#$ fatbinary --create="/tmp/tmpxft_00007971_00000000-3_heartwall_eager_debug_dlink.fatbin" -64 --ident="/home/acg/new-curd/curd_lib_eager_debug.o main.o ./AVI/avilib.o ./AVI/avimod.o " --cmdline="--compile-only  -maxrregcount=38 --generate-line-info " -link "--image=profile=sm_50,file=/tmp/tmpxft_00007971_00000000-4_heartwall_eager_debug_dlink.sm_50.cubin" --embedded-fatbin="/tmp/tmpxft_00007971_00000000-3_heartwall_eager_debug_dlink.fatbin.c" 
+#$ rm /tmp/tmpxft_00007971_00000000-3_heartwall_eager_debug_dlink.fatbin
+#$ gcc -c -x c++ -DFATBINFILE="\"/tmp/tmpxft_00007971_00000000-3_heartwall_eager_debug_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"/tmp/tmpxft_00007971_00000000-2_heartwall_eager_debug_dlink.reg.c\"" -I. -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"/usr/local/cuda/include" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -m64 -o "/tmp/tmpxft_00007971_00000000-5_heartwall_eager_debug_dlink.o" "/opt/nvidia8/bin/crt/link.stub" 
+#$ g++ -m64 -o "heartwall_eager_debug" -Wl,--start-group "/tmp/tmpxft_00007971_00000000-5_heartwall_eager_debug_dlink.o" "/home/acg/new-curd/curd_lib_eager_debug.o" "main.o" "./AVI/avilib.o" "./AVI/avimod.o" -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -lcudadevrt  -lcudart  -Wl,--end-group 
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/opt/nvidia8/opt/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ nvlink --arch=sm_50 --register-link-binaries="/tmp/tmpxft_00007983_00000000-2_heartwall_lazy_debug_dlink.reg.c" -m64 -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -cpu-arch=X86_64 "/home/acg/new-curd/curd_lib_lazy_debug.o" "main.o" "./AVI/avilib.o" "./AVI/avimod.o"  -lcudadevrt  -o "/tmp/tmpxft_00007983_00000000-4_heartwall_lazy_debug_dlink.sm_50.cubin"
+#$ fatbinary --create="/tmp/tmpxft_00007983_00000000-3_heartwall_lazy_debug_dlink.fatbin" -64 --ident="/home/acg/new-curd/curd_lib_lazy_debug.o main.o ./AVI/avilib.o ./AVI/avimod.o " --cmdline="--compile-only  -maxrregcount=38 --generate-line-info " -link "--image=profile=sm_50,file=/tmp/tmpxft_00007983_00000000-4_heartwall_lazy_debug_dlink.sm_50.cubin" --embedded-fatbin="/tmp/tmpxft_00007983_00000000-3_heartwall_lazy_debug_dlink.fatbin.c" 
+#$ rm /tmp/tmpxft_00007983_00000000-3_heartwall_lazy_debug_dlink.fatbin
+#$ gcc -c -x c++ -DFATBINFILE="\"/tmp/tmpxft_00007983_00000000-3_heartwall_lazy_debug_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"/tmp/tmpxft_00007983_00000000-2_heartwall_lazy_debug_dlink.reg.c\"" -I. -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" -I"/usr/local/cuda/include" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -m64 -o "/tmp/tmpxft_00007983_00000000-5_heartwall_lazy_debug_dlink.o" "/opt/nvidia8/bin/crt/link.stub" 
+#$ g++ -m64 -o "heartwall_lazy_debug" -Wl,--start-group "/tmp/tmpxft_00007983_00000000-5_heartwall_lazy_debug_dlink.o" "/home/acg/new-curd/curd_lib_lazy_debug.o" "main.o" "./AVI/avilib.o" "./AVI/avimod.o" -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -lcudadevrt  -lcudart  -Wl,--end-group 

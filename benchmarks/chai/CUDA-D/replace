@@ -1,0 +1,1 @@
+for f in PAD  RSCD  RSCT  SC  SSSP  TQ  TQH  TRNS HSTO; do echo $f; sed -i $f/kernel_cuda.cu -e 's/ReadWriteSets(dimGrid, dimBlock, l_mem_size)/ReadWriteSets(dimGrid, dimBlock)/'; done

@@ -1,0 +1,12 @@
+#$1 = dir name ; $2 = prefix of each line
+cat $1/*/success/*.stderr > $2_stderr
+#cat $1/*/success/*.stderr $1/*/fail/*.stderr > $2_stderr
+awk '{ printf "'$2',"; print}' $2_stderr > flattened_$2_stderr
+rm $2_stderr
+sed ':a;/SUCCESS$/{N;s/\n//;ba};/#/d;s/TIME.*'$2',//;s/\.\///' flattened_$2_stderr > $2.raw.csv
+rm flattened_$2_stderr
+go run rd_common.go timeToSeconds.go $2.raw.csv | sed '/^$/d;/,$/d' > perf.$2.csv
+rm $2.raw.csv
+rm $2.raw.csv.out
+
+

@@ -1,0 +1,185 @@
+<premain>: CommandLine Error: Argument 'info-output-file' defined more than once!
+<premain>: CommandLine Error: Argument 'track-memory' defined more than once!
+<premain>: CommandLine Error: Argument 'version' defined more than once!
+<premain>: CommandLine Error: Argument 'print-all-options' defined more than once!
+<premain>: CommandLine Error: Argument 'print-options' defined more than once!
+<premain>: CommandLine Error: Argument 'help-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list' defined more than once!
+<premain>: CommandLine Error: Argument 'time-passes' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before' defined more than once!
+<premain>: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+need to add hook after llvm.cuda.syncthreads
+need to add hook after pthread_barrier_wait
+Pass 1 
+loaded __curd__llvm_cuda_syncthreads_afterHook: void ()
+Pass 2 
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 66
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 66
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 71
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 71
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 76
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 76
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 81
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 81
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 86
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 86
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 91
+/usr/local/cuda-7.5/include/cuda_device_runtime_api.h: 91
+/usr/local/cuda-7.5/include/device_functions.hpp: 539
+/usr/local/cuda-7.5/include/device_functions.hpp: 539
+/usr/local/cuda-7.5/include/device_functions.hpp: 539
+/usr/local/cuda-7.5/include/device_functions.hpp: 539
+scalarProd_kernel.cuh: 50
+scalarProd_kernel.cuh: 50
+scalarProd_kernel.cuh: 50
+scalarProd_kernel.cuh: 50
+scalarProd_kernel.cuh: 50
+scalarProd_kernel.cuh: 52
+scalarProd_kernel.cuh: 52
+scalarProd_kernel.cuh: 52
+scalarProd_kernel.cuh: 53
+scalarProd_kernel.cuh: 53
+scalarProd_kernel.cuh: 53
+scalarProd_kernel.cuh: 61
+scalarProd_kernel.cuh: 61
+scalarProd_kernel.cuh: 61
+scalarProd_kernel.cuh: 61
+scalarProd_kernel.cuh: 63
+scalarProd_kernel.cuh: 65
+scalarProd_kernel.cuh: 65
+scalarProd_kernel.cuh: 65
+scalarProd_kernel.cuh: 65
+scalarProd_kernel.cuh: 65
+scalarProd_kernel.cuh: 66
+scalarProd_kernel.cuh: 66
+scalarProd_kernel.cuh: 66
+scalarProd_kernel.cuh: 66
+scalarProd_kernel.cuh: 66
+scalarProd_kernel.cuh: 66
+scalarProd_kernel.cuh: 66
+scalarProd_kernel.cuh: 66
+scalarProd_kernel.cuh: 65
+scalarProd_kernel.cuh: 65
+scalarProd_kernel.cuh: 68
+scalarProd_kernel.cuh: 68
+scalarProd_kernel.cuh: 68
+scalarProd_kernel.cuh: 61
+scalarProd_kernel.cuh: 61
+scalarProd_kernel.cuh: 61
+scalarProd_kernel.cuh: 61
+scalarProd_kernel.cuh: 75
+scalarProd_kernel.cuh: 75
+inserting hook after llvm.cuda.syncthreads : void ()
+scalarProd_kernel.cuh: 79
+scalarProd_kernel.cuh: 79
+scalarProd_kernel.cuh: 79
+scalarProd_kernel.cuh: 79
+scalarProd_kernel.cuh: 79
+scalarProd_kernel.cuh: 80
+scalarProd_kernel.cuh: 80
+scalarProd_kernel.cuh: 80
+scalarProd_kernel.cuh: 80
+scalarProd_kernel.cuh: 80
+scalarProd_kernel.cuh: 80
+scalarProd_kernel.cuh: 79
+scalarProd_kernel.cuh: 79
+scalarProd_kernel.cuh: 79
+scalarProd_kernel.cuh: 79
+scalarProd_kernel.cuh: 75
+scalarProd_kernel.cuh: 75
+scalarProd_kernel.cuh: 83
+scalarProd_kernel.cuh: 83
+scalarProd_kernel.cuh: 83
+scalarProd_kernel.cuh: 83
+scalarProd_kernel.cuh: 83
+scalarProd_kernel.cuh: 83
+scalarProd_kernel.cuh: 50
+scalarProd_kernel.cuh: 50
+scalarProd_kernel.cuh: 50
+scalarProd_kernel.cuh: 50
+<premain>: CommandLine Error: Argument 'info-output-file' defined more than once!
+<premain>: CommandLine Error: Argument 'track-memory' defined more than once!
+<premain>: CommandLine Error: Argument 'version' defined more than once!
+<premain>: CommandLine Error: Argument 'print-all-options' defined more than once!
+<premain>: CommandLine Error: Argument 'print-options' defined more than once!
+<premain>: CommandLine Error: Argument 'help-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list' defined more than once!
+<premain>: CommandLine Error: Argument 'time-passes' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before' defined more than once!
+<premain>: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+need to add hook after llvm.cuda.syncthreads
+need to add hook after pthread_barrier_wait
+Pass 1 
+Pass 2 
+nvlink fatal   : Could not open input file '../../..//race_detection_eager.o'
+make: *** [scalarProd] Error 1

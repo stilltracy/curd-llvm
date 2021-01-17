@@ -1,0 +1,270 @@
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ _THERE_=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../..
+#$ BINDIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ TARGETBINDIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ NVVMIR_LIBRARY_DIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/libdevice
+#$ LD_LIBRARY_PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/bin:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/misc/linux/:/home/yuanfengp/clients/sw/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/yuanfengp/clients
+#$ _HERE_=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ _THERE_=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ INCLUDES="-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"  
+#$ _TARGET_SIZE_=64
+#$ LIBRARIES=  "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ CUDA_DEVCODE_PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/cufft.devcode:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/cublas.devcode:
+#$ gcc -D__CUDA_ARCH__=350 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -include "cuda_runtime.h" -include "race_detection.cuh" -m64 -g -gdwarf-2 "ex_particle_CUDA_naive_seq.cu" > "/tmp/tmpxft_00005b51_00000000-8_ex_particle_CUDA_naive_seq.cpp1.ii" 
+#$ TOP=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../..
+#$ BINDIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ TARGETBINDIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ NVVMIR_LIBRARY_DIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/libdevice
+#$ LD_LIBRARY_PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:
+#$ PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/bin:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/misc/linux/:/home/yuanfengp/clients/sw/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/yuanfengp/clients
+#$ INCLUDES="-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"  
+#$ LIBRARIES=  "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ CUDA_DEVCODE_PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/cufft.devcode:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/cublas.devcode:
+#$ gcc -D__CUDA_ARCH__=350 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -include "cuda_runtime.h" -include "race_detection.cuh" -m64 -g -gdwarf-2 "ex_particle_CUDA_naive_seq.cu" > "/tmp/tmpxft_00005b52_00000000-8_ex_particle_CUDA_naive_seq.cpp1.ii" 
+#$ _SPACE_= 
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _CUDART_=cudart
+#$ _HERE_=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ _HERE_=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ _THERE_=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ _TARGET_SIZE_=
+#$ _THERE_=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ _TARGET_SIZE_=64
+#$ TOP=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../..
+#$ TOP=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../..
+#$ BINDIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ BINDIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ TARGETBINDIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ TARGETBINDIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug
+#$ NVVMIR_LIBRARY_DIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/libdevice
+#$ NVVMIR_LIBRARY_DIR=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/libdevice
+#$ LD_LIBRARY_PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:
+#$ LD_LIBRARY_PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:
+#$ PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/bin:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/misc/linux/:/home/yuanfengp/clients/sw/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/yuanfengp/clients
+#$ PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/bin:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug:/home/yuanfengp/clients/sw/misc/linux/:/home/yuanfengp/clients/sw/tools:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/yuanfengp/clients
+#$ INCLUDES="-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"  
+#$ INCLUDES="-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"  
+#$ LIBRARIES=  "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib"
+#$ CUDAFE_FLAGS=
+#$ LIBRARIES=  "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib"
+#$ PTXAS_FLAGS=
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ CUDA_DEVCODE_PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/cufft.devcode:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/cublas.devcode:
+#$ CUDA_DEVCODE_PATH=/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/cufft.devcode:/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/cublas.devcode:
+#$ gcc -D__CUDA_ARCH__=350 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -include "cuda_runtime.h" -include "race_detection.cuh" -m64 -g -gdwarf-2 "ex_particle_CUDA_float_seq.cu" > "/tmp/tmpxft_00005b53_00000000-8_ex_particle_CUDA_float_seq.cpp1.ii" 
+#$ gcc -D__CUDA_ARCH__=350 -E -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -include "cuda_runtime.h" -include "race_detection.cuh" -m64 -g -gdwarf-2 "ex_particle_CUDA_float_seq.cu" > "/tmp/tmpxft_00005b57_00000000-8_ex_particle_CUDA_float_seq.cpp1.ii" 
+#$ cicc --gnu_version=40804 --allow_managed  --device-c   -arch compute_35 -m64 -ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 -fast-math --gen_div_approx_ftz --include_file_name "tmpxft_00005b57_00000000-2_ex_particle_CUDA_float_seq.fatbin.c" -generate-line-info -tused -nvvmir-library "/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/libdevice/libdevice.10.bc"  --Xopt -disable-nvvm-rd-instrument=0 --gen_module_id_file --detect_race --module_id_file_name "/tmp/tmpxft_00005b57_00000000-3_ex_particle_CUDA_float_seq.module_id" --orig_src_file_name "ex_particle_CUDA_float_seq.cu" --gen_c_file_name "/tmp/tmpxft_00005b57_00000000-5_ex_particle_CUDA_float_seq.cudafe1.c" --stub_file_name "/tmp/tmpxft_00005b57_00000000-5_ex_particle_CUDA_float_seq.cudafe1.stub.c" --gen_device_file_name "/tmp/tmpxft_00005b57_00000000-5_ex_particle_CUDA_float_seq.cudafe1.gpu"  "/tmp/tmpxft_00005b57_00000000-8_ex_particle_CUDA_float_seq.cpp1.ii" -o "/tmp/tmpxft_00005b57_00000000-5_ex_particle_CUDA_float_seq.ptx"
+#$ cicc --gnu_version=40804 --allow_managed  --device-c   -arch compute_35 -m64 -ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 -fast-math --gen_div_approx_ftz --include_file_name "tmpxft_00005b51_00000000-2_ex_particle_CUDA_naive_seq.fatbin.c" -generate-line-info -tused -nvvmir-library "/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/libdevice/libdevice.10.bc"  --Xopt -disable-nvvm-rd-instrument=0 --gen_module_id_file --detect_race --module_id_file_name "/tmp/tmpxft_00005b51_00000000-3_ex_particle_CUDA_naive_seq.module_id" --orig_src_file_name "ex_particle_CUDA_naive_seq.cu" --gen_c_file_name "/tmp/tmpxft_00005b51_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.c" --stub_file_name "/tmp/tmpxft_00005b51_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.stub.c" --gen_device_file_name "/tmp/tmpxft_00005b51_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.gpu"  "/tmp/tmpxft_00005b51_00000000-8_ex_particle_CUDA_naive_seq.cpp1.ii" -o "/tmp/tmpxft_00005b51_00000000-5_ex_particle_CUDA_naive_seq.ptx"
+#$ cicc --gnu_version=40804 --allow_managed  --device-c   -arch compute_35 -m64 -ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 -fast-math --gen_div_approx_ftz --include_file_name "tmpxft_00005b53_00000000-2_ex_particle_CUDA_float_seq.fatbin.c" -generate-line-info -tused -nvvmir-library "/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/libdevice/libdevice.10.bc"  --Xopt -disable-nvvm-rd-instrument=0 --gen_module_id_file --detect_race --module_id_file_name "/tmp/tmpxft_00005b53_00000000-3_ex_particle_CUDA_float_seq.module_id" --orig_src_file_name "ex_particle_CUDA_float_seq.cu" --gen_c_file_name "/tmp/tmpxft_00005b53_00000000-5_ex_particle_CUDA_float_seq.cudafe1.c" --stub_file_name "/tmp/tmpxft_00005b53_00000000-5_ex_particle_CUDA_float_seq.cudafe1.stub.c" --gen_device_file_name "/tmp/tmpxft_00005b53_00000000-5_ex_particle_CUDA_float_seq.cudafe1.gpu"  "/tmp/tmpxft_00005b53_00000000-8_ex_particle_CUDA_float_seq.cpp1.ii" -o "/tmp/tmpxft_00005b53_00000000-5_ex_particle_CUDA_float_seq.ptx"
+#$ cicc --gnu_version=40804 --allow_managed  --device-c   -arch compute_35 -m64 -ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 -fast-math --gen_div_approx_ftz --include_file_name "tmpxft_00005b52_00000000-2_ex_particle_CUDA_naive_seq.fatbin.c" -generate-line-info -tused -nvvmir-library "/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvvm/libdevice/libdevice.10.bc"  --Xopt -disable-nvvm-rd-instrument=0 --gen_module_id_file --detect_race --module_id_file_name "/tmp/tmpxft_00005b52_00000000-3_ex_particle_CUDA_naive_seq.module_id" --orig_src_file_name "ex_particle_CUDA_naive_seq.cu" --gen_c_file_name "/tmp/tmpxft_00005b52_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.c" --stub_file_name "/tmp/tmpxft_00005b52_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.stub.c" --gen_device_file_name "/tmp/tmpxft_00005b52_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.gpu"  "/tmp/tmpxft_00005b52_00000000-8_ex_particle_CUDA_naive_seq.cpp1.ii" -o "/tmp/tmpxft_00005b52_00000000-5_ex_particle_CUDA_naive_seq.ptx"
+ex_particle_CUDA_float_seq.cu(716): warning: variable "indX" was declared but never referenced
+
+ex_particle_CUDA_float_seq.cu(716): warning: variable "indY" was declared but never referenced
+
+ex_particle_CUDA_float_seq.cu(801): warning: conversion from a string literal to "char *" is deprecated
+
+ex_particle_CUDA_naive_seq.cu(617): warning: conversion from a string literal to "char *" is deprecated
+
+ex_particle_CUDA_float_seq.cu(716): warning: variable "indX" was declared but never referenced
+
+ex_particle_CUDA_float_seq.cu(716): warning: variable "indY" was declared but never referenced
+
+ex_particle_CUDA_float_seq.cu(801): warning: conversion from a string literal to "char *" is deprecated
+
+ex_particle_CUDA_naive_seq.cu(617): warning: conversion from a string literal to "char *" is deprecated
+
+found __curd__shmemReadHook
+found __curd__shmemWriteHook
+found __curd__glmemReadHook
+found __curd__glmemWriteHook
+found __curd__genericMemReadHook
+found __curd__genericMemWriteHook
+found __curd__barrierHook
+ignored : __curd__shmemReadHook
+ignored : __curd__shmemWriteHook
+ignored : __curd__glmemReadHook
+ignored : __curd__glmemWriteHook
+ignored : __curd__genericMemReadHook
+ignored : __curd__genericMemWriteHook
+ignored : __curd__barrierHook
+RaceDetectionInstrumentor ran:
+inserted 0 shmemReadHooks ;
+inserted 0 shmemWriteHooks ;
+inserted 4 glmemReadHooks ;
+inserted 2 glmemWriteHooks ;
+inserted 4 genericMemReadHooks ;
+inserted 0 genericMemWriteHooks ;
+inserted 0 barriers ;
+ignored 7 functions ;
+ignored 97 instructions .
+found __curd__shmemReadHook
+found __curd__shmemWriteHook
+found __curd__glmemReadHook
+found __curd__glmemWriteHook
+found __curd__genericMemReadHook
+found __curd__genericMemWriteHook
+found __curd__barrierHook
+ignored : __curd__shmemReadHook
+ignored : __curd__shmemWriteHook
+ignored : __curd__glmemReadHook
+ignored : __curd__glmemWriteHook
+ignored : __curd__genericMemReadHook
+ignored : __curd__genericMemWriteHook
+ignored : __curd__barrierHook
+RaceDetectionInstrumentor ran:
+inserted 0 shmemReadHooks ;
+inserted 0 shmemWriteHooks ;
+inserted 4 glmemReadHooks ;
+inserted 2 glmemWriteHooks ;
+inserted 4 genericMemReadHooks ;
+inserted 0 genericMemWriteHooks ;
+inserted 0 barriers ;
+ignored 7 functions ;
+ignored 97 instructions .
+#$ ptxas -arch=sm_35 -m64 --compile-only  --generate-line-info "/tmp/tmpxft_00005b51_00000000-5_ex_particle_CUDA_naive_seq.ptx"  -o "/tmp/tmpxft_00005b51_00000000-9_ex_particle_CUDA_naive_seq.sm_35.cubin" 
+#$ ptxas -arch=sm_35 -m64 --compile-only  --generate-line-info "/tmp/tmpxft_00005b52_00000000-5_ex_particle_CUDA_naive_seq.ptx"  -o "/tmp/tmpxft_00005b52_00000000-9_ex_particle_CUDA_naive_seq.sm_35.cubin" 
+#$ fatbinary --create="/tmp/tmpxft_00005b51_00000000-2_ex_particle_CUDA_naive_seq.fatbin" -64 --ident="ex_particle_CUDA_naive_seq.cu" --cmdline="--compile-only  --generate-line-info " --cicc-cmdline="-ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 " "--image3=kind=elf,sm=35,file=/tmp/tmpxft_00005b51_00000000-9_ex_particle_CUDA_naive_seq.sm_35.cubin" "--image3=kind=ptx,sm=35,file=/tmp/tmpxft_00005b51_00000000-5_ex_particle_CUDA_naive_seq.ptx" --embedded-fatbin="/tmp/tmpxft_00005b51_00000000-2_ex_particle_CUDA_naive_seq.fatbin.c" --cuda --device-c
+#$ rm /tmp/tmpxft_00005b51_00000000-2_ex_particle_CUDA_naive_seq.fatbin
+#$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -include "cuda_runtime.h" -include "race_detection.cuh" -m64 -g -gdwarf-2 "ex_particle_CUDA_naive_seq.cu" > "/tmp/tmpxft_00005b51_00000000-4_ex_particle_CUDA_naive_seq.cpp4.ii" 
+#$ fatbinary --create="/tmp/tmpxft_00005b52_00000000-2_ex_particle_CUDA_naive_seq.fatbin" -64 --ident="ex_particle_CUDA_naive_seq.cu" --cmdline="--compile-only  --generate-line-info " --cicc-cmdline="-ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 " "--image3=kind=elf,sm=35,file=/tmp/tmpxft_00005b52_00000000-9_ex_particle_CUDA_naive_seq.sm_35.cubin" "--image3=kind=ptx,sm=35,file=/tmp/tmpxft_00005b52_00000000-5_ex_particle_CUDA_naive_seq.ptx" --embedded-fatbin="/tmp/tmpxft_00005b52_00000000-2_ex_particle_CUDA_naive_seq.fatbin.c" --cuda --device-c
+#$ rm /tmp/tmpxft_00005b52_00000000-2_ex_particle_CUDA_naive_seq.fatbin
+#$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -include "cuda_runtime.h" -include "race_detection.cuh" -m64 -g -gdwarf-2 "ex_particle_CUDA_naive_seq.cu" > "/tmp/tmpxft_00005b52_00000000-4_ex_particle_CUDA_naive_seq.cpp4.ii" 
+#$ cudafe++ --gnu_version=40804 --allow_managed  --device-c  --m64 --parse_templates --detect_race --gen_c_file_name "/tmp/tmpxft_00005b51_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.cpp" --stub_file_name "tmpxft_00005b51_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.stub.c" --module_id_file_name "/tmp/tmpxft_00005b51_00000000-3_ex_particle_CUDA_naive_seq.module_id" "/tmp/tmpxft_00005b51_00000000-4_ex_particle_CUDA_naive_seq.cpp4.ii" 
+#$ cudafe++ --gnu_version=40804 --allow_managed  --device-c  --m64 --parse_templates --detect_race --gen_c_file_name "/tmp/tmpxft_00005b52_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.cpp" --stub_file_name "tmpxft_00005b52_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.stub.c" --module_id_file_name "/tmp/tmpxft_00005b52_00000000-3_ex_particle_CUDA_naive_seq.module_id" "/tmp/tmpxft_00005b52_00000000-4_ex_particle_CUDA_naive_seq.cpp4.ii" 
+found __curd__shmemReadHook
+found __curd__shmemWriteHook
+found __curd__glmemReadHook
+found __curd__glmemWriteHook
+found __curd__genericMemReadHook
+found __curd__genericMemWriteHook
+found __curd__barrierHook
+ignored : __curd__shmemReadHook
+ignored : __curd__shmemWriteHook
+ignored : __curd__glmemReadHook
+ignored : __curd__glmemWriteHook
+ignored : __curd__genericMemReadHook
+ignored : __curd__genericMemWriteHook
+ignored : __curd__barrierHook
+RaceDetectionInstrumentor ran:
+inserted 5 shmemReadHooks ;
+inserted 5 shmemWriteHooks ;
+inserted 75 glmemReadHooks ;
+inserted 32 glmemWriteHooks ;
+inserted 43 genericMemReadHooks ;
+inserted 17 genericMemWriteHooks ;
+inserted 10 barriers ;
+ignored 7 functions ;
+ignored 1394 instructions .
+found __curd__shmemReadHook
+found __curd__shmemWriteHook
+found __curd__glmemReadHook
+found __curd__glmemWriteHook
+found __curd__genericMemReadHook
+found __curd__genericMemWriteHook
+found __curd__barrierHook
+ignored : __curd__shmemReadHook
+ignored : __curd__shmemWriteHook
+ignored : __curd__glmemReadHook
+ignored : __curd__glmemWriteHook
+ignored : __curd__genericMemReadHook
+ignored : __curd__genericMemWriteHook
+ignored : __curd__barrierHook
+RaceDetectionInstrumentor ran:
+inserted 5 shmemReadHooks ;
+inserted 5 shmemWriteHooks ;
+inserted 75 glmemReadHooks ;
+inserted 32 glmemWriteHooks ;
+inserted 43 genericMemReadHooks ;
+inserted 17 genericMemWriteHooks ;
+inserted 10 barriers ;
+ignored 7 functions ;
+ignored 1394 instructions .
+ex_particle_CUDA_naive_seq.cu(617): warning: conversion from a string literal to "char *" is deprecated
+
+ex_particle_CUDA_naive_seq.cu(617): warning: conversion from a string literal to "char *" is deprecated
+
+#$ gcc -D__CUDA_ARCH__=350 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -m64 -g -gdwarf-2 -o "/tmp/tmpxft_00005b51_00000000-10_ex_particle_CUDA_naive_seq.o" "/tmp/tmpxft_00005b51_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.cpp" 
+#$ gcc -D__CUDA_ARCH__=350 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -m64 -g -gdwarf-2 -o "/tmp/tmpxft_00005b52_00000000-10_ex_particle_CUDA_naive_seq.o" "/tmp/tmpxft_00005b52_00000000-5_ex_particle_CUDA_naive_seq.cudafe1.cpp" 
+#$ ptxas -arch=sm_35 -m64 --compile-only  --generate-line-info "/tmp/tmpxft_00005b57_00000000-5_ex_particle_CUDA_float_seq.ptx"  -o "/tmp/tmpxft_00005b57_00000000-9_ex_particle_CUDA_float_seq.sm_35.cubin" 
+#$ ptxas -arch=sm_35 -m64 --compile-only  --generate-line-info "/tmp/tmpxft_00005b53_00000000-5_ex_particle_CUDA_float_seq.ptx"  -o "/tmp/tmpxft_00005b53_00000000-9_ex_particle_CUDA_float_seq.sm_35.cubin" 
+#$ nvlink --arch=sm_35 --register-link-binaries="/tmp/tmpxft_00005b52_00000000-6_particlefilter_naive_eager_dlink.reg.c" -m64 -L"../../../" -lcuda -lm   "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib" -cpu-arch=X86_64 "../../..//race_detection_eager.o" "/tmp/tmpxft_00005b52_00000000-10_ex_particle_CUDA_naive_seq.o"  -lcudadevrt  -o "/tmp/tmpxft_00005b52_00000000-11_particlefilter_naive_eager_dlink.sm_35.cubin"
+#$ nvlink --arch=sm_35 --register-link-binaries="/tmp/tmpxft_00005b51_00000000-6_particlefilter_naive_lazy_dlink.reg.c" -m64 -L"../../../" -lcuda -lm   "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib" -cpu-arch=X86_64 "../../..//race_detection_lazy.o" "/tmp/tmpxft_00005b51_00000000-10_ex_particle_CUDA_naive_seq.o"  -lcudadevrt  -o "/tmp/tmpxft_00005b51_00000000-11_particlefilter_naive_lazy_dlink.sm_35.cubin"
+nvlink warning : Stack size for entry function '__curd__finalBarrierHookCall' cannot be statically determined
+nvlink warning : Stack size for entry function '__curd__finalBarrierHookCall' cannot be statically determined
+#$ fatbinary --create="/tmp/tmpxft_00005b51_00000000-7_particlefilter_naive_lazy_dlink.fatbin" -64 --ident="../../..//race_detection_lazy.o ex_particle_CUDA_naive_seq.cu " --cmdline="--compile-only  --generate-line-info " --cicc-cmdline="-ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 " -link "--image3=kind=elf,sm=35,file=/tmp/tmpxft_00005b51_00000000-11_particlefilter_naive_lazy_dlink.sm_35.cubin" --embedded-fatbin="/tmp/tmpxft_00005b51_00000000-7_particlefilter_naive_lazy_dlink.fatbin.c" 
+#$ fatbinary --create="/tmp/tmpxft_00005b52_00000000-7_particlefilter_naive_eager_dlink.fatbin" -64 --ident="../../..//race_detection_eager.o ex_particle_CUDA_naive_seq.cu " --cmdline="--compile-only  --generate-line-info " --cicc-cmdline="-ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 " -link "--image3=kind=elf,sm=35,file=/tmp/tmpxft_00005b52_00000000-11_particlefilter_naive_eager_dlink.sm_35.cubin" --embedded-fatbin="/tmp/tmpxft_00005b52_00000000-7_particlefilter_naive_eager_dlink.fatbin.c" 
+#$ rm /tmp/tmpxft_00005b51_00000000-7_particlefilter_naive_lazy_dlink.fatbin
+#$ gcc -c -x c++ -DFATBINFILE="\"/tmp/tmpxft_00005b51_00000000-7_particlefilter_naive_lazy_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"/tmp/tmpxft_00005b51_00000000-6_particlefilter_naive_lazy_dlink.reg.c\"" -I. -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -m64 -g -gdwarf-2 -o "/tmp/tmpxft_00005b51_00000000-12_particlefilter_naive_lazy_dlink.o" "/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt/link.stub" 
+#$ rm /tmp/tmpxft_00005b52_00000000-7_particlefilter_naive_eager_dlink.fatbin
+#$ gcc -c -x c++ -DFATBINFILE="\"/tmp/tmpxft_00005b52_00000000-7_particlefilter_naive_eager_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"/tmp/tmpxft_00005b52_00000000-6_particlefilter_naive_eager_dlink.reg.c\"" -I. -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -m64 -g -gdwarf-2 -o "/tmp/tmpxft_00005b52_00000000-12_particlefilter_naive_eager_dlink.o" "/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt/link.stub" 
+#$ g++ -O3 -m64 -g -gdwarf-2 -o "particlefilter_naive_lazy" -Wl,--start-group "/tmp/tmpxft_00005b51_00000000-12_particlefilter_naive_lazy_dlink.o" "../../..//race_detection_lazy.o" "/tmp/tmpxft_00005b51_00000000-10_ex_particle_CUDA_naive_seq.o" -L"../../../" -lcuda -lm   "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib" -lcudadevrt  -lcudart  -Wl,--end-group 
+#$ g++ -O3 -m64 -g -gdwarf-2 -o "particlefilter_naive_eager" -Wl,--start-group "/tmp/tmpxft_00005b52_00000000-12_particlefilter_naive_eager_dlink.o" "../../..//race_detection_eager.o" "/tmp/tmpxft_00005b52_00000000-10_ex_particle_CUDA_naive_seq.o" -L"../../../" -lcuda -lm   "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib" -lcudadevrt  -lcudart  -Wl,--end-group 
+#$ fatbinary --create="/tmp/tmpxft_00005b57_00000000-2_ex_particle_CUDA_float_seq.fatbin" -64 --ident="ex_particle_CUDA_float_seq.cu" --cmdline="--compile-only  --generate-line-info " --cicc-cmdline="-ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 " "--image3=kind=elf,sm=35,file=/tmp/tmpxft_00005b57_00000000-9_ex_particle_CUDA_float_seq.sm_35.cubin" "--image3=kind=ptx,sm=35,file=/tmp/tmpxft_00005b57_00000000-5_ex_particle_CUDA_float_seq.ptx" --embedded-fatbin="/tmp/tmpxft_00005b57_00000000-2_ex_particle_CUDA_float_seq.fatbin.c" --cuda --device-c
+#$ rm /tmp/tmpxft_00005b57_00000000-2_ex_particle_CUDA_float_seq.fatbin
+#$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -include "cuda_runtime.h" -include "race_detection.cuh" -m64 -g -gdwarf-2 "ex_particle_CUDA_float_seq.cu" > "/tmp/tmpxft_00005b57_00000000-4_ex_particle_CUDA_float_seq.cpp4.ii" 
+#$ fatbinary --create="/tmp/tmpxft_00005b53_00000000-2_ex_particle_CUDA_float_seq.fatbin" -64 --ident="ex_particle_CUDA_float_seq.cu" --cmdline="--compile-only  --generate-line-info " --cicc-cmdline="-ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 " "--image3=kind=elf,sm=35,file=/tmp/tmpxft_00005b53_00000000-9_ex_particle_CUDA_float_seq.sm_35.cubin" "--image3=kind=ptx,sm=35,file=/tmp/tmpxft_00005b53_00000000-5_ex_particle_CUDA_float_seq.ptx" --embedded-fatbin="/tmp/tmpxft_00005b53_00000000-2_ex_particle_CUDA_float_seq.fatbin.c" --cuda --device-c
+#$ rm /tmp/tmpxft_00005b53_00000000-2_ex_particle_CUDA_float_seq.fatbin
+#$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -include "cuda_runtime.h" -include "race_detection.cuh" -m64 -g -gdwarf-2 "ex_particle_CUDA_float_seq.cu" > "/tmp/tmpxft_00005b53_00000000-4_ex_particle_CUDA_float_seq.cpp4.ii" 
+#$ cudafe++ --gnu_version=40804 --allow_managed  --device-c  --m64 --parse_templates --detect_race --gen_c_file_name "/tmp/tmpxft_00005b57_00000000-5_ex_particle_CUDA_float_seq.cudafe1.cpp" --stub_file_name "tmpxft_00005b57_00000000-5_ex_particle_CUDA_float_seq.cudafe1.stub.c" --module_id_file_name "/tmp/tmpxft_00005b57_00000000-3_ex_particle_CUDA_float_seq.module_id" "/tmp/tmpxft_00005b57_00000000-4_ex_particle_CUDA_float_seq.cpp4.ii" 
+#$ cudafe++ --gnu_version=40804 --allow_managed  --device-c  --m64 --parse_templates --detect_race --gen_c_file_name "/tmp/tmpxft_00005b53_00000000-5_ex_particle_CUDA_float_seq.cudafe1.cpp" --stub_file_name "tmpxft_00005b53_00000000-5_ex_particle_CUDA_float_seq.cudafe1.stub.c" --module_id_file_name "/tmp/tmpxft_00005b53_00000000-3_ex_particle_CUDA_float_seq.module_id" "/tmp/tmpxft_00005b53_00000000-4_ex_particle_CUDA_float_seq.cpp4.ii" 
+ex_particle_CUDA_float_seq.cu(716): warning: variable "indX" was declared but never referenced
+
+ex_particle_CUDA_float_seq.cu(716): warning: variable "indY" was declared but never referenced
+
+ex_particle_CUDA_float_seq.cu(801): warning: conversion from a string literal to "char *" is deprecated
+
+ex_particle_CUDA_float_seq.cu(716): warning: variable "indX" was declared but never referenced
+
+ex_particle_CUDA_float_seq.cu(716): warning: variable "indY" was declared but never referenced
+
+ex_particle_CUDA_float_seq.cu(801): warning: conversion from a string literal to "char *" is deprecated
+
+#$ gcc -D__CUDA_ARCH__=350 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -m64 -g -gdwarf-2 -o "/tmp/tmpxft_00005b57_00000000-10_ex_particle_CUDA_float_seq.o" "/tmp/tmpxft_00005b57_00000000-5_ex_particle_CUDA_float_seq.cudafe1.cpp" 
+#$ gcc -D__CUDA_ARCH__=350 -c -x c++  -DCUDA_DOUBLE_MATH_FUNCTIONS -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -m64 -g -gdwarf-2 -o "/tmp/tmpxft_00005b53_00000000-10_ex_particle_CUDA_float_seq.o" "/tmp/tmpxft_00005b53_00000000-5_ex_particle_CUDA_float_seq.cudafe1.cpp" 
+ex_particle_CUDA_float_seq.cu: In function ‘void cuda_print_double_array(double*, size_t)’:
+ex_particle_CUDA_float_seq.cu:67:33: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+         printf("[%d]:%0.6f\n", i, mem[i]);
+                                 ^
+ex_particle_CUDA_float_seq.cu: In function ‘void cuda_print_double_array(double*, size_t)’:
+ex_particle_CUDA_float_seq.cu:67:33: warning: format ‘%d’ expects argument of type ‘int’, but argument 2 has type ‘size_t {aka long unsigned int}’ [-Wformat=]
+         printf("[%d]:%0.6f\n", i, mem[i]);
+                                 ^
+#$ nvlink --arch=sm_35 --register-link-binaries="/tmp/tmpxft_00005b57_00000000-6_particlefilter_float_eager_dlink.reg.c" -m64 -L"../../../" -lcuda -lm   "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib" -cpu-arch=X86_64 "../../..//race_detection_eager.o" "/tmp/tmpxft_00005b57_00000000-10_ex_particle_CUDA_float_seq.o"  -lcudadevrt  -o "/tmp/tmpxft_00005b57_00000000-11_particlefilter_float_eager_dlink.sm_35.cubin"
+nvlink warning : Stack size for entry function '__curd__finalBarrierHookCall' cannot be statically determined
+nvlink warning : Stack size for entry function '_Z17likelihood_kernelPdS_S_S_S_PiS0_S_PhS_S_iiiiiiS0_S_' cannot be statically determined
+nvlink warning : Stack size for entry function '_Z24normalize_weights_kernelPdiS_S_S_Pi' cannot be statically determined
+nvlink warning : Stack size for entry function '_Z17find_index_kernelPdS_S_S_S_S_S_i' cannot be statically determined
+#$ fatbinary --create="/tmp/tmpxft_00005b57_00000000-7_particlefilter_float_eager_dlink.fatbin" -64 --ident="../../..//race_detection_eager.o ex_particle_CUDA_float_seq.cu " --cmdline="--compile-only  --generate-line-info " --cicc-cmdline="-ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 " -link "--image3=kind=elf,sm=35,file=/tmp/tmpxft_00005b57_00000000-11_particlefilter_float_eager_dlink.sm_35.cubin" --embedded-fatbin="/tmp/tmpxft_00005b57_00000000-7_particlefilter_float_eager_dlink.fatbin.c" 
+#$ nvlink --arch=sm_35 --register-link-binaries="/tmp/tmpxft_00005b53_00000000-6_particlefilter_float_lazy_dlink.reg.c" -m64 -L"../../../" -lcuda -lm   "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib" -cpu-arch=X86_64 "../../..//race_detection_lazy.o" "/tmp/tmpxft_00005b53_00000000-10_ex_particle_CUDA_float_seq.o"  -lcudadevrt  -o "/tmp/tmpxft_00005b53_00000000-11_particlefilter_float_lazy_dlink.sm_35.cubin"
+nvlink warning : Stack size for entry function '__curd__finalBarrierHookCall' cannot be statically determined
+nvlink warning : Stack size for entry function '_Z17likelihood_kernelPdS_S_S_S_PiS0_S_PhS_S_iiiiiiS0_S_' cannot be statically determined
+nvlink warning : Stack size for entry function '_Z24normalize_weights_kernelPdiS_S_S_Pi' cannot be statically determined
+nvlink warning : Stack size for entry function '_Z17find_index_kernelPdS_S_S_S_S_S_i' cannot be statically determined
+#$ fatbinary --create="/tmp/tmpxft_00005b53_00000000-7_particlefilter_float_lazy_dlink.fatbin" -64 --ident="../../..//race_detection_lazy.o ex_particle_CUDA_float_seq.cu " --cmdline="--compile-only  --generate-line-info " --cicc-cmdline="-ftz=1 -prec_div=0 -prec_sqrt=0 -fmad=1 " -link "--image3=kind=elf,sm=35,file=/tmp/tmpxft_00005b53_00000000-11_particlefilter_float_lazy_dlink.sm_35.cubin" --embedded-fatbin="/tmp/tmpxft_00005b53_00000000-7_particlefilter_float_lazy_dlink.fatbin.c" 
+#$ rm /tmp/tmpxft_00005b57_00000000-7_particlefilter_float_eager_dlink.fatbin
+#$ gcc -c -x c++ -DFATBINFILE="\"/tmp/tmpxft_00005b57_00000000-7_particlefilter_float_eager_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"/tmp/tmpxft_00005b57_00000000-6_particlefilter_float_eager_dlink.reg.c\"" -I. -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -m64 -g -gdwarf-2 -o "/tmp/tmpxft_00005b57_00000000-12_particlefilter_float_eager_dlink.o" "/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt/link.stub" 
+#$ rm /tmp/tmpxft_00005b53_00000000-7_particlefilter_float_lazy_dlink.fatbin
+#$ gcc -c -x c++ -DFATBINFILE="\"/tmp/tmpxft_00005b53_00000000-7_particlefilter_float_lazy_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"/tmp/tmpxft_00005b53_00000000-6_particlefilter_float_lazy_dlink.reg.c\"" -I. -O3 -I"/home/yuanfengp/clients/sw/gpgpu/samples/common/inc" -I"../../../" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/include" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/import" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/../../cuda/tools/cudart" "-I/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt"   -D"__CUDACC_VER__=90000" -D"__CUDACC_VER_BUILD__=0" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=9" -m64 -g -gdwarf-2 -o "/tmp/tmpxft_00005b53_00000000-12_particlefilter_float_lazy_dlink.o" "/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/crt/link.stub" 
+#$ g++ -O3 -m64 -g -gdwarf-2 -o "particlefilter_float_eager" -Wl,--start-group "/tmp/tmpxft_00005b57_00000000-12_particlefilter_float_eager_dlink.o" "../../..//race_detection_eager.o" "/tmp/tmpxft_00005b57_00000000-10_ex_particle_CUDA_float_seq.o" -L"../../../" -lcuda -lm   "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib" -lcudadevrt  -lcudart  -Wl,--end-group 
+#$ g++ -O3 -m64 -g -gdwarf-2 -o "particlefilter_float_lazy" -Wl,--start-group "/tmp/tmpxft_00005b53_00000000-12_particlefilter_float_lazy_dlink.o" "../../..//race_detection_lazy.o" "/tmp/tmpxft_00005b53_00000000-10_ex_particle_CUDA_float_seq.o" -L"../../../" -lcuda -lm   "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/stub" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib64" "-L/home/yuanfengp/clients/sw/gpgpu/bin/x86_64_Linux_debug/nvpgo/lib" -lcudadevrt  -lcudart  -Wl,--end-group 

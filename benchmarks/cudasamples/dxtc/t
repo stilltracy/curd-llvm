@@ -1,0 +1,599 @@
+./dxtc Starting...
+
+GPU Device 0: "Tesla K20Xm" with compute capability 3.5
+
+Image Loaded './data/lena_std.ppm', 512 x 512 pixels
+
+Running DXT Compression on 512 x 512 image...
+
+16384 Blocks, 64 Threads per Block, 1048576 Threads in Grid...
+
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5890965504
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:10752
+[CURD] THREADS:64
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 64 threads * 16 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 46749696
+[CURD] Counter shmemWr = 11478070
+[CURD] Counter glmemRd = 10838016
+[CURD] Counter glmemWr = 21504
+[CURD] Counter barriers = 11698176
+[CURD] Counter interGWWChecks = 240
+[CURD] Counter interGRWChecks = 4080
+#races: 9610
+[CURD] Copying 9610 out of 1048576 elements...
+ distinct races: 80
+intra-block(SMem) (R,W) race by 15 and 0 on < 28, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 1 on < 32, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 2 on < 36, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 3 on < 40, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 4 on < 44, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 5 on < 48, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 6 on < 52, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 7 on < 56, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 8 on < 60, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 8 and 9 on < 64, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 10 on < 68, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 11 on < 72, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 12 on < 76, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 13 on < 80, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 14 on < 84, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 0 on < 92, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 1 on < 96, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 2 on < 100, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 3 on < 104, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 4 on < 108, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 5 on < 112, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 6 on < 116, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 7 on < 120, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 8 on < 124, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 8 and 9 on < 128, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 10 on < 132, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 11 on < 136, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 12 on < 140, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 13 on < 144, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 14 on < 148, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 0 and 15 on < 152, 4>, between file [TODO]:94 and file [TODO]:97 : 240
+intra-block(SMem) (W,W) race by 0 and 1 on < 156, 12>, between file [TODO]:89 and file [TODO]:89 : 22
+intra-block(SMem) (W,W) race by 1 and 4 on < 168, 12>, between file [TODO]:89 and file [TODO]:103 : 30
+intra-block(SMem) (W,W) race by 2 and 4 on < 180, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 3 and 5 on < 192, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 3 and 4 on < 204, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 4 and 5 on < 216, 12>, between file [TODO]:89 and file [TODO]:89 : 22
+intra-block(SMem) (W,W) race by 6 and 8 on < 228, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 7 and 12 on < 240, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 3 and 8 on < 252, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 7 and 9 on < 264, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 10 and 11 on < 276, 12>, between file [TODO]:89 and file [TODO]:89 : 24
+intra-block(SMem) (W,W) race by 11 and 12 on < 288, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 3 and 12 on < 300, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 7 and 13 on < 312, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 11 and 14 on < 324, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 14 and 15 on < 336, 12>, between file [TODO]:89 and file [TODO]:89 : 24
+intra-block(SMem) (R,W) race by 15 and 0 on < 348, 12>, between file [TODO]:94 and file [TODO]:94 : 240
+intra-block(SMem) (R,W) race by 9 and 1 on < 360, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 10 and 2 on < 372, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 11 and 3 on < 384, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 12 and 4 on < 396, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 13 and 5 on < 408, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 14 and 6 on < 420, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 15 and 7 on < 432, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 0 and 8 on < 444, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 1 and 9 on < 456, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 2 and 10 on < 468, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 3 and 11 on < 480, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 4 and 12 on < 492, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 5 and 13 on < 504, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 6 and 14 on < 516, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 7 and 15 on < 528, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 15 and 0 on < 1052, 24>, between file [TODO]:28 and file [TODO]:62 : 240
+intra-block(SMem) (R,W) race by 0 and 1 on < 1076, 20>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 1 on < 1096, 4>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 2 on < 1100, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 3 on < 1124, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 4 on < 1148, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 5 on < 1172, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 2 and 6 on < 1196, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 3 and 7 on < 1220, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 8 on < 1244, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 9 on < 1268, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 2 and 10 on < 1292, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 3 and 11 on < 1316, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 4 and 12 on < 1340, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 5 and 13 on < 1364, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 6 and 14 on < 1388, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 7 and 15 on < 1412, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+0x905a00000
+0x905901000
+0x905dc0000
+0x905901800
+0x906180000
+0x905902000
+0x906680000
+0x905903000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5814943744
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:5632
+[CURD] THREADS:64
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 64 threads * 16 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 71237632
+[CURD] Counter shmemWr = 17477680
+[CURD] Counter glmemRd = 16515072
+[CURD] Counter glmemWr = 32768
+[CURD] Counter barriers = 17825792
+[CURD] Counter interGWWChecks = 480
+[CURD] Counter interGRWChecks = 8160
+#races: 9624
+[CURD] Copying 9624 out of 1048576 elements...
+ distinct races: 80
+intra-block(SMem) (R,W) race by 15 and 0 on < 28, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 1 on < 32, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 2 on < 36, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 3 on < 40, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 4 on < 44, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 5 on < 48, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 6 on < 52, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 7 on < 56, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 8 on < 60, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 8 and 9 on < 64, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 10 on < 68, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 11 on < 72, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 12 on < 76, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 13 on < 80, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 14 on < 84, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 0 on < 92, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 1 on < 96, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 2 on < 100, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 3 on < 104, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 4 on < 108, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 5 on < 112, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 6 on < 116, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 7 on < 120, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 8 on < 124, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 8 and 9 on < 128, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 10 on < 132, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 11 on < 136, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 12 on < 140, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 13 on < 144, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 14 on < 148, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 0 and 15 on < 152, 4>, between file [TODO]:94 and file [TODO]:97 : 240
+intra-block(SMem) (W,W) race by 0 and 4 on < 156, 12>, between file [TODO]:89 and file [TODO]:103 : 29
+intra-block(SMem) (W,W) race by 0 and 1 on < 168, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 2 and 4 on < 180, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 2 and 3 on < 192, 12>, between file [TODO]:89 and file [TODO]:89 : 29
+intra-block(SMem) (W,W) race by 3 and 4 on < 204, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 5 and 6 on < 216, 12>, between file [TODO]:89 and file [TODO]:89 : 30
+intra-block(SMem) (W,W) race by 5 and 6 on < 228, 12>, between file [TODO]:89 and file [TODO]:89 : 28
+intra-block(SMem) (W,W) race by 6 and 7 on < 240, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 7 and 8 on < 252, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 9 and 10 on < 264, 12>, between file [TODO]:89 and file [TODO]:89 : 30
+intra-block(SMem) (W,W) race by 10 and 11 on < 276, 24>, between file [TODO]:89 and file [TODO]:89 : 30
+intra-block(SMem) (W,W) race by 11 and 14 on < 288, 12>, between file [TODO]:89 and file [TODO]:103 : 31
+intra-block(SMem) (W,W) race by 11 and 12 on < 300, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 13 and 14 on < 312, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 14 and 15 on < 324, 12>, between file [TODO]:89 and file [TODO]:89 : 31
+intra-block(SMem) (W,W) race by 14 and 15 on < 336, 12>, between file [TODO]:89 and file [TODO]:89 : 28
+intra-block(SMem) (R,W) race by 15 and 0 on < 348, 12>, between file [TODO]:94 and file [TODO]:94 : 238
+intra-block(SMem) (R,W) race by 9 and 1 on < 360, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 10 and 2 on < 372, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 11 and 3 on < 384, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 12 and 4 on < 396, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 13 and 5 on < 408, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 14 and 6 on < 420, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 15 and 7 on < 432, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 0 and 8 on < 444, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 1 and 9 on < 456, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 2 and 10 on < 468, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 3 and 11 on < 480, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 4 and 12 on < 492, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 5 and 13 on < 504, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 6 and 14 on < 516, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 7 and 15 on < 528, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 15 and 0 on < 1052, 24>, between file [TODO]:28 and file [TODO]:62 : 240
+intra-block(SMem) (R,W) race by 0 and 1 on < 1076, 20>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 1 on < 1096, 4>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 2 on < 1100, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 3 on < 1124, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 4 on < 1148, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 5 on < 1172, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 2 and 6 on < 1196, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 3 and 7 on < 1220, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 8 on < 1244, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 9 on < 1268, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 2 and 10 on < 1292, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 3 and 11 on < 1316, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 4 and 12 on < 1340, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 5 and 13 on < 1364, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 6 and 14 on < 1388, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 7 and 15 on < 1412, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+0x905a00000
+0x905901000
+0x905dc0000
+0x905901800
+0x906180000
+0x905902000
+0x906680000
+0x905903000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5747834880
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:10752
+[CURD] THREADS:64
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 64 threads * 16 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 117987328
+[CURD] Counter shmemWr = 28955750
+[CURD] Counter glmemRd = 27353088
+[CURD] Counter glmemWr = 54272
+[CURD] Counter barriers = 29523968
+[CURD] Counter interGWWChecks = 720
+[CURD] Counter interGRWChecks = 12240
+#races: 9610
+[CURD] Copying 9610 out of 1048576 elements...
+ distinct races: 80
+intra-block(SMem) (R,W) race by 15 and 0 on < 28, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 1 on < 32, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 2 on < 36, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 3 on < 40, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 4 on < 44, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 5 on < 48, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 6 on < 52, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 7 on < 56, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 8 on < 60, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 8 and 9 on < 64, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 10 on < 68, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 11 on < 72, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 12 on < 76, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 13 on < 80, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 14 on < 84, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 0 on < 92, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 1 on < 96, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 2 on < 100, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 3 on < 104, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 4 on < 108, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 5 on < 112, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 6 on < 116, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 7 on < 120, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 8 on < 124, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 8 and 9 on < 128, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 10 on < 132, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 11 on < 136, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 12 on < 140, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 13 on < 144, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 14 on < 148, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 0 and 15 on < 152, 4>, between file [TODO]:94 and file [TODO]:97 : 240
+intra-block(SMem) (W,W) race by 0 and 1 on < 156, 12>, between file [TODO]:89 and file [TODO]:89 : 22
+intra-block(SMem) (W,W) race by 1 and 4 on < 168, 12>, between file [TODO]:89 and file [TODO]:103 : 30
+intra-block(SMem) (W,W) race by 2 and 4 on < 180, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 3 and 5 on < 192, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 3 and 4 on < 204, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 4 and 5 on < 216, 12>, between file [TODO]:89 and file [TODO]:89 : 22
+intra-block(SMem) (W,W) race by 6 and 8 on < 228, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 7 and 12 on < 240, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 3 and 8 on < 252, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 7 and 9 on < 264, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 10 and 11 on < 276, 12>, between file [TODO]:89 and file [TODO]:89 : 24
+intra-block(SMem) (W,W) race by 11 and 12 on < 288, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 3 and 12 on < 300, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 7 and 13 on < 312, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 11 and 14 on < 324, 12>, between file [TODO]:103 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 14 and 15 on < 336, 12>, between file [TODO]:89 and file [TODO]:89 : 24
+intra-block(SMem) (R,W) race by 15 and 0 on < 348, 12>, between file [TODO]:94 and file [TODO]:94 : 240
+intra-block(SMem) (R,W) race by 9 and 1 on < 360, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 10 and 2 on < 372, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 11 and 3 on < 384, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 12 and 4 on < 396, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 13 and 5 on < 408, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 14 and 6 on < 420, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 15 and 7 on < 432, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 0 and 8 on < 444, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 1 and 9 on < 456, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 2 and 10 on < 468, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 3 and 11 on < 480, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 4 and 12 on < 492, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 5 and 13 on < 504, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 6 and 14 on < 516, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 7 and 15 on < 528, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 15 and 0 on < 1052, 24>, between file [TODO]:28 and file [TODO]:62 : 240
+intra-block(SMem) (R,W) race by 0 and 1 on < 1076, 20>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 1 on < 1096, 4>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 2 on < 1100, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 3 on < 1124, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 4 on < 1148, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 5 on < 1172, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 2 and 6 on < 1196, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 3 and 7 on < 1220, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 8 on < 1244, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 9 on < 1268, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 2 and 10 on < 1292, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 3 and 11 on < 1316, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 4 and 12 on < 1340, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 5 and 13 on < 1364, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 6 and 14 on < 1388, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 7 and 15 on < 1412, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+0x905a00000
+0x905901000
+0x905dc0000
+0x905901800
+0x906180000
+0x905902000
+0x906680000
+0x905903000
+[CURD] exiting.
+[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5680726016
+[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] BLOCKS:5632
+[CURD] THREADS:64
+[CURD] TRACKING 16 blocks (SHMEM) 
+[CURD] TRACKING 16 blocks (GLMEM) 
+Allocating sets for SHMEM: 64 threads * 16 blocks * 160
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] alloced 3932160
+[CURD] alloced 2048
+[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] alloced 5242880
+[CURD] alloced 4096
+[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:
+[CURD] Counter shmemRd = 142475264
+[CURD] Counter shmemWr = 34955360
+[CURD] Counter glmemRd = 33030144
+[CURD] Counter glmemWr = 65536
+[CURD] Counter barriers = 35651584
+[CURD] Counter interGWWChecks = 960
+[CURD] Counter interGRWChecks = 16320
+#races: 9624
+[CURD] Copying 9624 out of 1048576 elements...
+ distinct races: 80
+intra-block(SMem) (R,W) race by 15 and 0 on < 28, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 1 on < 32, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 2 on < 36, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 3 on < 40, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 4 on < 44, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 5 on < 48, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 6 on < 52, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 7 on < 56, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 8 on < 60, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 8 and 9 on < 64, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 10 on < 68, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 11 on < 72, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 12 on < 76, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 13 on < 80, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 9 and 14 on < 84, 4>, between file [TODO]:65 and file [TODO]:60 : 240
+intra-block(SMem) (R,W) race by 15 and 0 on < 92, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 1 on < 96, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 2 on < 100, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 3 on < 104, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 4 on < 108, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 5 on < 112, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 6 on < 116, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 7 on < 120, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 15 and 8 on < 124, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 8 and 9 on < 128, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 10 on < 132, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 11 on < 136, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 12 on < 140, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 13 on < 144, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 9 and 14 on < 148, 4>, between file [TODO]:57 and file [TODO]:97 : 240
+intra-block(SMem) (R,W) race by 0 and 15 on < 152, 4>, between file [TODO]:94 and file [TODO]:97 : 240
+intra-block(SMem) (W,W) race by 0 and 4 on < 156, 12>, between file [TODO]:89 and file [TODO]:103 : 29
+intra-block(SMem) (W,W) race by 0 and 1 on < 168, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 2 and 4 on < 180, 12>, between file [TODO]:89 and file [TODO]:103 : 32
+intra-block(SMem) (W,W) race by 2 and 3 on < 192, 12>, between file [TODO]:89 and file [TODO]:89 : 29
+intra-block(SMem) (W,W) race by 3 and 4 on < 204, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 5 and 6 on < 216, 12>, between file [TODO]:89 and file [TODO]:89 : 30
+intra-block(SMem) (W,W) race by 5 and 6 on < 228, 12>, between file [TODO]:89 and file [TODO]:89 : 28
+intra-block(SMem) (W,W) race by 6 and 7 on < 240, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 7 and 8 on < 252, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 9 and 10 on < 264, 12>, between file [TODO]:89 and file [TODO]:89 : 30
+intra-block(SMem) (W,W) race by 10 and 11 on < 276, 24>, between file [TODO]:89 and file [TODO]:89 : 30
+intra-block(SMem) (W,W) race by 11 and 14 on < 288, 12>, between file [TODO]:89 and file [TODO]:103 : 31
+intra-block(SMem) (W,W) race by 11 and 12 on < 300, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 12 and 13 on < 312, 12>, between file [TODO]:89 and file [TODO]:89 : 32
+intra-block(SMem) (W,W) race by 14 and 15 on < 324, 12>, between file [TODO]:89 and file [TODO]:89 : 31
+intra-block(SMem) (W,W) race by 14 and 15 on < 336, 12>, between file [TODO]:89 and file [TODO]:89 : 28
+intra-block(SMem) (R,W) race by 15 and 0 on < 348, 12>, between file [TODO]:94 and file [TODO]:94 : 238
+intra-block(SMem) (R,W) race by 9 and 1 on < 360, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 10 and 2 on < 372, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 11 and 3 on < 384, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 12 and 4 on < 396, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 13 and 5 on < 408, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 14 and 6 on < 420, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 15 and 7 on < 432, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 0 and 8 on < 444, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 1 and 9 on < 456, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 2 and 10 on < 468, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 3 and 11 on < 480, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 4 and 12 on < 492, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 5 and 13 on < 504, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 6 and 14 on < 516, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 7 and 15 on < 528, 12>, between file [TODO]:94 and file [TODO]:94 : 64
+intra-block(SMem) (R,W) race by 15 and 0 on < 1052, 24>, between file [TODO]:28 and file [TODO]:62 : 240
+intra-block(SMem) (R,W) race by 0 and 1 on < 1076, 20>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 1 on < 1096, 4>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 2 on < 1100, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 3 on < 1124, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 4 on < 1148, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 5 on < 1172, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 2 and 6 on < 1196, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 3 and 7 on < 1220, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 0 and 8 on < 1244, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 1 and 9 on < 1268, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 2 and 10 on < 1292, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 3 and 11 on < 1316, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 4 and 12 on < 1340, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 5 and 13 on < 1364, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 6 and 14 on < 1388, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+intra-block(SMem) (R,W) race by 7 and 15 on < 1412, 24>, between file [TODO]:73 and file [TODO]:62 : 16
+0x905a00000
+0x905901000
+0x905dc0000
+0x905901800
+0x906180000
+0x905902000
+0x906680000
+0x905903000
+[CURD] exiting.
+dxtc, Throughput = 0.2718 MPixels/s, Time = 0.96438 s, Size = 262144 Pixels, NumDevsUsed = 1, Workgroup = 64
+
+Checking accuracy...
+Deviation at (   9,   1):	0.791667 rms
+Deviation at (  99,   1):	1.041667 rms
+Deviation at (  33,   2):	2.645833 rms
+Deviation at (  38,   4):	1.916667 rms
+Deviation at (  57,   4):	0.854167 rms
+Deviation at (  20,   7):	1.041667 rms
+Deviation at (  57,   7):	0.458333 rms
+Deviation at (   8,   9):	0.937500 rms
+Deviation at (  31,   9):	0.770833 rms
+Deviation at (  13,  11):	1.041667 rms
+Deviation at (  88,  11):	0.729167 rms
+Deviation at (   4,  13):	8.562500 rms
+Deviation at (  28,  13):	0.562500 rms
+Deviation at (  90,  13):	0.708333 rms
+Deviation at (  25,  14):	0.520833 rms
+Deviation at (  87,  16):	0.708333 rms
+Deviation at (  24,  19):	0.916667 rms
+Deviation at (  25,  19):	0.625000 rms
+Deviation at (  26,  19):	1.041667 rms
+Deviation at (  55,  20):	4.791667 rms
+Deviation at (  20,  23):	1.541667 rms
+Deviation at (  99,  23):	3.312500 rms
+Deviation at (  45,  24):	18.104166 rms
+Deviation at (   8,  28):	0.895833 rms
+Deviation at (  21,  30):	1.562500 rms
+Deviation at ( 115,  32):	24.104166 rms
+Deviation at (   2,  33):	0.854167 rms
+Deviation at ( 102,  33):	2.250000 rms
+Deviation at (  50,  35):	26.958334 rms
+Deviation at (  12,  38):	2.166667 rms
+Deviation at (  96,  39):	1.041667 rms
+Deviation at (  40,  40):	0.270833 rms
+Deviation at (  43,  44):	2.250000 rms
+Deviation at (  54,  44):	4.791667 rms
+Deviation at (  46,  46):	2.875000 rms
+Deviation at ( 116,  46):	0.604167 rms
+Deviation at ( 117,  46):	6.833333 rms
+Deviation at ( 117,  48):	0.937500 rms
+Deviation at (  23,  51):	3.520833 rms
+Deviation at (  67,  54):	5.687500 rms
+Deviation at (  26,  55):	0.854167 rms
+Deviation at (  21,  56):	5.000000 rms
+Deviation at (  24,  56):	0.562500 rms
+Deviation at (  30,  57):	0.937500 rms
+Deviation at ( 126,  57):	1.208333 rms
+Deviation at (  21,  59):	2.541667 rms
+Deviation at ( 120,  59):	0.104167 rms
+Deviation at ( 112,  60):	1.125000 rms
+Deviation at (  76,  61):	1.666667 rms
+Deviation at (  77,  61):	1.083333 rms
+Deviation at (  75,  62):	0.937500 rms
+Deviation at ( 121,  62):	0.937500 rms
+Deviation at ( 124,  64):	2.854167 rms
+Deviation at (  78,  66):	0.541667 rms
+Deviation at ( 106,  68):	0.375000 rms
+Deviation at (  16,  70):	3.104167 rms
+Deviation at (  10,  71):	0.937500 rms
+Deviation at ( 108,  71):	0.354167 rms
+Deviation at (   0,  72):	0.854167 rms
+Deviation at ( 118,  72):	5.562500 rms
+Deviation at (  11,  73):	0.541667 rms
+Deviation at (  68,  74):	1.937500 rms
+Deviation at (  70,  76):	1.791667 rms
+Deviation at ( 124,  76):	3.354167 rms
+Deviation at ( 103,  78):	0.375000 rms
+Deviation at (  74,  79):	0.270833 rms
+Deviation at ( 108,  79):	0.083333 rms
+Deviation at (  43,  82):	24.979166 rms
+Deviation at (  58,  82):	2.833333 rms
+Deviation at (  67,  82):	3.125000 rms
+Deviation at (  78,  82):	2.437500 rms
+Deviation at ( 123,  84):	0.541667 rms
+Deviation at ( 127,  88):	0.229167 rms
+Deviation at (  99,  89):	0.770833 rms
+Deviation at (  93,  91):	0.666667 rms
+Deviation at ( 118,  91):	1.125000 rms
+Deviation at ( 115,  92):	0.083333 rms
+Deviation at ( 115,  93):	0.083333 rms
+Deviation at (  45,  94):	0.166667 rms
+Deviation at (  14,  95):	1.937500 rms
+Deviation at (  69,  95):	1.875000 rms
+Deviation at ( 106,  95):	1.125000 rms
+Deviation at ( 107,  95):	3.708333 rms
+Deviation at (  13,  96):	1.354167 rms
+Deviation at ( 115,  98):	0.187500 rms
+Deviation at ( 118,  98):	0.187500 rms
+Deviation at ( 116, 101):	0.187500 rms
+Deviation at (  87, 106):	0.270833 rms
+Deviation at (  67, 107):	0.708333 rms
+Deviation at (  74, 107):	0.375000 rms
+Deviation at (  65, 109):	0.770833 rms
+Deviation at (  89, 109):	0.708333 rms
+Deviation at ( 118, 109):	3.854167 rms
+Deviation at (  88, 111):	0.208333 rms
+Deviation at (  64, 113):	0.708333 rms
+Deviation at (  84, 113):	0.333333 rms
+Deviation at (  75, 114):	2.083333 rms
+Deviation at (  66, 115):	0.770833 rms
+Deviation at (  89, 116):	0.770833 rms
+Deviation at (  19, 118):	5.270833 rms
+Deviation at (  76, 121):	0.104167 rms
+Deviation at (  70, 122):	0.708333 rms
+Deviation at (  91, 122):	0.208333 rms
+Deviation at (  75, 123):	0.854167 rms
+Deviation at (  61, 124):	0.937500 rms
+Deviation at (  91, 124):	0.270833 rms
+Deviation at (  91, 125):	1.020833 rms
+RMS(reference, result) = 0.015238
+
+Test passed

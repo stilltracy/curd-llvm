@@ -1,0 +1,423 @@
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin:/home/acg/torch/install/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ gcc -D__CUDA_ARCH__=500 -E -x c++      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -include "cuda_runtime.h" -m64 "./kernel/kernel_gpu_cuda_wrapper.cu" > "kernel_gpu_cuda_wrapper.cpp1.ii" 
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin:/home/acg/torch/install/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ gcc -D__CUDA_ARCH__=500 -E -x c++      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -include "cuda_runtime.h" -m64 "./kernel/kernel_gpu_cuda_wrapper_2.cu" > "kernel_gpu_cuda_wrapper_2.cpp1.ii" 
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin:/home/acg/torch/install/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ gcc -D__CUDA_ARCH__=500 -E -x c++      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -include "cuda_runtime.h" -m64 "./util/cuda/cuda.cu" > "cuda.cpp1.ii" 
+./util/timer/timer.c: In function 'get_time':
+./util/timer/timer.c:26:2: warning: implicit declaration of function 'gettimeofday' [-Wimplicit-function-declaration]
+  gettimeofday(&tv, NULL);
+  ^
+./main.c: In function 'transform_to_cuda':
+./main.c:652:2: warning: implicit declaration of function 'gettimeofday' [-Wimplicit-function-declaration]
+  gettimeofday (&one, NULL);
+  ^
+./main.c:737:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   printf("\nNumber of records = %d, sizeof(record)=%d, total=%d\n",size,sizeof(record),size*sizeof(record));
+          ^
+./main.c:737:10: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+./main.c:737:10: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+./main.c:738:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   printf("Number of knodes = %d, sizeof(knode)=%d, total=%d\n",nodeindex,sizeof(knode),(nodeindex)*sizeof(knode));
+          ^
+./main.c:738:10: warning: format '%d' expects argument of type 'int', but argument 3 has type 'long unsigned int' [-Wformat=]
+./main.c:738:10: warning: format '%d' expects argument of type 'int', but argument 4 has type 'long unsigned int' [-Wformat=]
+./main.c:739:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'long int' [-Wformat=]
+   printf("\nDone Transformation. Mem used: %d\n", mem_used);
+          ^
+./main.c: In function 'print_tree':
+./main.c:930:10: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'node * {aka struct node *}' [-Wformat=]
+   printf("(%x)", n);
+          ^
+./main.c:933:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'void *' [-Wformat=]
+    printf("%x ", n->pointers[i]);
+           ^
+./main.c:941:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'void *' [-Wformat=]
+    printf("%x ", n->pointers[order - 1]);
+           ^
+./main.c:943:11: warning: format '%x' expects argument of type 'unsigned int', but argument 2 has type 'void *' [-Wformat=]
+    printf("%x ", n->pointers[n->num_keys]);
+           ^
+./main.c: In function 'main':
+./main.c:1866:2: warning: implicit declaration of function 'cudaSetDevice' [-Wimplicit-function-declaration]
+  cudaSetDevice(device);
+  ^
+./main.c:1958:37: warning: passing argument 2 of 'fputs' from incompatible pointer type [-Wincompatible-pointer-types]
+        fputs ("Fail to open %s !\n",output);
+                                     ^
+In file included from ./main.c:60:0:
+/usr/include/stdio.h:689:12: note: expected 'FILE * restrict {aka struct _IO_FILE * restrict}' but argument is of type 'char *'
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+./main.c:2148:48: warning: comparison between pointer and integer
+     while(*commandPointer!=32 && commandPointer!='\n')
+                                                ^
+./main.c:2224:38: warning: passing argument 2 of 'fputs' from incompatible pointer type [-Wincompatible-pointer-types]
+         fputs ("Fail to open %s !\n",output);
+                                      ^
+In file included from ./main.c:60:0:
+/usr/include/stdio.h:689:12: note: expected 'FILE * restrict {aka struct _IO_FILE * restrict}' but argument is of type 'char *'
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+./main.c:2278:48: warning: comparison between pointer and integer
+     while(*commandPointer!=32 && commandPointer!='\n')
+                                                ^
+./main.c:2283:48: warning: comparison between pointer and integer
+     while(*commandPointer!=32 && commandPointer!='\n')
+                                                ^
+./main.c:2371:38: warning: passing argument 2 of 'fputs' from incompatible pointer type [-Wincompatible-pointer-types]
+         fputs ("Fail to open %s !\n",output);
+                                      ^
+In file included from ./main.c:60:0:
+/usr/include/stdio.h:689:12: note: expected 'FILE * restrict {aka struct _IO_FILE * restrict}' but argument is of type 'char *'
+ extern int fputs (const char *__restrict __s, FILE *__restrict __stream);
+            ^
+./main.c:1994:3: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+   fscanf(file_pointer, "%d\n", &input);
+   ^
+./main.c:1999:4: warning: ignoring return value of 'fscanf', declared with attribute warn_unused_result [-Wunused-result]
+    fscanf(file_pointer, "%d\n", &input);
+    ^
+./main.c:2039:5: warning: ignoring return value of 'scanf', declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d", &input);
+     ^
+./main.c:2060:5: warning: ignoring return value of 'scanf', declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d", &input);
+     ^
+./main.c:2076:5: warning: ignoring return value of 'scanf', declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d", &input);
+     ^
+./main.c:2252:5: warning: ignoring return value of 'scanf', declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d", &start);
+     ^
+./main.c:2253:5: warning: ignoring return value of 'scanf', declared with attribute warn_unused_result [-Wunused-result]
+     scanf("%d", &end);
+     ^
+#$ cudafe --allow_managed --m64 --gnu_version=50400 -tused --no_remove_unneeded_entities  --device-c --gen_c_file_name "cuda.cudafe1.c" --stub_file_name "cuda.cudafe1.stub.c" --gen_device_file_name "cuda.cudafe1.gpu" --nv_arch "compute_50" --gen_module_id_file --module_id_file_name "cuda.module_id" --include_file_name "cuda.fatbin.c" "cuda.cpp1.ii" 
+#$ cudafe --allow_managed --m64 --gnu_version=50400 -tused --no_remove_unneeded_entities  --device-c --gen_c_file_name "kernel_gpu_cuda_wrapper.cudafe1.c" --stub_file_name "kernel_gpu_cuda_wrapper.cudafe1.stub.c" --gen_device_file_name "kernel_gpu_cuda_wrapper.cudafe1.gpu" --nv_arch "compute_50" --gen_module_id_file --module_id_file_name "kernel_gpu_cuda_wrapper.module_id" --include_file_name "kernel_gpu_cuda_wrapper.fatbin.c" "kernel_gpu_cuda_wrapper.cpp1.ii" 
+#$ cudafe --allow_managed --m64 --gnu_version=50400 -tused --no_remove_unneeded_entities  --device-c --gen_c_file_name "kernel_gpu_cuda_wrapper_2.cudafe1.c" --stub_file_name "kernel_gpu_cuda_wrapper_2.cudafe1.stub.c" --gen_device_file_name "kernel_gpu_cuda_wrapper_2.cudafe1.gpu" --nv_arch "compute_50" --gen_module_id_file --module_id_file_name "kernel_gpu_cuda_wrapper_2.module_id" --include_file_name "kernel_gpu_cuda_wrapper_2.fatbin.c" "kernel_gpu_cuda_wrapper_2.cpp1.ii" 
+#$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -include "cuda_runtime.h" -m64 "./kernel/kernel_gpu_cuda_wrapper.cu" > "kernel_gpu_cuda_wrapper.cpp4.ii" 
+#$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -include "cuda_runtime.h" -m64 "./kernel/kernel_gpu_cuda_wrapper_2.cu" > "kernel_gpu_cuda_wrapper_2.cpp4.ii" 
+#$ gcc -E -x c++ -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__  -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -include "cuda_runtime.h" -m64 "./util/cuda/cuda.cu" > "cuda.cpp4.ii" 
+#$ cudafe++ --allow_managed --m64 --gnu_version=50400 --parse_templates  --device-c --gen_c_file_name "kernel_gpu_cuda_wrapper.cudafe1.cpp" --stub_file_name "kernel_gpu_cuda_wrapper.cudafe1.stub.c" --module_id_file_name "kernel_gpu_cuda_wrapper.module_id" "kernel_gpu_cuda_wrapper.cpp4.ii" 
+#$ cudafe++ --allow_managed --m64 --gnu_version=50400 --parse_templates  --device-c --gen_c_file_name "kernel_gpu_cuda_wrapper_2.cudafe1.cpp" --stub_file_name "kernel_gpu_cuda_wrapper_2.cudafe1.stub.c" --module_id_file_name "kernel_gpu_cuda_wrapper_2.module_id" "kernel_gpu_cuda_wrapper_2.cpp4.ii" 
+#$ cudafe++ --allow_managed --m64 --gnu_version=50400 --parse_templates  --device-c --gen_c_file_name "cuda.cudafe1.cpp" --stub_file_name "cuda.cudafe1.stub.c" --module_id_file_name "cuda.module_id" "cuda.cpp4.ii" 
+#$ gcc -D__CUDA_ARCH__=500 -E -x c      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__ -D__CUDANVVM__  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -m64 "kernel_gpu_cuda_wrapper.cudafe1.gpu" > "kernel_gpu_cuda_wrapper.cpp2.i" 
+#$ gcc -D__CUDA_ARCH__=500 -E -x c      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__ -D__CUDANVVM__  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -m64 "cuda.cudafe1.gpu" > "cuda.cpp2.i" 
+#$ gcc -D__CUDA_ARCH__=500 -E -x c      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDACC__ -D__NVCC__ -D__CUDACC_RDC__ -D__CUDANVVM__  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -m64 "kernel_gpu_cuda_wrapper_2.cudafe1.gpu" > "kernel_gpu_cuda_wrapper_2.cpp2.i" 
+#$ cudafe -w --allow_managed --m64 --gnu_version=50400 --c  --device-c --gen_c_file_name "kernel_gpu_cuda_wrapper_2.cudafe2.c" --stub_file_name "kernel_gpu_cuda_wrapper_2.cudafe2.stub.c" --gen_device_file_name "kernel_gpu_cuda_wrapper_2.cudafe2.gpu" --nv_arch "compute_50" --module_id_file_name "kernel_gpu_cuda_wrapper_2.module_id" --include_file_name "kernel_gpu_cuda_wrapper_2.fatbin.c" "kernel_gpu_cuda_wrapper_2.cpp2.i" 
+#$ cudafe -w --allow_managed --m64 --gnu_version=50400 --c  --device-c --gen_c_file_name "cuda.cudafe2.c" --stub_file_name "cuda.cudafe2.stub.c" --gen_device_file_name "cuda.cudafe2.gpu" --nv_arch "compute_50" --module_id_file_name "cuda.module_id" --include_file_name "cuda.fatbin.c" "cuda.cpp2.i" 
+#$ cudafe -w --allow_managed --m64 --gnu_version=50400 --c  --device-c --gen_c_file_name "kernel_gpu_cuda_wrapper.cudafe2.c" --stub_file_name "kernel_gpu_cuda_wrapper.cudafe2.stub.c" --gen_device_file_name "kernel_gpu_cuda_wrapper.cudafe2.gpu" --nv_arch "compute_50" --module_id_file_name "kernel_gpu_cuda_wrapper.module_id" --include_file_name "kernel_gpu_cuda_wrapper.fatbin.c" "kernel_gpu_cuda_wrapper.cpp2.i" 
+#$ gcc -D__CUDA_ARCH__=500 -E -x c      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDABE__ -D__CUDANVVM__ -D__USE_FAST_MATH__=0  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -m64 "kernel_gpu_cuda_wrapper.cudafe2.gpu" > "kernel_gpu_cuda_wrapper.cpp3.i" 
+#$ gcc -D__CUDA_ARCH__=500 -E -x c      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDABE__ -D__CUDANVVM__ -D__USE_FAST_MATH__=0  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -m64 "cuda.cudafe2.gpu" > "cuda.cpp3.i" 
+#$ gcc -D__CUDA_ARCH__=500 -E -x c      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__CUDABE__ -D__CUDANVVM__ -D__USE_FAST_MATH__=0  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -m64 "kernel_gpu_cuda_wrapper_2.cudafe2.gpu" > "kernel_gpu_cuda_wrapper_2.cpp3.i" 
+#$ cicc  -arch compute_50 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 -generate-line-info -nvvmir-library "/opt/nvidia8/bin/../nvvm/libdevice/libdevice.compute_50.10.bc"  --device-c --orig_src_file_name "./kernel/kernel_gpu_cuda_wrapper.cu"  "kernel_gpu_cuda_wrapper.cpp3.i" -o "kernel_gpu_cuda_wrapper.ptx"
+#$ cicc  -arch compute_50 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 -generate-line-info -nvvmir-library "/opt/nvidia8/bin/../nvvm/libdevice/libdevice.compute_50.10.bc"  --device-c --orig_src_file_name "./kernel/kernel_gpu_cuda_wrapper_2.cu"  "kernel_gpu_cuda_wrapper_2.cpp3.i" -o "kernel_gpu_cuda_wrapper_2.ptx"
+#$ cicc  -arch compute_50 -m64 -ftz=0 -prec_div=1 -prec_sqrt=1 -fmad=1 -generate-line-info -nvvmir-library "/opt/nvidia8/bin/../nvvm/libdevice/libdevice.compute_50.10.bc"  --device-c --orig_src_file_name "./util/cuda/cuda.cu"  "cuda.cpp3.i" -o "cuda.ptx"
+<premain>: CommandLine Error: Argument 'info-output-file' defined more than once!
+<premain>: CommandLine Error: Argument 'track-memory' defined more than once!
+<premain>: CommandLine Error: Argument 'version' defined more than once!
+<premain>: CommandLine Error: Argument 'print-all-options' defined more than once!
+<premain>: CommandLine Error: Argument 'print-options' defined more than once!
+<premain>: CommandLine Error: Argument 'help-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list' defined more than once!
+<premain>: CommandLine Error: Argument 'time-passes' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before' defined more than once!
+<premain>: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+<premain>: CommandLine Error: Argument 'info-output-file' defined more than once!
+<premain>: CommandLine Error: Argument 'track-memory' defined more than once!
+<premain>: CommandLine Error: Argument 'version' defined more than once!
+<premain>: CommandLine Error: Argument 'print-all-options' defined more than once!
+<premain>: CommandLine Error: Argument 'print-options' defined more than once!
+<premain>: CommandLine Error: Argument 'help-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list' defined more than once!
+<premain>: CommandLine Error: Argument 'time-passes' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after-allneed to add hook ' defined more than once!
+after<premain> : CommandLine Error: Argument 'llvm.cuda.syncthreadsprint-before-all
+' defined more than once!
+<premain>: CommandLine Error: Argument 'need to add hook print-afterafter' defined more than once!
+ pthread_barrier_wait<premain>
+: CommandLine Error: Argument 'print-before' defined more than once!
+<premain>: CommandLine Error: Argument 'debug-pass' defined more than once!
+<premain>: CommandLine Error: Argument 'info-output-file' defined more than once!
+<premain>: CommandLine Error: Argument 'track-memory' defined more than once!
+<premain>: CommandLine Error: Argument 'version' defined more than once!
+<premain>: CommandLine Error: Argument 'print-all-options' defined more than once!
+<premain>: CommandLine Error: Argument 'print-options' defined more than once!
+<premain>: CommandLine Error: Argument 'help-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+<premain>: CommandLine Error: Argument 'help-list' defined more than once!
+<premain>: CommandLine Error: Argument 'time-passes' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before-all' defined more than once!
+<premain>: CommandLine Error: Argument 'print-after' defined more than once!
+<premain>: CommandLine Error: Argument 'print-before' defined more than once!
+<premain>: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help' defined more than once!
+opt: CommandLine Error: Argument 'help-list-hidden' defined more than once!
+opt: CommandLine Error: Argument 'help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+opt: CommandLine Error: Argument 'info-output-file' defined more than once!
+opt: CommandLine Error: Argument 'track-memory' defined more than once!
+opt: CommandLine Error: Argument 'version' defined more than once!
+opt: CommandLine Error: Argument 'print-all-options' defined more than once!
+opt: CommandLine Error: Argument 'print-options' defined more than once!
+opt: CommandLine Error: Argument 'help-hidden' defined more than once!
+opt: CommandLine Error: Argument 'opthelp: CommandLine Error: Argument '' defined more than once!
+info-output-fileopt' defined more than once!
+: CommandLine Error: Argument 'opthelp-list-hidden: CommandLine Error: Argument '' defined more than once!
+track-memoryopt' defined more than once!
+: CommandLine Error: Argument 'opthelp-list: CommandLine Error: Argument '' defined more than once!
+versionopt' defined more than once!
+: CommandLine Error: Argument 'opttime-passes: CommandLine Error: Argument '' defined more than once!
+print-all-optionsopt' defined more than once!
+: CommandLine Error: Argument 'optprint-after-all: CommandLine Error: Argument '' defined more than once!
+print-optionsopt' defined more than once!
+: CommandLine Error: Argument 'optprint-before-all: CommandLine Error: Argument '' defined more than once!
+help-hiddenopt' defined more than once!
+: CommandLine Error: Argument 'optprint-after: CommandLine Error: Argument '' defined more than once!
+helpopt' defined more than once!
+: CommandLine Error: Argument 'optprint-before: CommandLine Error: Argument '' defined more than once!
+help-list-hiddenopt' defined more than once!
+: CommandLine Error: Argument 'optdebug-pass: CommandLine Error: Argument '' defined more than once!
+help-list' defined more than once!
+opt: CommandLine Error: Argument 'time-passes' defined more than once!
+opt: CommandLine Error: Argument 'print-after-all' defined more than once!
+opt: CommandLine Error: Argument 'print-before-all' defined more than once!
+opt: CommandLine Error: Argument 'print-after' defined more than once!
+opt: CommandLine Error: Argument 'print-before' defined more than once!
+opt: CommandLine Error: Argument 'debug-pass' defined more than once!
+__nb__funcStats,	Function,	SMemRdHooks,	SMemWrHooks,	GMemRdHooks,	GMemWrHooks,	GenMemRdHooks,	GenMemWrHooks,	Others
+__nb__fileStats,	File,	MemHooksInserted
+Found 0 nvvm atomic calls
+Found 0 llvm atomic calls
+need to add hook after llvm.cuda.syncthreads
+need to add hook after pthread_barrier_wait
+need to add hook after llvm.cuda.syncthreads
+need to add hook after pthread_barrier_wait
+loaded __curd__llvm_cuda_syncthreads_afterHook: void ()
+loaded __curd__llvm_cuda_syncthreads_afterHook: void ()
+__nb__funcStats,	Function,	SMemRdHooks,	SMemWrHooks,	GMemRdHooks,	GMemWrHooks,	GenMemRdHooks,	GenMemWrHooks,	Others
+__nb__funcStats,	findK,	0,	0,	0,	0,	63,	17,	0
+__nb__fileStats,	File,	MemHooksInserted
+__nb__fileStats,	./kernel/./kernel_gpu_cuda.cu,	72
+__nb__funcStats,	Function,	SMemRdHooks,	SMemWrHooks,	GMemRdHooks,	GMemWrHooks,	GenMemRdHooks,	GenMemWrHooks,	Others
+__nb__funcStats,	findRangeK,	0,	0,	0,	0,	119,	23,	0
+__nb__fileStats,	File,	MemHooksInserted
+__nb__fileStats,	./kernel/./kernel_gpu_cuda_2.cu,	131
+Found 0 nvvm atomic calls
+Found 0 llvm atomic calls
+Found 0 nvvm atomic calls
+Found 0 llvm atomic calls
+#$ ptxas  -arch=sm_50 -m64 --compile-only  --generate-line-info "cuda.ptx"  -o "cuda.sm_50.cubin" 
+#$ fatbinary --create="cuda.fatbin" -64 --ident="./util/cuda/cuda.cu" --cmdline="--compile-only  --generate-line-info " "--image=profile=sm_50,file=cuda.sm_50.cubin" "--image=profile=compute_50,file=cuda.ptx" --embedded-fatbin="cuda.fatbin.c" --cuda --device-c
+#$ gcc -D__CUDA_ARCH__=500 -E -x c++      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__USE_FAST_MATH__=0  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -m64 "cuda.cudafe1.cpp" > "cuda.cu.cpp.ii" 
+#$ ptxas  -arch=sm_50 -m64 --compile-only  --generate-line-info "kernel_gpu_cuda_wrapper.ptx"  -o "kernel_gpu_cuda_wrapper.sm_50.cubin" 
+#$ gcc -c -x c++ -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -fpreprocessed -m64 -o "./util/cuda/cuda.o" "cuda.cu.cpp.ii" 
+#$ ptxas  -arch=sm_50 -m64 --compile-only  --generate-line-info "kernel_gpu_cuda_wrapper_2.ptx"  -o "kernel_gpu_cuda_wrapper_2.sm_50.cubin" 
+#$ fatbinary --create="kernel_gpu_cuda_wrapper.fatbin" -64 --ident="./kernel/kernel_gpu_cuda_wrapper.cu" --cmdline="--compile-only  --generate-line-info " "--image=profile=sm_50,file=kernel_gpu_cuda_wrapper.sm_50.cubin" "--image=profile=compute_50,file=kernel_gpu_cuda_wrapper.ptx" --embedded-fatbin="kernel_gpu_cuda_wrapper.fatbin.c" --cuda --device-c
+#$ gcc -D__CUDA_ARCH__=500 -E -x c++      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__USE_FAST_MATH__=0  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -m64 "kernel_gpu_cuda_wrapper.cudafe1.cpp" > "kernel_gpu_cuda_wrapper.cu.cpp.ii" 
+#$ gcc -c -x c++ -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -fpreprocessed -m64 -o "./kernel/kernel_gpu_cuda_wrapper.o" "kernel_gpu_cuda_wrapper.cu.cpp.ii" 
+#$ fatbinary --create="kernel_gpu_cuda_wrapper_2.fatbin" -64 --ident="./kernel/kernel_gpu_cuda_wrapper_2.cu" --cmdline="--compile-only  --generate-line-info " "--image=profile=sm_50,file=kernel_gpu_cuda_wrapper_2.sm_50.cubin" "--image=profile=compute_50,file=kernel_gpu_cuda_wrapper_2.ptx" --embedded-fatbin="kernel_gpu_cuda_wrapper_2.fatbin.c" --cuda --device-c
+#$ gcc -D__CUDA_ARCH__=500 -E -x c++      -DCUDA_DOUBLE_MATH_FUNCTIONS  -D__USE_FAST_MATH__=0  -O3 -D__CUDA_FTZ=0 -D__CUDA_PREC_DIV=1 -D__CUDA_PREC_SQRT=1 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -m64 "kernel_gpu_cuda_wrapper_2.cudafe1.cpp" > "kernel_gpu_cuda_wrapper_2.cu.cpp.ii" 
+./kernel/kernel_gpu_cuda_wrapper.cu: In function 'void kernel_gpu_cuda_wrapper(record*, long int, knode*, long int, long int, int, long int, int, long int*, long int*, int*, record*)':
+./kernel/kernel_gpu_cuda_wrapper.cu:280:165: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper.cu:281:148: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper.cu:282:152: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper.cu:284:147: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper.cu:286:153: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper.cu:287:148: warning: unknown conversion type character ':' in format [-Wformat=]
+#$ gcc -c -x c++ -O3 -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -fpreprocessed -m64 -o "./kernel/kernel_gpu_cuda_wrapper_2.o" "kernel_gpu_cuda_wrapper_2.cu.cpp.ii" 
+./kernel/kernel_gpu_cuda_wrapper_2.cu: In function 'void kernel_gpu_cuda_wrapper_2(knode*, long int, long int, int, long int, int, long int*, long int*, long int*, long int*, int*, int*, int*, int*)':
+./kernel/kernel_gpu_cuda_wrapper_2.cu:339:165: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper_2.cu:340:148: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper_2.cu:341:152: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper_2.cu:343:147: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper_2.cu:345:153: warning: unknown conversion type character ':' in format [-Wformat=]
+./kernel/kernel_gpu_cuda_wrapper_2.cu:346:148: warning: unknown conversion type character ':' in format [-Wformat=]
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin:/home/acg/torch/install/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm b+tree_dlink.reg.c
+#$ nvlink --arch=sm_50 --register-link-binaries="b+tree_dlink.reg.c" -m64 -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -cpu-arch=X86_64 "/home/acg/new-curd/curd_lib_lazy.o" "./main.o" "./kernel/kernel_gpu_cuda_wrapper.o" "./kernel/kernel_gpu_cuda_wrapper_2.o" "./util/timer/timer.o" "./util/num/num.o" "./util/cuda/cuda.o"  -lcudadevrt  -o "b+tree_dlink.sm_50.cubin"
+#$ fatbinary --create="b+tree_dlink.fatbin" -64 --ident="/home/acg/new-curd/curd_lib_lazy.o ./main.o ./kernel/kernel_gpu_cuda_wrapper.o ./kernel/kernel_gpu_cuda_wrapper_2.o ./util/timer/timer.o ./util/num/num.o ./util/cuda/cuda.o " --cmdline="--compile-only  --generate-line-info " -link "--image=profile=sm_50,file=b+tree_dlink.sm_50.cubin" --embedded-fatbin="b+tree_dlink.fatbin.c" 
+#$ gcc -c -x c++ -DFATBINFILE="\"b+tree_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"b+tree_dlink.reg.c\"" -I. -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -m64 -o "b+tree_dlink.o" "/opt/nvidia8/bin/crt/link.stub" 
+#$ g++ -m64 -o "b+tree.out_lazy" -Wl,--start-group "b+tree_dlink.o" "/home/acg/new-curd/curd_lib_lazy.o" "./main.o" "./kernel/kernel_gpu_cuda_wrapper.o" "./kernel/kernel_gpu_cuda_wrapper_2.o" "./util/timer/timer.o" "./util/num/num.o" "./util/cuda/cuda.o" -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -lcudadevrt  -lcudart  -Wl,--end-group 
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin:/home/acg/torch/install/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm b+tree_dlink.reg.c
+#$ nvlink --arch=sm_50 --register-link-binaries="b+tree_dlink.reg.c" -m64 -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -cpu-arch=X86_64 "/home/acg/new-curd/curd_lib_eager.o" "./main.o" "./kernel/kernel_gpu_cuda_wrapper.o" "./kernel/kernel_gpu_cuda_wrapper_2.o" "./util/timer/timer.o" "./util/num/num.o" "./util/cuda/cuda.o"  -lcudadevrt  -o "b+tree_dlink.sm_50.cubin"
+#$ fatbinary --create="b+tree_dlink.fatbin" -64 --ident="/home/acg/new-curd/curd_lib_eager.o ./main.o ./kernel/kernel_gpu_cuda_wrapper.o ./kernel/kernel_gpu_cuda_wrapper_2.o ./util/timer/timer.o ./util/num/num.o ./util/cuda/cuda.o " --cmdline="--compile-only  --generate-line-info " -link "--image=profile=sm_50,file=b+tree_dlink.sm_50.cubin" --embedded-fatbin="b+tree_dlink.fatbin.c" 
+#$ gcc -c -x c++ -DFATBINFILE="\"b+tree_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"b+tree_dlink.reg.c\"" -I. -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -m64 -o "b+tree_dlink.o" "/opt/nvidia8/bin/crt/link.stub" 
+#$ g++ -m64 -o "b+tree.out_eager" -Wl,--start-group "b+tree_dlink.o" "/home/acg/new-curd/curd_lib_eager.o" "./main.o" "./kernel/kernel_gpu_cuda_wrapper.o" "./kernel/kernel_gpu_cuda_wrapper_2.o" "./util/timer/timer.o" "./util/num/num.o" "./util/cuda/cuda.o" -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -lcudadevrt  -lcudart  -Wl,--end-group 
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin:/home/acg/torch/install/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm b+tree_dlink.reg.c
+#$ nvlink --arch=sm_50 --register-link-binaries="b+tree_dlink.reg.c" -m64 -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -cpu-arch=X86_64 "/home/acg/new-curd/curd_lib_lazy_debug.o" "./main.o" "./kernel/kernel_gpu_cuda_wrapper.o" "./kernel/kernel_gpu_cuda_wrapper_2.o" "./util/timer/timer.o" "./util/num/num.o" "./util/cuda/cuda.o"  -lcudadevrt  -o "b+tree_dlink.sm_50.cubin"
+#$ fatbinary --create="b+tree_dlink.fatbin" -64 --ident="/home/acg/new-curd/curd_lib_lazy_debug.o ./main.o ./kernel/kernel_gpu_cuda_wrapper.o ./kernel/kernel_gpu_cuda_wrapper_2.o ./util/timer/timer.o ./util/num/num.o ./util/cuda/cuda.o " --cmdline="--compile-only  --generate-line-info " -link "--image=profile=sm_50,file=b+tree_dlink.sm_50.cubin" --embedded-fatbin="b+tree_dlink.fatbin.c" 
+#$ gcc -c -x c++ -DFATBINFILE="\"b+tree_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"b+tree_dlink.reg.c\"" -I. -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -m64 -o "b+tree_dlink.o" "/opt/nvidia8/bin/crt/link.stub" 
+#$ g++ -m64 -o "b+tree.out_lazy_debug" -Wl,--start-group "b+tree_dlink.o" "/home/acg/new-curd/curd_lib_lazy_debug.o" "./main.o" "./kernel/kernel_gpu_cuda_wrapper.o" "./kernel/kernel_gpu_cuda_wrapper_2.o" "./util/timer/timer.o" "./util/num/num.o" "./util/cuda/cuda.o" -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -lcudadevrt  -lcudart  -Wl,--end-group 
+#$ _SPACE_= 
+#$ _CUDART_=cudart
+#$ _HERE_=/opt/nvidia8/bin
+#$ _THERE_=/opt/nvidia8/bin
+#$ _TARGET_SIZE_=
+#$ _TARGET_DIR_=
+#$ _TARGET_SIZE_=64
+#$ TOP=/opt/nvidia8/bin/..
+#$ NVVMIR_LIBRARY_DIR=/opt/nvidia8/bin/../nvvm/libdevice
+#$ LD_LIBRARY_PATH=/opt/nvidia8/bin/../lib:
+#$ PATH=/opt/nvidia8/bin/../open64/bin:/opt/nvidia8/bin/../nvvm/bin:/opt/nvidia8/bin:/opt/nvidia8/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/cuda/bin:/home/acg/torch/install/bin
+#$ INCLUDES="-I/opt/nvidia8/bin/..//include"  
+#$ LIBRARIES=  "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64"
+#$ CUDAFE_FLAGS=
+#$ PTXAS_FLAGS=
+#$ rm b+tree_dlink.reg.c
+#$ nvlink --arch=sm_50 --register-link-binaries="b+tree_dlink.reg.c" -m64 -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -cpu-arch=X86_64 "/home/acg/new-curd/curd_lib_eager_debug.o" "./main.o" "./kernel/kernel_gpu_cuda_wrapper.o" "./kernel/kernel_gpu_cuda_wrapper_2.o" "./util/timer/timer.o" "./util/num/num.o" "./util/cuda/cuda.o"  -lcudadevrt  -o "b+tree_dlink.sm_50.cubin"
+#$ fatbinary --create="b+tree_dlink.fatbin" -64 --ident="/home/acg/new-curd/curd_lib_eager_debug.o ./main.o ./kernel/kernel_gpu_cuda_wrapper.o ./kernel/kernel_gpu_cuda_wrapper_2.o ./util/timer/timer.o ./util/num/num.o ./util/cuda/cuda.o " --cmdline="--compile-only  --generate-line-info " -link "--image=profile=sm_50,file=b+tree_dlink.sm_50.cubin" --embedded-fatbin="b+tree_dlink.fatbin.c" 
+#$ gcc -c -x c++ -DFATBINFILE="\"b+tree_dlink.fatbin.c\"" -DREGISTERLINKBINARYFILE="\"b+tree_dlink.reg.c\"" -I. -I"/usr/local/cuda/samples/common/inc" -I"/home/acg/new-curd" "-I/opt/nvidia8/bin/..//include"   -D"__CUDACC_VER__=80044" -D"__CUDACC_VER_BUILD__=44" -D"__CUDACC_VER_MINOR__=0" -D"__CUDACC_VER_MAJOR__=8" -D"_FORCE_INLINES" -m64 -o "b+tree_dlink.o" "/opt/nvidia8/bin/crt/link.stub" 
+#$ g++ -m64 -o "b+tree.out_eager_debug" -Wl,--start-group "b+tree_dlink.o" "/home/acg/new-curd/curd_lib_eager_debug.o" "./main.o" "./kernel/kernel_gpu_cuda_wrapper.o" "./kernel/kernel_gpu_cuda_wrapper_2.o" "./util/timer/timer.o" "./util/num/num.o" "./util/cuda/cuda.o" -L"/home/acg/new-curd" -lm   "-L/opt/nvidia8/bin/..//lib64/stubs" "-L/opt/nvidia8/bin/..//lib64" -lcudadevrt  -lcudart  -Wl,--end-group 

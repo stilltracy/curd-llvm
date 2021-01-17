@@ -1,0 +1,2 @@
+export CURD_ROOT=`pwd`
+echo CURD_ROOT=$CURD_ROOT

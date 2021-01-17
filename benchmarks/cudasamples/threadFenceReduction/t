@@ -1,0 +1,370 @@
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TRSSIZE_SM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_SM = 6400
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] CURD_BS_MERGE_SEARCH_RANGE = 4
+[CURD] NAME:GeForce GTX TITAN X
+[CURD] SHMEM:49152
+[CURD] GLMEM:12799574016,free: 9692512256
+[CURD] MULTIPROCESSORS:24
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:64
+[CURD] THREADS:128
+[CURD]  Counter ShadowMemorySize = 1468018688
+========= CUDA-MEMCHECK
+========= Race reported between Write access at 0x000001b8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:77:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x000001c8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [4096 hazards]
+=========
+========= Race reported between Read access at 0x00000208 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000001f8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========     and Write access at 0x00000218 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========
+========= Race reported between Read access at 0x00000228 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000218 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7680 hazards]
+=========     and Write access at 0x00000238 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7680 hazards]
+=========
+========= Race reported between Write access at 0x000001f8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x00000208 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========     and Read access at 0x000001e8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [6144 hazards]
+=========
+========= Race reported between Read access at 0x000001e8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000001f8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [6144 hazards]
+=========     and Write access at 0x000001d8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [6144 hazards]
+=========
+========= Race reported between Write access at 0x000001d8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x000001c8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [4096 hazards]
+=========     and Read access at 0x000001e8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threa[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 0
+[CURD] Counter glmemWr = 0
+[CURD] Counter barriers = 8192
+[CURD] Counter interGWWRaces = 0
+[CURD] Counter interGRWRaces = 0
+[CURD] Counter interGWRRaces = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 0
+[CURD] Counter brsWorstCount = 0
+[CURD] Counter bwsWorstCount = 0
+[CURD] Counter brsActualCount = 0
+[CURD] Counter bwsActualCount = 0
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 0
+[CURD] Counter maxBRSSize = 0
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 0
+[CURD] Counter maxBWSSize = 0
+[CURD] Counter intraBlockRaces = 0
+[CURD] Counter entriesRemovedTRS = 0
+[CURD] Counter initCycles = 0
+[CURD] Counter SMChecksCycles = 0
+[CURD] Counter dedupCycles = 0
+[CURD] Counter BRSCompressCycles = 0
+[CURD] Counter BWSCompressCycles = 0
+[CURD] Counter GMIntraBChecksCycles = 0
+[CURD] Counter GMCommitBufferCycles = 0
+[CURD] Counter sortTWSCycles = 0
+[CURD] Counter sortTRSCycles = 0
+[CURD] Counter intraBWWChecksCycles = 0
+[CURD] Counter intraBRWChecksCycles = 0
+[CURD] Counter ascendingInTWS = 0
+[CURD] Counter descendingInTWS = 0
+[CURD] Counter maxReadSections = 0
+[CURD] Counter maxWriteSections = 0
+#races: 0
+[CURD] Moving 0 out of 1048576 elements...
+ Distinct races: 0
+Freeing shmemReadSets
+Freeing shmemWriteSets
+Freeing glmemReadSets
+Freeing glmemWriteSets
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TRSSIZE_SM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_SM = 6400
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] CURD_BS_MERGE_SEARCH_RANGE = 4
+[CURD] NAME:GeForce GTX TITAN X
+[CURD] SHMEM:49152
+[CURD] GLMEM:12799574016,free: 9682944000
+[CURD] MULTIPROCESSORS:24
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:64
+[CURD] THREADS:128
+[CURD]  Counter ShadowMemorySize = 1468018688
+dFenceReduction_kernel.cuh:87:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [6144 hazards]
+=========
+========= Race reported between Read access at 0x00000248 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000238 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7936 hazards]
+=========     and Write access at 0x00000258 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceMultiPass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7936 hazards]
+=========
+========= Race reported between Read access at 0x00000210 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000228 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========     and Write access at 0x00000208 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========
+========= Race reported between Read access at 0x00000230 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000248 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7680 hazards]
+=========     and Write access at 0x00000228 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7680 hazards]
+=========
+========= Race reported between Write access at 0x00000208 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x000001f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [6144 hazards]
+=========     and Read access at 0x00000210 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========
+========= Race reported between Read access at 0x000001f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000001e8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [6144 hazards]
+=========     and Write access at 0x00000208 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [6144 hazards]
+=========
+========= Race reported between Read access at 0x000001d0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000001c8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:77:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [4096 hazards]
+=========     and Write access at 0x000001e8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [4096 hazards]
+=========
+========= Race reported between Read access at 0x00000250 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000248 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7936 hazards]
+=========     and Write access at 0x00000268 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7936 hazards]
+=========
+========= Race reported between Read access at 0x00000798 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000790 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [96 hazards]
+=========     and Write access at 0x000007b0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [96 hazards]
+=========
+========= Race reported between Read access at 0x000007d8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000007f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [120 hazards]
+=========     and Write access at 0x000007d0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [120 hazards]
+=========
+========= Race reported between Read access at 0x000007b8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000007b0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [112 hazards]
+=========     and Write access at 0x000007d0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [112 hazards]
+=========
+========= Race reported between Read access at 0x00000778 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000790 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [64 hazards]
+=========     and Write access at 0x00000770 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/th[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 0
+[CURD] Counter glmemWr = 0
+[CURD] Counter barriers = 16384
+[CURD] Counter interGWWRaces = 0
+[CURD] Counter interGRWRaces = 0
+[CURD] Counter interGWRRaces = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 0
+[CURD] Counter brsWorstCount = 0
+[CURD] Counter bwsWorstCount = 0
+[CURD] Counter brsActualCount = 0
+[CURD] Counter bwsActualCount = 0
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 0
+[CURD] Counter maxBRSSize = 0
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 0
+[CURD] Counter maxBWSSize = 0
+[CURD] Counter intraBlockRaces = 0
+[CURD] Counter entriesRemovedTRS = 0
+[CURD] Counter initCycles = 0
+[CURD] Counter SMChecksCycles = 0
+[CURD] Counter dedupCycles = 0
+[CURD] Counter BRSCompressCycles = 0
+[CURD] Counter BWSCompressCycles = 0
+[CURD] Counter GMIntraBChecksCycles = 0
+[CURD] Counter GMCommitBufferCycles = 0
+[CURD] Counter sortTWSCycles = 0
+[CURD] Counter sortTRSCycles = 0
+[CURD] Counter intraBWWChecksCycles = 0
+[CURD] Counter intraBRWChecksCycles = 0
+[CURD] Counter ascendingInTWS = 0
+[CURD] Counter descendingInTWS = 0
+[CURD] Counter maxReadSections = 0
+[CURD] Counter maxWriteSections = 0
+#races: 0
+[CURD] Moving 0 out of 1048576 elements...
+ Distinct races: 0
+Freeing shmemReadSets
+Freeing shmemWriteSets
+Freeing glmemReadSets
+Freeing glmemWriteSets
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TRSSIZE_SM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_SM = 6400
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] CURD_BS_MERGE_SEARCH_RANGE = 4
+[CURD] NAME:GeForce GTX TITAN X
+[CURD] SHMEM:49152
+[CURD] GLMEM:12799574016,free: 9681895424
+[CURD] MULTIPROCESSORS:24
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:64
+[CURD] THREADS:128
+[CURD]  Counter ShadowMemorySize = 1468018688
+readFenceReduction_kernel.cuh:77:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [64 hazards]
+=========
+========= Race reported between Read access at 0x000007f8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000007f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [124 hazards]
+=========     and Write access at 0x00000810 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [124 hazards]
+=========
+========= Race reported between Read access at 0x00000250 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000268 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7936 hazards]
+=========     and Write access at 0x00000248 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7936 hazards]
+=========
+========= Race reported between Write access at 0x00000248 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x00000230 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7680 hazards]
+=========     and Read access at 0x00000250 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7936 hazards]
+=========
+========= Race reported between Write access at 0x000001c8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:77:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x000001d0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [4096 hazards]
+=========
+========= Race reported between Write access at 0x00000208 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x00000210 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========     and Read access at 0x000001f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [6144 hazards]
+=========
+========= Race reported between Write access at 0x000001e8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x000001f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [6144 hazards]
+=========     and Read access at 0x000001d0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [4096 hazards]
+=========
+========= Race reported between Write access at 0x00000228 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x00000230 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7680 hazards]
+=========     and Read access at 0x00000210 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========
+========= Race reported between Read access at 0x00000778 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000770 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:77:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [64 hazards]
+=========     and Write access at 0x00000790 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [64 hazards]
+=========
+========= Race reported between Read access at 0x00000798 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000007b0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [96 hazards]
+=========     and Write access at 0x00000790 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [96 hazards]
+=========
+========= Race reported between Write access at 0x00000770 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:77:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x00000778 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [64 hazards]
+=========
+========= Race reported between Write access at 0x000007d0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x000007b8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [112 hazards]
+=========     and Read access at 0x000007d8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [120 hazards]
+=========
+========= Race reported between Read access at 0x000007f8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000810 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduc[CURD] Summary:
+[CURD] Counter shmemRd = 0
+[CURD] Counter shmemWr = 0
+[CURD] Counter glmemRd = 0
+[CURD] Counter glmemWr = 0
+[CURD] Counter barriers = 24576
+[CURD] Counter interGWWRaces = 0
+[CURD] Counter interGRWRaces = 0
+[CURD] Counter interGWRRaces = 0
+[CURD] Counter smTSMerges = 0
+[CURD] Counter gmTSMerges = 0
+[CURD] Counter brsWorstCount = 0
+[CURD] Counter bwsWorstCount = 0
+[CURD] Counter brsActualCount = 0
+[CURD] Counter bwsActualCount = 0
+[CURD] Counter maxSMTRSSize = 0
+[CURD] Counter maxGMTRSSize = 0
+[CURD] Counter maxBRSSize = 0
+[CURD] Counter maxSMTWSSize = 0
+[CURD] Counter maxGMTWSSize = 0
+[CURD] Counter maxBWSSize = 0
+[CURD] Counter intraBlockRaces = 0
+[CURD] Counter entriesRemovedTRS = 0
+[CURD] Counter initCycles = 0
+[CURD] Counter SMChecksCycles = 0
+[CURD] Counter dedupCycles = 0
+[CURD] Counter BRSCompressCycles = 0
+[CURD] Counter BWSCompressCycles = 0
+[CURD] Counter GMIntraBChecksCycles = 0
+[CURD] Counter GMCommitBufferCycles = 0
+[CURD] Counter sortTWSCycles = 0
+[CURD] Counter sortTRSCycles = 0
+[CURD] Counter intraBWWChecksCycles = 0
+[CURD] Counter intraBRWChecksCycles = 0
+[CURD] Counter ascendingInTWS = 0
+[CURD] Counter descendingInTWS = 0
+[CURD] Counter maxReadSections = 0
+[CURD] Counter maxWriteSections = 0
+#races: 0
+[CURD] Moving 0 out of 1048576 elements...
+ Distinct races: 0
+Freeing shmemReadSets
+Freeing shmemWriteSets
+Freeing glmemReadSets
+Freeing glmemWriteSets
+[CURD] exiting.
+[CURD] CURD_BLOCKS_TRACKED_GM = 16
+[CURD] CURD_BLOCKS_TRACKED_SM = 16
+[CURD] CURD_INITIAL_TRSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_GM = 6400
+[CURD] CURD_INITIAL_TRSSIZE_SM = 6400
+[CURD] CURD_INITIAL_TWSSIZE_SM = 6400
+[CURD] CURD_INITIAL_BRSSIZE = 1048576
+[CURD] CURD_INITIAL_BWSSIZE = 1048576
+[CURD] CURD_TS_INSERT_SEARCH_RANGE = 4
+[CURD] CURD_BS_MERGE_SEARCH_RANGE = 4
+[CURD] NAME:GeForce GTX TITAN X
+[CURD] SHMEM:49152
+[CURD] GLMEM:12799574016,free: 9681895424
+[CURD] MULTIPROCESSORS:24
+[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy
+[CURD] BLOCKS:64
+[CURD] THREADS:128
+[CURD]  Counter ShadowMemorySize = 1468018688
+tion/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [124 hazards]
+=========     and Write access at 0x000007f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [124 hazards]
+=========
+========= Race reported between Write access at 0x000007f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x000007f8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [124 hazards]
+=========     and Read access at 0x000007d8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [120 hazards]
+=========
+========= Race reported between Read access at 0x000007b8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000007d0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [112 hazards]
+=========     and Write access at 0x000007b0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [112 hazards]
+=========
+========= Race reported between Read access at 0x00000778 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000770 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:77:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [64 hazards]
+=========     and Write access at 0x00000790 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [64 hazards]
+=========
+========= Race reported between Write access at 0x00000770 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:77:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x00000778 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [64 hazards]
+=========
+========= Race reported between Read access at 0x000007f8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000810 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [124 hazards]
+=========     and Write access at 0x000007f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [124 hazards]
+=========
+========= Race reported between Write access at 0x000007b0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x00000798 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [96 hazards]
+=========     and Read access at 0x000007b8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [112 hazards]
+=========
+========= Race reported between Write access at 0x000007d0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x000007d8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [120 hazards]
+=========     and Read access at 0x000007b8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [112 hazards]
+=========
+========= Race reported between Write access at 0x000007f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x000007f8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:102:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [124 hazards]
+=========     and Read access at 0x000007d8 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:97:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [120 hazards]
+=========
+========= Race reported between Read access at 0x00000798 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x000007b0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [96 hazards]
+=========     and Write access at 0x00000790 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:82:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [96 hazards]
+=========
+========= Race reported between Read access at 0x00000210 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Write access at 0x00000228 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========     and Write access at 0x00000208 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========
+========= Race reported between Write access at 0x00000208 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:87:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int)
+=========     and Read access at 0x00000210 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/threadFenceReduction_kernel.cuh:92:void reduceSinglePass<unsigned int=128, bool=1>(float const *, float*, unsigned int) [7168 hazards]
+=========     and Read access at 0x000001f0 in /home/acg/new-curd/benchmarks/cudasamples/threadFenceReduction/thread

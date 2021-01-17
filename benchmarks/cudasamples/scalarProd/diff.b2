@@ -1,0 +1,79 @@
+./scalarProd_lazy Starting...				      |	./scalarProd_eager Starting...
+
+Initializing data...						Initializing data...
+...allocating CPU memory.					...allocating CPU memory.
+...allocating GPU memory.					...allocating GPU memory.
+...generating input data in CPU mem.				...generating input data in CPU mem.
+...copying input data to GPU mem.				...copying input data to GPU mem.
+Data init done.							Data init done.
+Executing GPU kernel...						Executing GPU kernel...
+[CURD] CURD_BLOCKS_TRACKED_GM = 2				[CURD] CURD_BLOCKS_TRACKED_GM = 2
+[CURD] CURD_BLOCKS_TRACKED_SM = 8				[CURD] CURD_BLOCKS_TRACKED_SM = 8
+[CURD] CURD_INITIAL_TRSSIZE_GM = 3200				[CURD] CURD_INITIAL_TRSSIZE_GM = 3200
+[CURD] CURD_INITIAL_TWSSIZE_GM = 1600				[CURD] CURD_INITIAL_TWSSIZE_GM = 1600
+[CURD] CURD_INITIAL_TRSSIZE_SM = 160				[CURD] CURD_INITIAL_TRSSIZE_SM = 160
+[CURD] CURD_INITIAL_TWSSIZE_SM = 160				[CURD] CURD_INITIAL_TWSSIZE_SM = 160
+[CURD] CURD_INITIAL_BRSSIZE = 1024				[CURD] CURD_INITIAL_BRSSIZE = 1024
+[CURD] CURD_INITIAL_BWSSIZE = 1024				[CURD] CURD_INITIAL_BWSSIZE = 1024
+[CURD] NAME:Tesla K20Xm						[CURD] NAME:Tesla K20Xm
+[CURD] SHMEM:49152						[CURD] SHMEM:49152
+[CURD] GLMEM:5976424448,free: 5884674048			[CURD] GLMEM:5976424448,free: 5884674048
+[CURD] MULTIPROCESSORS:14					[CURD] MULTIPROCESSORS:14
+[CURD] MAX RESIDENT BLOCKS/ SM:16				[CURD] MAX RESIDENT BLOCKS/ SM:16
+[CURD] MODE:Lazy					      |	[CURD] MODE:Eager
+[CURD] BLOCKS:128						[CURD] BLOCKS:128
+[CURD] THREADS:256						[CURD] THREADS:256
+Allocating sets for SHMEM: 256 threads * 8 blocks * 160(R), 1	Allocating sets for SHMEM: 256 threads * 8 blocks * 160(R), 1
+[CURD] alloced 7864320						[CURD] alloced 7864320
+[CURD] alloced 4096						[CURD] alloced 4096
+[CURD] alloced 7864320						[CURD] alloced 7864320
+[CURD] alloced 4096						[CURD] alloced 4096
+[CURD] ShadowMem allocated for SHMEM				[CURD] ShadowMem allocated for SHMEM
+[CURD] alloced 52428800						[CURD] alloced 52428800
+[CURD] alloced 2048						[CURD] alloced 2048
+[CURD] alloced 26214400						[CURD] alloced 26214400
+[CURD] alloced 2048						[CURD] alloced 2048
+[CURD] ShadowMem allocated for GLMEM				[CURD] ShadowMem allocated for GLMEM
+[CURD] Summary:							[CURD] Summary:
+[CURD] Counter shmemRd = 524032					[CURD] Counter shmemRd = 524032
+[CURD] Counter shmemWr = 524032					[CURD] Counter shmemWr = 524032
+[CURD] Counter glmemRd = 2097152				[CURD] Counter glmemRd = 2097152
+[CURD] Counter glmemWr = 256					[CURD] Counter glmemWr = 256
+[CURD] Counter barriers = 688128				[CURD] Counter barriers = 688128
+[CURD] Counter interGWWChecks = 8			      |	[CURD] Counter interGWWChecks = 2
+[CURD] Counter interGRWChecks = 256			      |	[CURD] Counter interGRWChecks = 27
+[CURD] Counter interGWRChecks = 0			      |	[CURD] Counter interGWRChecks = 2
+[CURD] Counter smTSMerges = 65464				[CURD] Counter smTSMerges = 65464
+[CURD] Counter gmTSMerges = 32772				[CURD] Counter gmTSMerges = 32772
+[CURD] Counter brsWorstCount = 32768				[CURD] Counter brsWorstCount = 32768
+[CURD] Counter bwsWorstCount = 4				[CURD] Counter bwsWorstCount = 4
+[CURD] Counter brsActualCount = 128				[CURD] Counter brsActualCount = 128
+[CURD] Counter bwsActualCount = 4				[CURD] Counter bwsActualCount = 4
+[CURD] Counter maxSMTRSSize = 4					[CURD] Counter maxSMTRSSize = 4
+[CURD] Counter maxGMTRSSize = 32				[CURD] Counter maxGMTRSSize = 32
+[CURD] Counter maxBRSSize = 64					[CURD] Counter maxBRSSize = 64
+[CURD] Counter maxSMTWSSize = 4					[CURD] Counter maxSMTWSSize = 4
+[CURD] Counter maxGMTWSSize = 1					[CURD] Counter maxGMTWSSize = 1
+[CURD] Counter maxBWSSize = 2					[CURD] Counter maxBWSSize = 2
+#races: 8							#races: 8
+_host__racesDetected:0x203e850				      |	_host__racesDetected:0x28d0420
+[CURD] Moving 8 out of 1048576 elements...			[CURD] Moving 8 out of 1048576 elements...
+ distinct races: 1						 distinct races: 1
+intra-block(SMem) (R,W) race by 0 and 1 on < 32, 4>, between 	intra-block(SMem) (R,W) race by 0 and 1 on < 32, 4>, between 
+0x90a000000							0x90a000000
+0x90a780000							0x90a780000
+0x90a880000							0x90a880000
+0x90a781000							0x90a781000
+0x90b000000							0x90b000000
+0x90a782000							0x90a782000
+0x90e200000							0x90e200000
+0x90a782800							0x90a782800
+[CURD] exiting.							[CURD] exiting.
+GPU time: 98.463997 msecs.				      |	GPU time: 100.966003 msecs.
+Reading back GPU result...					Reading back GPU result...
+Checking GPU results...						Checking GPU results...
+..running CPU scalar product calculation			..running CPU scalar product calculation
+...comparing the results					...comparing the results
+Shutting down...						Shutting down...
+L1 error: INF							L1 error: INF
+Test failed!							Test failed!

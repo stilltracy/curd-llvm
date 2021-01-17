@@ -1,0 +1,14 @@
+======== Warning: Metric "wqbranch_efficiency" cannot be found on device 0.
+==7948== NVPROF is profiling process 7948, command: ./sc_lazy -w 1 -r 1
+GeForce GTX TITAN X	==7948== Profiling application: ./sc_lazy -w 1 -r 1
+==7948== Profiling result:
+         Device          Context           Stream                Kernel  achieved_occupancy  warp_execution_efficiency
+                                                                                                                     %
+GeForce GTX TIT                1                7  StreamCompaction_ker            0.125000                      94.14
+GeForce GTX TIT                1                7  __nv_static_56__43_t            0.125000                      55.48
+GeForce GTX TIT                1                7  __nv_static_56__43_t            0.039469                      66.04
+GeForce GTX TIT                1                7  __nv_static_56__43_t            0.015625                       3.12
+GeForce GTX TIT                1                7  StreamCompaction_ker            0.125000                      94.14
+GeForce GTX TIT                1                7  __nv_static_56__43_t            0.125000                      55.43
+GeForce GTX TIT                1                7  __nv_static_56__43_t            0.039491                      66.04
+GeForce GTX TIT                1                7  __nv_static_56__43_t            0.015625                       3.13

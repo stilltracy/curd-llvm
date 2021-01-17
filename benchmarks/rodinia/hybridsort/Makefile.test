@@ -1,0 +1,22 @@
+CURD_DIR ?=../../../
+INC_CUDA_DIRS ?=-I$(P4ROOT)/sw/gpgpu/samples/common/inc
+CURD_FLAGS_EAGER= -std=c++11 -DEAGER_INTERBLOCK_CHECK -I$(CURD_DIR) $(INC_CUDA_DIRS) -L$(CURD_DIR) $(CURD_DIR)/race_detection.cu -v -keep -dr -rdc=true -lineinfo -Xptxas "-v" -I/home/yuanfengp/clients/sw/gpgpu/samples/common/inc/ -I. -arch=sm_35
+CURD_FLAGS_LAZY= -std=c++11 -I$(CURD_DIR) $(INC_CUDA_DIRS) -L$(CURD_DIR) $(CURD_DIR)/race_detection.cu -v -keep -dr -rdc=true -lineinfo -Xptxas "-v" -I/home/yuanfengp/clients/sw/gpgpu/samples/common/inc/ -I. 
+
+.PHONY: all clean run cudarace
+
+
+all:
+	nvcc $(CURD_FLAGS_EAGER) -O2 -lineinfo -D_FORCE_INLINES -I/opt/nvidia/cuda/samples/common/inc/  --cudart=shared main.cu -o hybridsort_eager
+	nvcc $(CURD_FLAGS_LAZY) -O2 -lineinfo -D_FORCE_INLINES -I/opt/nvidia/cuda/samples/common/inc/  --cudart=shared main.cu -o hybridsort_lazy
+
+
+clean:
+	rm -f result.txt hybridsort_eager hybridsort_lazy
+
+run:
+	bash ./run
+
+cudarace:
+	bash ./cudarace
+

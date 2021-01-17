@@ -1,0 +1,8 @@
+#$1 = log file dir, $2 = config name
+echo "log_dir="$1", config = "$2
+pushd .
+cd $1
+grep -rw . -e "Counter" > /tmp/msfdc.counters
+popd
+sed -e 's/.\.stdout:\[CURD\]//;s/\.\///;s/\s/,/g;s/^/'$2',/' /tmp/msfdc.counters > counters.$2.csv
+

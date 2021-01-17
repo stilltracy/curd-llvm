@@ -1,0 +1,16 @@
+1. ptxas fatal: unresolved extern function '_Znam'
+Reason: gpucc (clang) seems to not support new/delete on the device...
+Workaround: substitute pre-allocated buffers for dynamically-allocated buffers
+
+2. Incorrect binary when using the orginal inlined PTX in genericMemRead/Write 
+handlers
+Reason: unclear
+Workaround: use isGlobalPtr/isSharedPtr seems to work
+
+3. After manual merging of the two host .bc files, the final binary fails with 
+"cudaIllegalAddress".  However, the program terminates normally when running 
+under cuda-gdb.
+cuda-memcheck catches four out-of-bounds accesses.
+
+4. Regular expressions containing '+' seems not supported by std::regex_match: 
+ECMAScript Syntax is not supported yet; basic POSIX grammar doesn't have '+'. 
